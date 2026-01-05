@@ -174,14 +174,14 @@
 	charmap "Ï",         $cd
 	charmap "Ë",         $ce
 	
-	charmap "'d",        $d0
-	charmap "'l",        $d1
-	charmap "'m",        $d2
-	charmap "'r",        $d3
-	charmap "'s",        $d4
-	charmap "'t",        $d5
 	charmap "'v",        $d6
 	charmap "'n",        $d7
+	charmap "'d",        $d8
+	charmap "'l",        $d9
+	charmap "'m",        $da
+	charmap "'r",        $db
+	charmap "'s",        $dc
+	charmap "'t",        $dd
 
 	charmap "È",         $de
 	charmap "É",         $df

@@ -991,6 +991,7 @@ namespace PokeGen2TextValidator
             { "<PK>", 1 },
             { "<MN>", 1 },
             { "<LV>", 1 },
+            { "<to>", 1 },
             { "<DO>", 1 },
             { "<DOT>", 1 },
             { "<ID>", 1 },
@@ -1191,7 +1192,7 @@ namespace PokeGen2TextValidator
     public const int MaxLandmarkLength = 17;
 
     public const string GSCPrintableChars = "“”·… ′″ABCDEFGHIJKLMNOPQRSTUVWXYZ():;[]abcdefghijklmnopqrstuvwxyzàèùßçÄÖÜäöüëïâôûêîÏË←ÈÉ'-+?!.&é→▷▶▼♂¥×/,♀0123456789┌─┐│└─┘◀⁂№▲■☎♥♦";
-    public const string RBYPrintableChars = "‘’“”…┌─┐│└┘ №′″ABCDEFGHIJKLMNOPQRSTUVWXYZ():;[]abcdefghijklmnopqrstuvwxyzé'-?!.▷▶▼♂¥×/,♀0123456789";
+    public const string RBYPrintableChars = "‘’“”…┌─┐│└┘ №′″▲ABCDEFGHIJKLMNOPQRSTUVWXYZ():;[]abcdefghijklmnopqrstuvwxyzàèéùßçÄÖÜäöüëïâôûêîÏËÈÉ'-?!.▷▶▼♂¥×/,♀0123456789";
 
     private Block _block;
     private StringBuilder output;
