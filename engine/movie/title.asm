@@ -40,10 +40,10 @@ DisplayTitleScreen:
 	ld bc, 5 tiles
 	ld a, BANK(NintendoCopyrightLogoGraphics)
 	call FarCopyData
-	ld hl, NineTile
-	ld de, vTitleLogo tile $6e
-	ld bc, 1 tiles
-	ld a, BANK(NineTile)
+	ld hl, NintendoCopyrightLogoGraphics2
+	ld de, vTitleLogo tile $5d
+	ld bc, 2 tiles
+	ld a, BANK(NintendoCopyrightLogoGraphics2)
 	call FarCopyData
 	ld hl, GameFreakLogoGraphics
 	ld de, vTitleLogo tile $65
@@ -119,7 +119,7 @@ DisplayTitleScreen:
 
 ; place tiles for title screen copyright
 .WriteCopyrightTiles
-	hlcoord 2, 17
+	hlcoord 1, 17
 	ld de, .tileScreenCopyrightTiles
 .titleScreenCopyrightTilesLoop
 	ld a, [de]
@@ -130,7 +130,7 @@ DisplayTitleScreen:
 	jr .titleScreenCopyrightTilesLoop
 
 .tileScreenCopyrightTiles
-	db $e0,$e1,$e2,$e3,$e1,$e2,$ee,$e5,$e6,$e7,$e8,$e9,$ea,$eb,$ec,$ed,$ff ; ©1995-1999 GAME FREAK inc.
+	db $e0,$e1,$e2,$e3,$dd,$de,$e4,$00,$e5,$e6,$e7,$e8,$e9,$ea,$eb,$ec,$ed,$ff ; ©1995-2026 GAME FREAK inc.
 
 .finishedBouncingPokemonLogo
 	call LoadScreenTilesFromBuffer1
@@ -253,16 +253,16 @@ LoadCopyrightAndTextBoxTiles:
 LoadCopyrightTiles:
 	ld de, NintendoCopyrightLogoGraphics
 	ld hl, vChars2 tile $60
-	lb bc, BANK(NintendoCopyrightLogoGraphics), (TextBoxGraphics + $10 - NintendoCopyrightLogoGraphics) / $10 ; bug: overflows into text box graphics and copies the "A" tile
+	lb bc, BANK(NintendoCopyrightLogoGraphics), ((TextBoxGraphics + $10 - NintendoCopyrightLogoGraphics) / $10) - $1 ; bug: overflows into text box graphics and copies the "A" tile
 	call CopyVideoData
 	hlcoord 2, 7
 	ld de, CopyrightTextString
 	jp PlaceString
 
 CopyrightTextString:
-	db   $60,$61,$62,$63,$61,$62,$7c,$7f,$65,$66,$67,$68,$69,$6a             ; ©1995-1999  Nintendo
-	next $60,$61,$62,$63,$61,$62,$7c,$7f,$6b,$6c,$6d,$6e,$6f,$70,$71,$72     ; ©1995-1999  Creatures inc.
-	next $60,$61,$62,$63,$61,$62,$7c,$7f,$73,$74,$75,$76,$77,$78,$79,$7a,$7b ; ©1995-1999  GAME FREAK inc.
+	db   $60,$61,$62,$63,$7c,$7d,$64,$7f,$65,$66,$67,$68,$69,$6a             ; ©1995-2026  Nintendo
+	next $60,$61,$62,$63,$7c,$7d,$64,$7f,$6b,$6c,$6d,$6e,$6f,$70,$71,$72     ; ©1995-2026  Creatures inc.
+	next $60,$61,$62,$63,$7c,$7d,$64,$7f,$73,$74,$75,$76,$77,$78,$79,$7a,$7b ; ©1995-2026  GAME FREAK inc.
 	db   "@"
 
 TitleScreen_PlayPikachuPCM:
