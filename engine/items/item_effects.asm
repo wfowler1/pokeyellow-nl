@@ -562,7 +562,7 @@ ItemUseBall:
 
 .skipShowingPokedexData
 	ld a, $1
-	ld [wd49b], a
+	ld [wPikachuEmotionModifier], a
 	ld a, $85
 	ld [wPikachuMood], a
 	ld a, [wPartyCount]
@@ -819,7 +819,7 @@ ItemUseEvoStone:
 	ld hl, RefusingText
 	call PrintText
 	ld a, $4
-	ld [wd49b], a
+	ld [wPikachuEmotionModifier], a
 	ld a, $82
 	ld [wPikachuMood], a
 	jr .canceledItemUse
@@ -2124,7 +2124,7 @@ FishingInit:
 	ld a, SFX_HEAL_AILMENT
 	call PlaySound
 	ld a, $2
-	ld [wd49b], a
+	ld [wPikachuEmotionModifier], a
 	ld a, $81
 	ld [wPikachuMood], a
 	ld c, 80
@@ -2507,7 +2507,7 @@ ItemUseTMHM:
 	jr nz, .notTeachingThunderboltOrThunderToPikachu
 .teachingThunderboltOrThunderToPlayerPikachu
 	ld a, $5
-	ld [wd49b], a
+	ld [wPikachuEmotionModifier], a
 	ld a, $85
 	ld [wPikachuMood], a
 .notTeachingThunderboltOrThunderToPikachu
@@ -3114,7 +3114,7 @@ SendNewMonToBox:
 
 ; checks if the tile in front of the player is a shore or water tile
 ; used for surfing and fishing
-; unsets carry if it is, sets carry if not
+; sets carry if it is, unsets carry if not
 IsNextTileShoreOrWater::
 	ld a, [wCurMapTileset]
 	ld hl, WaterTilesets
@@ -3124,15 +3124,15 @@ IsNextTileShoreOrWater::
 	ld hl, WaterTile
 	ld a, [wCurMapTileset]
 	cp SHIP_PORT ; Vermilion Dock tileset
-	jr z, .skipShoreTiles ; if it's the Vermilion Dock tileset
-	cp GYM ; eastern shore tile in Safari Zone
 	jr z, .skipShoreTiles
-	cp DOJO ; usual eastern shore tile
+	cp GYM
+	jr z, .skipShoreTiles
+	cp DOJO
 	jr z, .skipShoreTiles
 	ld hl, ShoreTiles
 .skipShoreTiles
 	ld a, [wTileInFrontOfPlayer]
-	ld de, $1
+	ld de, 1
 	call IsInArray
 	ret
 
