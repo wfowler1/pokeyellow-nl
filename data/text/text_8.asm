@@ -43,13 +43,13 @@ _WarpToLastPokemonCenterText::
 	done
 
 _CannotUseTeleportNowText::
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxPokemonNameLength
 	text " can't"
 	line "use TELEPORT now."
 	prompt
 
 _CannotFlyHereText::
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxPokemonNameLength
 	text " can't"
 	line "FLY here."
 	prompt
@@ -75,13 +75,13 @@ _CannotGetOffHereText::
 	prompt
 
 _UsedStrengthText::
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxPokemonNameLength
 	text " used"
 	line "STRENGTH.@"
 	text_end
 
 _CanMoveBouldersText::
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxPokemonNameLength
 	text " can"
 	line "move boulders."
 	prompt
@@ -99,7 +99,7 @@ _CyclingIsFunText::
 _GotMonText::
 	text "<PLAYER> got"
 	line "@"
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxPokemonNameLength
 	text "!@"
 	text_end
 
@@ -111,7 +111,7 @@ _SentToBoxText::
 	text " was"
 	cont "sent to #MON"
 	cont "BOX @"
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength 2
 	text " on PC!"
 	done
 

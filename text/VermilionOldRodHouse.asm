@@ -18,7 +18,7 @@ _VermilionOldRodHouseFishingGuruTakeThisText::
 
 	para "<PLAYER> received"
 	line "an @"
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxItemNameLength
 	text "!@"
 	text_end
 

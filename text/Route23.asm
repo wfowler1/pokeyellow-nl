@@ -2,12 +2,12 @@ _Route23YouDontHaveTheBadgeYetText::
 	text "You can pass here"
 	line "only if you have"
 	cont "the @"
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxItemNameLength
 	text "!"
 
 	para "You don't have the"
 	line "@"
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxItemNameLength
 	text " yet!"
 
 	para "You have to have"
@@ -19,12 +19,12 @@ _Route23OhThatIsTheBadgeText::
 	text "You can pass here"
 	line "only if you have"
 	cont "the @"
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxItemNameLength
 	text "!"
 
 	para "Oh! That is the"
 	line "@"
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxItemNameLength
 	text "!@"
 	text_end
 

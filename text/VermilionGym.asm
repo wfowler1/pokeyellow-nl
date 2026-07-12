@@ -48,7 +48,7 @@ _VermilionGymLTSurgeThunderBadgeInfoText::
 _VermilionGymLTSurgeReceivedTM24Text::
 	text "<PLAYER> received "
 	line "@"
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxItemNameLength
 	text "!@"
 	text_end
 

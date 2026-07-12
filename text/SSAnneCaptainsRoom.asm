@@ -34,7 +34,7 @@ _SSAnneCaptainsRoomCaptainIFeelMuchBetterText::
 _SSAnneCaptainsRoomCaptainReceivedHM01Text::
 	text "<PLAYER> got"
 	line "@"
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxItemNameLength
 	text "!@"
 	text_end
 

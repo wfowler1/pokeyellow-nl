@@ -34,7 +34,7 @@ _MtMoonB2FHelixFossilYouWantText::
 _MtMoonB2FReceivedFossilText::
 	text "<PLAYER> got the"
 	line "@"
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxItemNameLength
 	text "!@"
 	text_end
 

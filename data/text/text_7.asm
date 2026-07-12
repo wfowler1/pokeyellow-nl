@@ -8,7 +8,7 @@ _PokemartGreetingText::
 	done
 
 _PokemonFaintedText::
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxPokemonNameLength
 	text_start
 	line "fainted!"
 	done
@@ -31,7 +31,7 @@ _PokemartBuyingGreetingText::
 	done
 
 _PokemartTellBuyPriceText::
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxItemNameLength
 	text "?"
 	line "That will be"
 	cont "¥@"
@@ -89,7 +89,7 @@ _LearnedMove1Text::
 	text_ram wLearnMoveMonName
 	text " learned"
 	line "@"
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxMoveNameLength
 	text "!@"
 	text_end
 
@@ -101,7 +101,7 @@ _WhichMoveToForgetText::
 _AbandonLearningText::
 	text "Abandon learning"
 	line "@"
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxMoveNameLength
 	text "?"
 	done
 
@@ -110,7 +110,7 @@ _DidNotLearnText::
 	text_start
 	line "did not learn"
 	cont "@"
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxMoveNameLength
 	text "!"
 	prompt
 
@@ -119,7 +119,7 @@ _TryingToLearnText::
 	text " is"
 	line "trying to learn"
 	cont "@"
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxMoveNameLength
 	text "!"
 
 	para "But, @"
@@ -131,7 +131,7 @@ _TryingToLearnText::
 	para "Delete an older"
 	line "move to make room"
 	cont "for @"
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxMoveNameLength
 	text "?"
 	done
 
@@ -149,7 +149,7 @@ _ForgotAndText::
 	text_ram wLearnMoveMonName
 	text " forgot"
 	line "@"
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxMoveNameLength
 	text "!"
 
 	para "And..."

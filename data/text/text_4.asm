@@ -37,20 +37,20 @@ _ChooseABoxText::
 	text_end
 
 _EvolvedText::
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxPokemonNameLength
 	text " evolved"
 	done
 
 _IntoText::
 	text_start
 	line "into @"
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxPokemonNameLength
 	text "!"
 	done
 
 _StoppedEvolvingText::
 	text "Huh? @"
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxPokemonNameLength
 	text_start
 	line "stopped evolving!"
 	prompt

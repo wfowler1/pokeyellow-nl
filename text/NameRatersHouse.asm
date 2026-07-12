@@ -14,7 +14,7 @@ _NameRatersHouseNameRaterWhichPokemonText::
 	prompt
 
 _NameRatersHouseNameRaterGiveItANiceNameText::
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxPokemonNameLength
 	text ", is it?"
 	line "That is a decent"
 	cont "nickname!"
@@ -35,7 +35,7 @@ _NameRatersHouseNameRaterPokemonHasBeenRenamedText::
 	text "OK! This #MON"
 	line "has been renamed"
 	cont "@"
-	text_ram wBuffer
+	text_ram wBuffer ; MaxLength MaxPokemonNameLength
 	text "!"
 
 	para "That's a better"
@@ -48,13 +48,13 @@ _NameRatersHouseNameRaterComeAnyTimeYouLikeText::
 	done
 
 _NameRatersHouseNameRaterATrulyImpeccableNameText::
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxPokemonNameLength
 	text ", is it?"
 	line "That is a truly"
 	cont "impeccable name!"
 
 	para "Take good care of"
 	line "@"
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxPokemonNameLength
 	text "!"
 	done

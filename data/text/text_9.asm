@@ -59,7 +59,7 @@ _ItemUseBallText06::
 _SurfingGotOnText::
 	text "<PLAYER> got on"
 	line "@"
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxPokemonNameLength
 	text "!"
 	prompt
 
@@ -69,16 +69,16 @@ _SurfingNoPlaceToGetOffText::
 	prompt
 
 _RefusingText::
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxPokemonNameLength
 	text_start
 	line "is refusing!"
 	prompt
 
 _VitaminStatRoseText::
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxPokemonNameLength
 	text "'s"
 	line "@"
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxStatNameLength
 	text " rose."
 	prompt
 
@@ -144,13 +144,13 @@ _RestorePPWhichTechniqueText::
 	done
 
 _PPMaxedOutText::
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxMoveNameLength
 	text "'s PP"
 	line "is maxed out."
 	prompt
 
 _PPIncreasedText::
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxMoveNameLength
 	text "'s PP"
 	line "increased."
 	prompt
@@ -170,26 +170,26 @@ _BootedUpHMText::
 _TeachMachineMoveText::
 	text "It contained"
 	line "@"
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxMoveNameLength
 	text "!"
 
 	para "Teach @"
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxMoveNameLength
 	text_start
 	line "to a #MON?"
 	done
 
 _MonCannotLearnMachineMoveText::
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxPokemonNameLength
 	text " is not"
 	line "compatible with"
 	cont "@"
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxMoveNameLength
 	text "."
 
 	para "It can't learn"
 	line "@"
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxMoveNameLength
 	text "."
 	prompt
 
@@ -226,7 +226,7 @@ _NoCyclingAllowedHereText::
 _NoSurfingHereText::
 	text "No SURFing on"
 	line "@"
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxPokemonNameLength
 	text " here!"
 	prompt
 
@@ -246,7 +246,7 @@ _ItemUseText001::
 	text_end
 
 _ItemUseText002::
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxItemNameLength
 	text "!"
 	done
 
@@ -255,7 +255,7 @@ _GotOnBicycleText1::
 	text_end
 
 _GotOnBicycleText2::
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxItemNameLength
 	text "!"
 	prompt
 
@@ -265,21 +265,21 @@ _GotOffBicycleText1::
 
 _GotOffBicycleText2::
 	text "the @"
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxItemNameLength
 	text "."
 	prompt
 
 _ThrewAwayItemText::
 	text "Threw away"
 	line "@"
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxItemNameLength
 	text "."
 	prompt
 
 _IsItOKToTossItemText::
 	text "Is it OK to toss"
 	line "@"
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxItemNameLength
 	text "?"
 	prompt
 
@@ -289,10 +289,10 @@ _TooImportantToTossText::
 	prompt
 
 _AlreadyKnowsText::
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxPokemonNameLength
 	text " knows"
 	line "@"
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxMoveNameLength
 	text "!"
 	prompt
 
@@ -436,7 +436,7 @@ _NothingToCutText::
 	prompt
 
 _UsedCutText::
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxPokemonNameLength
 	text " hacked"
 	line "away with CUT!"
 	prompt

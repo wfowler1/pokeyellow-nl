@@ -96,7 +96,7 @@ _ChampionsRoomOakCongratulatesPlayerText::
 	line "much since you"
 	cont "first left with"
 	cont "@"
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxPokemonNameLength
 	text "!"
 
 	para "<PLAYER>, you have"

@@ -113,7 +113,7 @@ _PartyMenuSwapMonText::
 	done
 
 _PotionText::
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxPokemonNameLength
 	text_start
 	line "recovered by @"
 	text_decimal wHPBarHPDifference, 2, 3
@@ -121,49 +121,49 @@ _PotionText::
 	done
 
 _AntidoteText::
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxPokemonNameLength
 	text " was"
 	line "cured of poison!"
 	done
 
 _ParlyzHealText::
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxPokemonNameLength
 	text "'s"
 	line "rid of paralysis!"
 	done
 
 _BurnHealText::
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxPokemonNameLength
 	text "'s"
 	line "burn was healed!"
 	done
 
 _IceHealText::
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxPokemonNameLength
 	text " was"
 	line "defrosted!"
 	done
 
 _AwakeningText::
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxPokemonNameLength
 	text_start
 	line "woke up!"
 	done
 
 _FullHealText::
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxPokemonNameLength
 	text "'s"
 	line "health returned!"
 	done
 
 _ReviveText::
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxPokemonNameLength
 	text_start
 	line "is revitalized!"
 	done
 
 _RareCandyText::
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxPokemonNameLength
 	text " grew"
 	line "to level @"
 	text_decimal wCurEnemyLevel, 1, 3
@@ -218,7 +218,7 @@ _DepositHowManyText::
 	done
 
 _ItemWasStoredText::
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxItemNameLength
 	text " was"
 	line "stored via PC."
 	prompt
@@ -245,7 +245,7 @@ _WithdrawHowManyText::
 _WithdrewItemText::
 	text "Withdrew"
 	line "@"
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxItemNameLength
 	text "."
 	prompt
 
@@ -295,7 +295,7 @@ _DepositWhichMonText::
 	done
 
 _MonWasStoredText::
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxPokemonNameLength
 	text " was"
 	line "stored in Box @"
 	text_ram wBoxNumString
@@ -313,11 +313,11 @@ _BoxFullText::
 	prompt
 
 _MonIsTakenOutText::
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxPokemonNameLength
 	text " is"
 	line "taken out."
 	cont "Got @"
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxPokemonNameLength
 	text "."
 	prompt
 
@@ -335,7 +335,7 @@ _CantTakeMonText::
 	prompt
 
 _PikachuUnhappyText::
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxPokemonNameLength
 	text " looks"
 	line "unhappy about it!"
 	prompt
@@ -348,17 +348,17 @@ _ReleaseWhichMonText::
 _OnceReleasedText::
 	text "Once released,"
 	line "@"
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxPokemonNameLength
 	text " is"
 	cont "gone forever. OK?"
 	done
 
 _MonWasReleasedText::
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxPokemonNameLength
 	text " was"
 	line "released outside."
 	cont "Bye @"
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxPokemonNameLength
 	text "!"
 	prompt
 
@@ -384,7 +384,7 @@ _HereYouGoText::
 _SoYouWantPrizeText::
 	text "So, you want"
 	line "@"
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxItemNameLength
 	text "?"
 	done
 
@@ -495,7 +495,7 @@ _DoYouWantToNicknameText::
 	text "Do you want to"
 	line "give a nickname"
 	cont "to @"
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxPokemonNameLength
 	text "?"
 	done
 
@@ -514,7 +514,7 @@ _WillBeTradedText::
 	text_ram wNameOfPlayerMonToBeTraded
 	text " and"
 	line "@"
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxPokemonNameLength
 	text " will"
 	cont "be traded."
 	done
@@ -580,19 +580,19 @@ _ColosseumTotalL50Text::
 	prompt
 
 _ColosseumHeightText::
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxPokemonNameLength
 	text " is over"
 	line "6’8” tall!"
 	prompt
 
 _ColosseumWeightText::
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxPokemonNameLength
 	text " weighs"
 	line "over 44 pounds!"
 	prompt
 
 _ColosseumEvolvedText::
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxPokemonNameLength
 	text " is an"
 	line "evolved #MON!"
 	prompt

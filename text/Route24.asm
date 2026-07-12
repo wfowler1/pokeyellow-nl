@@ -14,7 +14,7 @@ _Route24CooltrainerM1YouJustEarnedAPrizeText::
 _Route24CooltrainerM1ReceivedNuggetText::
 	text "<PLAYER> received"
 	line "a @"
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxItemNameLength
 	text "!@"
 	text_end
 

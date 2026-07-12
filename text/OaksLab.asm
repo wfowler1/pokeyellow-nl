@@ -246,7 +246,7 @@ _OaksLabOakGivesText::
 _OaksLabReceivedText::
 	text "<PLAYER> received"
 	line "a @"
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxPokemonNameLength
 	text "!@"
 	text_end
 

@@ -14,7 +14,7 @@ _CardKeyFailText::
 	done
 
 _TrainerNameText::
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxTrainerClassNameLength
 	text ": @"
 	text_end
 
@@ -60,7 +60,7 @@ _PokeCenterSignText::
 _FoundItemText::
 	text "<PLAYER> found"
 	line "@"
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxItemNameLength
 	text "!@"
 	text_end
 

@@ -50,7 +50,7 @@ _MrFujisHouseMrFujiIThinkThisMayHelpYourQuestText::
 _MrFujisHouseMrFujiReceivedPokeFluteText::
 	text "<PLAYER> received"
 	line "a @"
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxItemNameLength
 	text "!@"
 	text_end
 

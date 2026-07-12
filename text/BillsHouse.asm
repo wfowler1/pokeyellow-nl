@@ -61,7 +61,7 @@ _BillsHouseBillThankYouText::
 _SSTicketReceivedText::
 	text "<PLAYER> received"
 	line "an @"
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxItemNameLength
 	text "!@"
 	text_end
 

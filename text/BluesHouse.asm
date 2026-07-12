@@ -14,7 +14,7 @@ _BluesHouseDaisyOfferMapText::
 _GotMapText::
 	text "<PLAYER> got a"
 	line "@"
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxItemNameLength
 	text "!@"
 	text_end
 

@@ -15,7 +15,7 @@ _Route1Youngster1MartSampleText::
 _Route1Youngster1GotPotionText::
 	text "<PLAYER> got"
 	line "@"
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxItemNameLength
 	text "!@"
 	text_end
 

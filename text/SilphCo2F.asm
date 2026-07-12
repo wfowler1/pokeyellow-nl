@@ -12,7 +12,7 @@ SilphCo2FSilphWorkerFPleaseTakeThisText::
 _SilphCo2FSilphWorkerFReceivedTM36Text::
 	text "<PLAYER> got"
 	line "@"
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxItemNameLength
 	text "!@"
 	text_end
 

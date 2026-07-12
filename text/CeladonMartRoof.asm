@@ -17,7 +17,7 @@ _CeladonMartRoofLittleGirlYayFreshWaterText::
 _CeladonMartRoofLittleGirlReceivedTM13Text::
 	text "<PLAYER> received"
 	line "@"
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxItemNameLength
 	text "!@"
 	text_end
 
@@ -25,7 +25,7 @@ _CeladonMartRoofLittleGirlTM13ExplanationText::
 	text_start
 
 	para "@"
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxItemNameLength
 	text " contains"
 	line "ICE BEAM!"
 
@@ -47,7 +47,7 @@ _CeladonMartRoofLittleGirlYaySodaPopText::
 _CeladonMartRoofLittleGirlReceivedTM48Text::
 	text "<PLAYER> received"
 	line "@"
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxItemNameLength
 	text "!@"
 	text_end
 
@@ -55,7 +55,7 @@ _CeladonMartRoofLittleGirlTM48ExplanationText::
 	text_start
 
 	para "@"
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxItemNameLength
 	text " contains"
 	line "ROCK SLIDE!@"
 	text_end
@@ -134,7 +134,7 @@ _VendingMachineText4::
 	done
 
 _VendingMachineText5::
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxItemNameLength
 	text_start
 	line "popped out!"
 	done

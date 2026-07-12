@@ -1,6 +1,6 @@
 _IsEvolvingText::
 	text "What? @"
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxPokemonNameLength
 	text_start
 	line "is evolving!"
 	done
@@ -43,7 +43,7 @@ _FireDefrostedText::
 _MonsStatsRoseText::
 	text "<USER>'s"
 	line "@"
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxStatNameLength
 	text "@"
 	text_end
 
@@ -58,7 +58,7 @@ _RoseText::
 _MonsStatsFellText::
 	text "<TARGET>'s"
 	line "@"
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxStatNameLength
 	text "@"
 	text_end
 
@@ -128,14 +128,14 @@ _MimicLearnedMoveText::
 	text "<USER>"
 	line "learned"
 	cont "@"
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxMoveNameLength
 	text "!"
 	prompt
 
 _MoveWasDisabledText::
 	text "<TARGET>'s"
 	line "@"
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxMoveNameLength
 	text " was"
 	cont "disabled!"
 	prompt
@@ -233,7 +233,7 @@ _TransformedText::
 	text "<USER>"
 	line "transformed into"
 	cont "@"
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxPokemonNameLength
 	text "!"
 	prompt
 

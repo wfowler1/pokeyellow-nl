@@ -10,7 +10,7 @@ _AIBattleUseItemText::
 	text_ram wTrainerName
 	text_start
 	line "used @"
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxItemNameLength
 	text_start
 	cont "on @"
 	text_ram wEnemyMonNick
@@ -27,7 +27,7 @@ _BoxWillBeClearedText::
 	done
 
 _TradeWentToText::
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxPokemonNameLength
 	text " went"
 	line "to @"
 	text_ram wLinkEnemyTrainerName
@@ -37,7 +37,7 @@ _TradeWentToText::
 _TradeForText::
 	text "For <PLAYER>'s"
 	line "@"
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxPokemonNameLength
 	text ","
 	done
 
@@ -45,7 +45,7 @@ _TradeSendsText::
 	text_ram wLinkEnemyTrainerName
 	text " sends"
 	line "@"
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxPokemonNameLength
 	text "."
 	done
 
@@ -56,7 +56,7 @@ _TradeWavesFarewellText::
 	done
 
 _TradeTransferredText::
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxPokemonNameLength
 	text " is"
 	line "transferred."
 	done
@@ -64,7 +64,7 @@ _TradeTransferredText::
 _TradeTakeCareText::
 	text "Take good care of"
 	line "@"
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxPokemonNameLength
 	text "."
 	done
 
@@ -72,14 +72,14 @@ _TradeWillTradeText::
 	text_ram wLinkEnemyTrainerName
 	text " will"
 	line "trade @"
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxPokemonNameLength
 	text_start
 	done
 
 _TradeforText::
 	text "for <PLAYER>'s"
 	line "@"
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxPokemonNameLength
 	text "."
 	done
 
@@ -115,7 +115,7 @@ _OneMoreGoSlotMachineText::
 _LinedUpText::
 	text " lined up!"
 	line "Scored @"
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength 3
 	text " coins!"
 	done
 
@@ -796,7 +796,7 @@ _VermilionGymTrashFailText::
 _FoundHiddenItemText::
 	text "<PLAYER> found"
 	line "@"
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxItemNameLength
 	text "!@"
 	text_end
 
@@ -1119,7 +1119,7 @@ _CantMoveText::
 _MoveIsDisabledText::
 	text "<USER>'s"
 	line "@"
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxMoveNameLength
 	text " is"
 	cont "disabled!"
 	prompt
@@ -1144,7 +1144,7 @@ _UsedInsteadText::
 	text_end
 
 _MoveNameText::
-	text_ram wStringBuffer
+	text_ram wStringBuffer ; MaxLength MaxMoveNameLength
 	text "@"
 
 _EndUsedMove1Text::
@@ -1254,7 +1254,7 @@ _HitXTimesText::
 	prompt
 
 _GainedText::
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxPokemonNameLength
 	text " gained"
 	line "@"
 	text_end
@@ -1275,7 +1275,7 @@ _ExpPointsText::
 	prompt
 
 _GrewLevelText::
-	text_ram wNameBuffer
+	text_ram wNameBuffer ; MaxLength MaxPokemonNameLength
 	text " grew"
 	line "to level @"
 	text_decimal wCurEnemyLevel, 1, 3
