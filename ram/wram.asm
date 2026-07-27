@@ -73,7 +73,8 @@ wAudioSavedROMBank:: db
 wFrequencyModifier:: db
 wTempoModifier:: db
 
-wc0f3:: dw
+; regularly set to $0, but nothing ever reads it
+wUnusedAudioCounter:: dw
 
 	ds 11
 
@@ -220,28 +221,27 @@ wAnimatedObjectsDataEnd::
 ; Surfing minigame
 wSurfingMinigameData:: db
 wSurfingMinigameRoutineNumber:: db
-wc5d2:: db
+wSurfingMinigamePikachuState:: db
 wSurfingMinigameWaveFunctionNumber:: dw
-wc5d5:: db
+wSurfingMinigameWaveRandomValue:: db
 wSurfingMinigamePikachuHP:: dw ; little-endian BCD
-wc5d8:: db ; unused?
-; number of consecutive tricks
-wSurfingMinigameRadnessMeter:: db
+	ds 1
+wSurfingMinigameRadnessMeter:: db ; number of consecutive tricks
 wSurfingMinigameRadnessScore:: dw ; little-endian BCD
 wSurfingMinigameTotalScore:: dw ; little-endian BCD
-wc5de:: db
-wc5df:: db
-wc5e0:: db
-wc5e1:: db
-wc5e2:: db
+wSurfingMinigameBoardAngleOffset:: db
+wSurfingMinigameBoardAngleDecreasing:: db
+wSurfingMinigameBoardAngleTimer:: db
+wSurfingMinigameCrashTimer:: db
+wSurfingMinigameUnusedToggle:: db ; only used in unused function
 wSurfingMinigamePikachuSpeed:: dw ; little-endian
-wc5e5:: ds 3 ; big-endian
+wSurfingMinigameDistance:: ds 3 ; big-endian
 wSurfingMinigameWaveHeightBuffer:: dw
 wSurfingMinigamePikachuObjectHeight:: db
-wc5eb:: db
-wc5ec:: db
-wc5ed:: db
-wc5ee:: db
+wSurfingMinigameWaterSprayCounter:: db
+wSurfingMinigameJumpArcMagnitude:: db
+wSurfingMinigameJumpDescending:: db
+wSurfingMinigameJumpArcFraction:: db
 wSurfingMinigameBGMapReadBuffer:: ds 1 tiles
 	ds 24
 wSurfingMinigameSCX:: db
@@ -250,16 +250,16 @@ wSurfingMinigameSCXHi:: db
 wSurfingMinigameWaveHeight:: ds SCREEN_WIDTH
 wSurfingMinigameXOffset:: db
 wSurfingMinigameTrickFlags:: db
-wc630:: db
-wc631:: db
+wSurfingMinigameGameOver:: db
+wSurfingMinigameGameOverDelay:: db
 wSurfingMinigameRoutineDelay:: db
 wSurfingMinigameIntroAnimationFinished:: db
 
-; Yellow intro
-wYellowIntroCurrentScene::
-wc634:: db
-wYellowIntroSceneTimer::
-wc635:: db
+; Shared with the Yellow intro
+wSurfingMinigameMusicTempoEnabled::
+wYellowIntroCurrentScene:: db
+wSurfingMinigameCloudScrollFraction::
+wYellowIntroSceneTimer:: db
 wYellowIntroAnimatedObjectStructPointer:: db
 wSurfingMinigameDataEnd::
 ENDU
@@ -340,8 +340,12 @@ ENDU
 
 SECTION "WRAM", WRAM0
 
+UNION
 ; the tiles of the row or column to be redrawn by RedrawRowOrColumn
 wRedrawRowOrColumnSrcTiles:: ds SCREEN_WIDTH * 2
+NEXTU
+wSavedAudioWavePattern:: ds AUD3WAVE_SIZE
+ENDU
 
 ; coordinates of the position of the cursor for the top menu item (id 0)
 wTopMenuItemY:: db
