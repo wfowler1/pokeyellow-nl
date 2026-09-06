@@ -1,44 +1,44 @@
 _AgathaBeforeBattleText::
-	text "I am AGATHA of"
-	line "the ELITE FOUR!"
+	text "Ik ben AGATHA van" ; "I am AGATHA of"
+	line "de ELITE FOUR!" ; "the ELITE FOUR!"
 
-	para "OAK's taken a lot"
-	line "of interest in"
-	cont "you, child!"
+	para "OAK lijkt veel" ; "OAK's taken a lot"
+	line "interesse in jou" ; "of interest in"
+	cont "te hebben, jong!" ; "you, child!"
 
-	para "That old duff was"
-	line "once tough and"
-	cont "handsome! That"
-	cont "was decades ago!"
+	para "Die ouwe knar was" ; "That old duff was"
+	line "ooit stoer en een" ; "once tough and"
+	cont "knapperd! Dat is" ; "handsome! That"
+	cont "decennia geleden!" ; "was decades ago!"
 
-	para "Now he just wants"
-	line "to fiddle with"
-	cont "his #DEX! He's"
-	cont "wrong! #MON"
-	cont "are for fighting!"
+	para "Nu wil hij alleen" ; "Now he just wants"
+	line "maar pielen met" ; "to fiddle with"
+	cont "zijn #DEX! Wat" ; "his #DEX! He's"
+	cont "een fout! #MON" ; "wrong! #MON"
+	cont "zijn vechters!" ; "are for fighting!"
 
-	para "<PLAYER>! I'll show"
-	line "you how a real"
-	cont "trainer fights!"
+	para "<PLAYER>! Ik zal" ; "<PLAYER>! I'll show"
+	line "laten zien hoe" ; "you how a real"
+	cont "het echt moet!" ; "trainer fights!"
 	done
 
 _AgathaEndBattleText::
-	text "Woo-hoo!"
-	line "You're something"
-	cont "special, child!"
+	text "Woo-hoo!" ; "Woo-hoo!"
+	line "Je bent een" ; "You're something"
+	cont "speciale, jong!" ; "special, child!"
 	prompt
 
 _AgathaAfterBattleText::
-	text "You win! I see"
-	line "what the old duff"
-	cont "sees in you now!"
+	text "Jij wint! Ik snap" ; "You win! I see"
+	line "wat die ouwe knar" ; "what the old duff"
+	cont "in je ziet!" ; "sees in you now!"
 
-	para "I have nothing"
-	line "else to say! Run"
-	cont "along now, child!"
+	para "Ik heb niks meer" ; "I have nothing"
+	line "te zeggen! Ga" ; "else to say! Run"
+	cont "maar, kind!" ; "along now, child!"
 	done
 
 _AgathasRoomAgathaDontRunAwayText::
-	text "Someone's voice:"
-	line "Don't run away!"
+	text "Iemands stem:" ; "Someone's voice:"
+	line "Niet wegrennen!" ; "Don't run away!"
 	done

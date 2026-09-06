@@ -1,9 +1,10 @@
 _CinnabarLabTradeRoomSuperNerdText::
-	text "I found this very"
-	line "strange fossil in"
-	cont "MT.MOON!"
+	text "Ik heb dit rare" ; "I found this very"
+	line "fossiel gevonden" ; "strange fossil in"
+	cont "in MAANBERG!" ; "MT.MOON!"
 
-	para "I think it's a"
-	line "rare, prehistoric"
-	cont "#MON!"
+	para "Ik denk dat het" ; "I think it's a"
+	line "een zeldzame," ; "rare, prehistoric"
+	cont "prehistorische" ; "#MON!"
+	cont "#MON is!"
 	done

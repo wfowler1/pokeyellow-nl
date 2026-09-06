@@ -1,71 +1,71 @@
 _BikeShopClerkWelcomeText::
-	text "Hi! Welcome to"
-	line "our BIKE SHOP."
+	text "Hoi! Welkom in" ; "Hi! Welcome to"
+	line "onze FIETSWINKEL." ; "our BIKE SHOP."
 
-	para "Have we got just"
-	line "the BIKE for you!"
+	para "We hebben nou net" ; "Have we got just"
+	line "de ideale FIETS!" ; "the BIKE for you!"
 	prompt
 
 _BikeShopClerkDoYouLikeItText::
-	text "It's a cool BIKE!"
-	line "Do you want it?"
+	text "Het is een coole!" ; "It's a cool BIKE!"
+	line "Wil je hem?" ; "Do you want it?"
 	done
 
 _BikeShopCantAffordText::
-	text "Sorry! You can't"
-	line "afford it!"
+	text "Sorry, je kunt hem" ; "Sorry! You can't"
+	line "niet betalen!" ; "afford it!"
 	prompt
 
 _BikeShopClerkOhThatsAVoucherText::
-	text "Oh, that's..."
+	text "Oh, dat is…" ; "Oh, that's..."
 
-	para "A BIKE VOUCHER!"
+	para "een FIETSBON!" ; "A BIKE VOUCHER!"
 
-	para "OK! Here you go!"
+	para "OK! Alsjeblieft!" ; "OK! Here you go!"
 	prompt
 
 _BikeShopExchangedVoucherText::
-	text "<PLAYER> exchanged"
-	line "the BIKE VOUCHER"
-	cont "for a BICYCLE.@"
+	text "<PLAYER> ruilde" ; "<PLAYER> exchanged"
+	line "FIETSBON om voor" ; "the BIKE VOUCHER"
+	cont "een FIETS.@" ; "for a BICYCLE.@"
 	text_end
 
 _BikeShopComeAgainText::
-	text "Come back again"
-	line "sometime!"
+	text "Kom nog eens" ; "Come back again"
+	line "terug!" ; "sometime!"
 	done
 
 _BikeShopClerkHowDoYouLikeYourBicycleText::
-	text "How do you like"
-	line "your new BICYCLE?"
+	text "Wat vind je van je" ; "How do you like"
+	line "nieuwe FIETS?" ; "your new BICYCLE?"
 
-	para "You can take it"
-	line "on CYCLING ROAD"
-	cont "and in caves!"
+	para "Neem hem eens mee" ; "You can take it"
+	line "naar het FIETSPAD" ; "on CYCLING ROAD"
+	cont "en grotten!" ; "and in caves!"
 	done
 
 _BikeShopBagFullText::
-	text "You better make"
-	line "room for this!"
+	text "Maak even ruimte" ; "You better make"
+	line "vrij!" ; "room for this!"
 	done
 
 _BikeShopMiddleAgedWomanText::
-	text "A plain city BIKE"
-	line "is good enough"
-	cont "for me!"
+	text "Een STADSFIETS" ; "A plain city BIKE"
+	line "is goed genoeg" ; "is good enough"
+	cont "voor mij!" ; "for me!"
 
-	para "You can't put a"
-	line "shopping basket"
-	cont "on an MTB!"
+	para "Er past geen" ; "You can't put a"
+	line "mandje op een" ; "shopping basket"
+	cont "mountainbike!" ; "on an MTB!"
 	done
 
 _BikeShopYoungsterTheseBikesAreExpensiveText::
-	text "These BIKEs are"
-	line "cool, but they're"
-	cont "way expensive!"
+	text "Deze FIETSEN zijn" ; "These BIKEs are"
+	line "cool, maar ook" ; "cool, but they're"
+	cont "veel te duur!" ; "way expensive!"
 	done
 
 _BikeShopYoungsterCoolBikeText::
-	text "Wow. Your BIKE is"
-	line "really cool!"
+	text "Wow. Jouw fiets is" ; "Wow. Your BIKE is"
+	line "heel cool!" ; "really cool!"
 	done

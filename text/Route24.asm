@@ -15,7 +15,7 @@ _Route24CooltrainerM1ReceivedNuggetText::
 	text "<PLAYER> received"
 	line "a @"
 	text_ram wStringBuffer ; MaxLength MaxItemNameLength
-	text "!@"
+	text "!@" ; "!@"
 	text_end
 
 _Route24CooltrainerM1NoRoomText::
@@ -50,7 +50,7 @@ _Route24CooltrainerM1JoinTeamRocketText::
 	done
 
 _Route24CooltrainerM1DefeatedText::
-	text "Arrgh!"
+	text "Arrgh!" ; "Arrgh!"
 	line "You are good!"
 	prompt
 

@@ -27,7 +27,7 @@ _PokemonTower6FChanneler1AfterBattleText::
 	done
 
 _PokemonTower6FChanneler2BattleText::
-	text "Urff... Kwaah!"
+	text "Urff... Kwaah!" ; "Urff... Kwaah!"
 	done
 
 _PokemonTower6FChanneler2EndBattleText::
@@ -42,8 +42,8 @@ _PokemonTower6FChanneler2AfterBattleText::
 	done
 
 _PokemonTower6FChanneler3BattleText::
-	text "Ke..ke...ke..."
-	line "ke..ke...ke!!"
+	text "Ke..ke...ke..." ; "Ke..ke...ke..."
+	line "ke..ke...ke!!" ; "ke..ke...ke!!"
 	done
 
 _PokemonTower6FChanneler3EndBattleText::

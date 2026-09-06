@@ -109,7 +109,7 @@ _RockTunnel1FCooltrainerF3AfterBattleText::
 	done
 
 _RockTunnel1FSignText::
-	text "ROCK TUNNEL"
-	line "CERULEAN CITY -"
-	cont "LAVENDER TOWN"
+	text "ROCK TUNNEL" ; "ROCK TUNNEL"
+	line "CERULEAN CITY -" ; "CERULEAN CITY -"
+	cont "LAVENDER TOWN" ; "LAVENDER TOWN"
 	done

@@ -1,255 +1,258 @@
 _CinnabarGymBlainePreBattleText::
-	text "Hah!"
+	text "Hah!" ; "Hah!"
 
-	para "I am BLAINE! I"
-	line "am the LEADER of"
-	cont "CINNABAR GYM!"
+	para "Ik ben BLAINE! Ik" ; "I am BLAINE! I"
+	line "ben de LEIDER van" ; "am the LEADER of"
+	cont "CINNABAR GYM!" ; "CINNABAR GYM!"
 
-	para "My fiery #MON"
-	line "will incinerate"
-	cont "all challengers!"
+	para "Mijn vurige #-" ; "My fiery #MON"
+	line "mon verzengen" ; "will incinerate"
+	cont "alle uitdagers!" ; "all challengers!"
 
-	para "Hah! You better"
-	line "have BURN HEAL!"
+	para "Hah! Hopelijk heb" ; "Hah! You better"
+	line "je BRANDZALF mee!" ; "have BURN HEAL!"
 	done
 
 _CinnabarGymBlaineReceivedVolcanoBadgeText::
-	text "I have"
-	line "burnt out!"
+	text "Ik ben" ; "I have"
+	line "opgebrand!" ; "burnt out!"
 
-	para "You have earned"
-	line "the VOLCANOBADGE!@"
+	para "Je verdient de" ; "You have earned"
+	line "VULKAANBADGE!@" ; "the VOLCANOBADGE!@"
 	text_end
 
 _CinnabarGymBlainePostBattleAdviceText::
-	text "FIRE BLAST is the"
-	line "ultimate fire"
-	cont "technique!"
+	text "VUURSCHOT is de" ; "FIRE BLAST is the"
+	line "ultieme vuur-" ; "ultimate fire"
+	cont "techniek!" ; "technique!"
 
-	para "Don't waste it on"
-	line "water #MON!"
+	para "Verspil hem niet" ; "Don't waste it on"
+	line "aan water-#MON!" ; "water #MON!"
 	done
 
 _CinnabarGymBlaineVolcanoBadgeInfoText::
-	text "Hah!"
+	text "Hah!" ; "Hah!"
 
-	para "The VOLCANOBADGE"
-	line "heightens the"
-	cont "SPECIAL abilities"
-	cont "of your #MON!"
+	para "De VULKAANBADGE" ; "The VOLCANOBADGE"
+	line "versterkt SPECIA-" ; "heightens the"
+	cont "LE vaardigheden" ; "SPECIAL abilities"
+	cont "van je #MON!" ; "of your #MON!"
 
-	para "Here, you can"
-	line "have this too!"
+	para "Hier, je mag dit" ; "Here, you can"
+	line "ook hebben!" ; "have this too!"
 	done
 
 _CinnabarGymBlaineReceivedTM38Text::
-	text "<PLAYER> received"
+	text "<PLAYER> ontving" ; "<PLAYER> received"
 	line "@"
 	text_ram wStringBuffer ; MaxLength MaxItemNameLength
-	text "!@"
+	text "!@" ; "!@"
 	text_end
 
 _CinnabarGymBlaineTM38ExplanationText::
 	text_start
 
-	para "TM38 contains"
-	line "FIRE BLAST!"
+	para "TM38 bevat" ; "TM38 contains"
+	line "VUURSCHOT!" ; "FIRE BLAST!"
 
-	para "Teach it to fire-"
-	line "type #MON!"
+	para "Leer het aan vuur-" ; "Teach it to fire-"
+	line "type #MON!" ; "type #MON!"
 
-	para "CHARMELEON or"
-	line "PONYTA would be"
-	cont "good bets!"
+	para "CHARMELEON of" ; "CHARMELEON or"
+	line "PONYTA zijn" ; "PONYTA would be"
+	cont "goede opties!" ; "good bets!"
 	done
 
 _CinnabarGymBlaineTM38NoRoomText::
-	text "Make room for my"
-	line "gift!"
+	text "Maak ruimte voor" ; "Make room for my"
+	line "mijn cadeau!" ; "gift!"
 	done
 
 _CinnabarGymSuperNerd1BattleText::
-	text "Do you know how"
-	line "hot #MON fire"
-	cont "breath can get?"
+	text "Weet je hoe heet" ; "Do you know how"
+	line "#MON-vuuradem" ; "hot #MON fire"
+	cont "kan worden?" ; "breath can get?"
 	done
 
 _CinnabarGymSuperNerd1EndBattleText::
-	text "Yow!"
-	line "Hot, hot, hot!"
+	text "Auw!" ; "Yow!"
+	line "Heet, heet, heet!" ; "Hot, hot, hot!"
 	prompt
 
 _CinnabarGymSuperNerd1AfterBattleText::
-	text "Fire, or to be"
-	line "more precise,"
-	cont "combustion..."
+	text "Vuur, of om pre-" ; "Fire, or to be"
+	line "cies te zijn" ; "more precise,"
+	cont "ontvlamming..." ; "combustion..."
 
-	para "Blah, blah, blah,"
-	line "blah..."
+	para "Bla, bla, bla," ; "Blah, blah, blah,"
+	line "bla..." ; "blah..."
 	done
 
 _CinnabarGymSuperNerd2BattleText::
-	text "I was a thief, but"
-	line "I became straight"
-	cont "as a trainer!"
+	text "Ik was een dief," ; "I was a thief, but"
+	line "maar ben weer op" ; "I became straight"
+	cont "het rechte pad" ; "as a trainer!"
+	cont "als trainer!"
 	done
 
 _CinnabarGymSuperNerd2EndBattleText::
-	text "I"
-	line "surrender!"
+	text "Ik geef me over" ; "I"
+	line "en zwicht!" ; "surrender!"
 	prompt
 
 _CinnabarGymSuperNerd2AfterBattleText::
-	text "I can't help"
-	line "stealing other"
-	cont "people's #MON!"
+	text "Ik kan het niet" ; "I can't help"
+	line "laten andermans" ; "stealing other"
+	cont "#MON te stelen!" ; "people's #MON!"
 	done
 
 _CinnabarGymSuperNerd3BattleText::
-	text "You can't win!"
-	line "I have studied"
-	cont "#MON totally!"
+	text "Je wint nooit!" ; "You can't win!"
+	line "Ik heb #MON" ; "I have studied"
+	cont "volledig" ; "#MON totally!"
+	cont "bestudeerd!"
 	done
 
 _CinnabarGymSuperNerd3EndBattleText::
-	text "Waah!"
-	line "My studies!"
+	text "Waah!" ; "Waah!"
+	line "Mijn onderzoek!" ; "My studies!"
 	prompt
 
 _CinnabarGymSuperNerd3AfterBattleText::
-	text "My theories are"
-	line "too complicated"
-	cont "for you!"
+	text "Mijn theorieën" ; "My theories are"
+	line "zijn te gecompli-" ; "too complicated"
+	cont "ceerd voor jou!" ; "for you!"
 	done
 
 _CinnabarGymSuperNerd4BattleText::
-	text "I just like using"
-	line "fire #MON!"
+	text "Ik gebruik graag" ; "I just like using"
+	line "vuur-#MON!" ; "fire #MON!"
 	done
 
 _CinnabarGymSuperNerd4EndBattleText::
-	text "Too hot"
-	line "to handle!"
+	text "Te heet onder" ; "Too hot"
+	line "de voeten!" ; "to handle!"
 	prompt
 
 _CinnabarGymSuperNerd4AfterBattleText::
-	text "I wish there was"
-	line "a thief #MON!"
-	cont "I'd use that!"
+	text "Als er een dief-" ; "I wish there was"
+	line "#MON was, zou" ; "a thief #MON!"
+	cont "ik die gebruiken!" ; "I'd use that!"
 	done
 
 _CinnabarGymSuperNerd5BattleText::
-	text "I know why BLAINE"
-	line "became a trainer!"
+	text "Ik weet waarom" ; "I know why BLAINE"
+	line "BLAINE trainer is!" ; "became a trainer!"
 	done
 
 _CinnabarGymSuperNerd5EndBattleText::
-	text "Ow!"
+	text "Au!" ; "Ow!"
 	prompt
 
 _CinnabarGymSuperNerd5AfterBattleText::
-	text "BLAINE was lost"
-	line "in the mountains"
-	cont "when a fiery bird"
-	cont "#MON appeared."
+	text "BLAINE was in de" ; "BLAINE was lost"
+	line "bergen verdwaald" ; "in the mountains"
+	cont "tot een vurige" ; "when a fiery bird"
+	cont "vogel-#MON" ; "#MON appeared."
+	cont "verscheen."
 
-	para "Its light enabled"
-	line "BLAINE to find"
-	cont "his way down!"
+	para "Door het licht" ; "Its light enabled"
+	line "vond BLAINE de" ; "BLAINE to find"
+	cont "weg omlaag!" ; "his way down!"
 	done
 
 _CinnabarGymSuperNerd6BattleText::
-	text "I've been to many"
-	line "GYMs, but this is"
-	cont "my favorite!"
+	text "Van alle bezochte" ; "I've been to many"
+	line "GYMS is dit mijn" ; "GYMs, but this is"
+	cont "favoriet!" ; "my favorite!"
 	done
 
 _CinnabarGymSuperNerd6EndBattleText::
-	text "Yowza!"
-	line "Too hot!"
+	text "Jeetje!" ; "Yowza!"
+	line "Te heet!" ; "Too hot!"
 	prompt
 
 _CinnabarGymSuperNerd6AfterBattleText::
-	text "Us fire #MON"
-	line "fans like PONYTA"
-	cont "and NINETALES!"
+	text "PONYTA en NINE-" ; "Us fire #MON"
+	line "TALES brengen mij" ; "fans like PONYTA"
+	cont "in vuur en vlam!" ; "and NINETALES!"
 	done
 
 _CinnabarGymSuperNerd7BattleText::
-	text "Fire is weak"
-	line "against H2O!"
+	text "Vuur is zwak" ; "Fire is weak"
+	line "tegen H2O!" ; "against H2O!"
 	done
 
 _CinnabarGymSuperNerd7EndBattleText::
-	text "Oh!"
-	line "Snuffed out!"
+	text "Oh!" ; "Oh!"
+	line "Uitgedoofd!" ; "Snuffed out!"
 	prompt
 
 _CinnabarGymSuperNerd7AfterBattleText::
-	text "Water beats fire!"
-	line "But, fire melts"
-	cont "ice #MON!"
+	text "Water blust vuur!" ; "Water beats fire!"
+	line "Maar, vuur smelt" ; "But, fire melts"
+	cont "ijs-#MON!" ; "ice #MON!"
 	done
 
 _CinnabarGymGymGuideChampInMakingText::
-	text "Yo! Champ in"
-	line "making!"
+	text "Yo! Kampioen in" ; "Yo! Champ in"
+	line "wording!" ; "making!"
 
-	para "The hot-headed"
-	line "BLAINE is a fire"
-	cont "#MON pro!"
+	para "Het heethoofd" ; "The hot-headed"
+	line "BLAINE is een pro" ; "BLAINE is a fire"
+	cont "met vuur-#MON!" ; "#MON pro!"
 
-	para "Douse his spirits"
-	line "with water!"
+	para "Blus zijn enthou-" ; "Douse his spirits"
+	line "siasme met water!" ; "with water!"
 
-	para "You better take"
-	line "some BURN HEALs!"
+	para "Hopelijk heb je" ; "You better take"
+	line "BRANDZALF mee!" ; "some BURN HEALs!"
 	done
 
 _CinnabarGymGymGuideBeatBlaineText::
-	text "<PLAYER>! You beat"
-	line "that fire brand!"
+	text "<PLAYER>! Je doofde" ; "<PLAYER>! You beat"
+	line "zijn vlammen!" ; "that fire brand!"
 	done
 
 _CinnabarGymText_1::
-	text "This GYM is also"
-	line "known as the QUIZ"
-	cont "GYM."
+	text "Deze GYM is ook" ; "This GYM is also"
+	line "bekend als de" ; "known as the QUIZ"
+	cont "QUIZGYM." ; "GYM."
 
-	para "You have to take a"
-	line "quiz if you want"
-	cont "to see BLAINE."
+	para "Je moet een quiz" ; "You have to take a"
+	line "doen als je" ; "quiz if you want"
+	cont "BLAINE wil zien." ; "to see BLAINE."
 
-	para "You don't have to"
-	line "fight us if you"
-	cont "get it right."
+	para "Als je het goed" ; "You don't have to"
+	line "hebt hoef je niet" ; "fight us if you"
+	cont "te vechten." ; "get it right."
 	done
 
 _CinnabarGymText_2::
-	text "Think you can do"
-	line "it?"
+	text "Denk je dat je het" ; "Think you can do"
+	line "kan?" ; "it?"
 	done
 
 _CinnabarGymText_3::
-	text "This one's tricky!"
+	text "Deze is lastig!" ; "This one's tricky!"
 	done
 
 _CinnabarGymText_4::
-	text "#MON enjoy"
-	line "quizzes too!"
+	text "#MON houden ook" ; "#MON enjoy"
+	line "van quizzen!" ; "quizzes too!"
 	done
 
 _CinnabarGymText_5::
-	text "I like it here at"
-	line "QUIZ GYM."
+	text "Ik vermaak me in" ; "I like it here at"
+	line "de QUIZGYM." ; "QUIZ GYM."
 	done
 
 _CinnabarGymText_6::
-	text "This is the last"
-	line "question."
+	text "Dit is de laatste" ; "This is the last"
+	line "vraag." ; "question."
 	done
 
 _CinnabarGymText_7::
-	text "Come on, answer"
-	line "the question!"
+	text "Kom op, beantwoord" ; "Come on, answer"
+	line "de vraag!" ; "the question!"
 	done

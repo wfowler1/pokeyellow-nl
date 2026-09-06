@@ -1,12 +1,13 @@
 _LavenderPokecenterGentlemanText::
-	text "TEAM ROCKET will"
-	line "do anything for"
-	cont "the sake of gold!"
+	text "TEAM ROCKET doet" ; "TEAM ROCKET will"
+	line "alles om goud" ; "do anything for"
+	cont "te krijgen!" ; "the sake of gold!"
 	done
 
 _LavenderPokecenterLittleGirlText::
-	text "I saw CUBONE's"
-	line "mother die trying"
-	cont "to escape from"
-	cont "TEAM ROCKET!"
+	text "Ik zag CUBONE's" ; "I saw CUBONE's"
+	line "moeder sterven in" ; "mother die trying"
+	cont "een poging aan" ; "to escape from"
+	cont "TEAM ROCKET te" ; "TEAM ROCKET!"
+	cont "ontsnappen!"
 	done

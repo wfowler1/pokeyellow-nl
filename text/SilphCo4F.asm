@@ -4,7 +4,7 @@ _SilphCo4FSilphWorkerMImHidingText::
 	done
 
 _SilphCo4FSilphWorkerMTeamRocketIsGoneText::
-	text "Huh? TEAM ROCKET"
+	text "Huh? TEAM ROCKET" ; "Huh? TEAM ROCKET"
 	line "is gone?"
 	done
 
@@ -15,11 +15,11 @@ _SilphCo4FRocket1BattleText::
 	done
 
 _SilphCo4FRocket1EndBattleText::
-	text "Arrgh!"
+	text "Arrgh!" ; "Arrgh!"
 	prompt
 
 _SilphCo4FRocket1AfterBattleText::
-	text "Fwahahaha!"
+	text "Fwahahaha!" ; "Fwahahaha!"
 	line "My BOSS has been"
 	cont "after this place!"
 	done

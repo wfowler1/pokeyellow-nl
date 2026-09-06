@@ -9,7 +9,7 @@ _CeruleanGymMistyPreBattleText::
 	para "My policy is an"
 	line "all-out offensive"
 	cont "with water-type"
-	cont "#MON!"
+	cont "#MON!" ; "#MON!"
 
 	para "MISTY, the world-"
 	line "famous beauty, is"
@@ -49,7 +49,7 @@ _CeruleanGymMistyCascadeBadgeInfoText::
 
 _CeruleanGymMistyReceivedTM11Text::
 	text "<PLAYER> received"
-	line "TM11!@"
+	line "TM11!@" ; "TM11!@"
 	text_end
 
 _CeruleanGymMistyTM11NoRoomText::

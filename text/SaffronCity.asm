@@ -83,7 +83,7 @@ _SaffronCityRocket8Text::
 	done
 
 _SaffronCityRocket9Text::
-	text "..."
+	text "..." ; "..."
 	line "Snore..."
 
 	para "Hah! He's taking"
@@ -91,7 +91,7 @@ _SaffronCityRocket9Text::
 	done
 
 _SaffronCitySignText::
-	text "SAFFRON CITY"
+	text "SAFFRON CITY" ; "SAFFRON CITY"
 	line "Shining, Golden"
 	cont "Land of Commerce"
 	done
@@ -101,8 +101,8 @@ _SaffronCityFightingDojoSignText::
 	done
 
 _SaffronCityGymSignText::
-	text "SAFFRON CITY"
-	line "#MON GYM"
+	text "SAFFRON CITY" ; "SAFFRON CITY"
+	line "#MON GYM" ; "#MON GYM"
 	cont "LEADER: SABRINA"
 
 	para "The Master of"
@@ -110,7 +110,7 @@ _SaffronCityGymSignText::
 	done
 
 _SaffronCityTrainerTips1Text::
-	text "TRAINER TIPS"
+	text "TRAINER TIPS" ; "TRAINER TIPS"
 
 	para "FULL HEAL cures"
 	line "all ailments like"
@@ -122,7 +122,7 @@ _SaffronCityTrainerTips1Text::
 	done
 
 _SaffronCityTrainerTips2Text::
-	text "TRAINER TIPS"
+	text "TRAINER TIPS" ; "TRAINER TIPS"
 
 	para "New GREAT BALL"
 	line "offers improved"
@@ -145,7 +145,7 @@ _SaffronCityMrPsychicsHouseSignText::
 
 _SaffronCitySilphCoLatestProductSignText::
 	text "SILPH's latest"
-	line "product!"
+	line "product!" ; "product!"
 
 	para "Release to be"
 	line "determined..."

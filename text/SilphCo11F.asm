@@ -23,7 +23,7 @@ _SilphCo11FSilphPresidentReceivedMasterBallText::
 	text "<PLAYER> got a"
 	line "@"
 	text_ram wStringBuffer ; MaxLength MaxItemNameLength
-	text "!@"
+	text "!@" ; "!@"
 	text_end
 
 _SilphCo11FSilphPresidentMasterBallDescriptionText::
@@ -76,7 +76,7 @@ _SilphCo11FGiovanniText::
 	done
 
 _SilphCo10FGiovanniILostAgainText::
-	text "Arrgh!!"
+	text "Arrgh!!" ; "Arrgh!!"
 	line "I lost again!?"
 	prompt
 
@@ -104,7 +104,7 @@ _SilphCo11FRocket2BattleText::
 	done
 
 _SilphCo11FRocket2EndBattleText::
-	text "Gaah!"
+	text "Gaah!" ; "Gaah!"
 	line "Demolished!"
 	prompt
 

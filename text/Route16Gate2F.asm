@@ -1,26 +1,26 @@
 _Route16Gate2FLittleBoyText::
-	text "I'm going for a"
-	line "ride with my girl"
-	cont "friend!"
+	text "Ik ga een rit" ; "I'm going for a"
+	line "maken met mijn" ; "ride with my girl"
+	cont "vriendinnetje!" ; "friend!"
 	done
 
 _Route16Gate2FLittleGirlText::
-	text "We're going"
-	line "riding together!"
+	text "We gaan" ; "We're going"
+	line "samen rijden!" ; "riding together!"
 	done
 
 _Route16Gate2FLeftBinocularsText::
-	text "Looked into the"
-	line "binoculars."
+	text "Keek in de" ; "Looked into the"
+	line "verrekijker." ; "binoculars."
 
-	para "It's CELADON DEPT."
-	line "STORE!"
+	para "Het is CELADON-" ; "It's CELADON DEPT."
+	line "WARENHUIS!" ; "STORE!"
 	done
 
 _Route16Gate2FRightBinocularsText::
-	text "Looked into the"
-	line "binoculars."
+	text "Keek in de" ; "Looked into the"
+	line "verrekijker." ; "binoculars."
 
-	para "There's a long"
-	line "path over water!"
+	para "Er is een lange" ; "There's a long"
+	line "weg over water!" ; "path over water!"
 	done

@@ -1,37 +1,38 @@
 _PokemonMansion3FSuperNerdBattleText::
-	text "This place is"
-	line "like, huge!"
+	text "Deze plek is" ; "This place is"
+	line "groot, weet je!" ; "like, huge!"
 	done
 
 _PokemonMansion3FSuperNerdEndBattleText::
-	text "Ayah!"
+	text "Ayaa!" ; "Ayah!"
 	prompt
 
 _PokemonMansion3FSuperNerdAfterBattleText::
-	text "I wonder where"
-	line "my partner went."
+	text "Ik ben benieuwd" ; "I wonder where"
+	line "waar mijn partner" ; "my partner went."
+	cont "heen is gegaan."
 	done
 
 _PokemonMansion3FScientistBattleText::
-	text "My mentor once"
-	line "lived here."
+	text "Mijn mentor woonde" ; "My mentor once"
+	line "hier vroeger." ; "lived here."
 	done
 
 _PokemonMansion3FScientistEndBattleText::
-	text "Whew!"
-	line "Overwhelming!"
+	text "Poeh!" ; "Whew!"
+	line "Overweldigend!" ; "Overwhelming!"
 	prompt
 
 _PokemonMansion3FScientistAfterBattleText::
-	text "So, you're stuck?"
-	line "Try jumping off"
-	cont "over there!"
+	text "Dus, je zit vast?" ; "So, you're stuck?"
+	line "Spring hier eens" ; "Try jumping off"
+	cont "naar beneden!" ; "over there!"
 	done
 
 _PokemonMansion3FDiaryText::
-	text "Diary: Feb. 6"
-	line "MEW gave birth."
+	text "Dagboek: 6 feb." ; "Diary: Feb. 6"
+	line "MEW is bevallen." ; "MEW gave birth."
 
-	para "We named the"
-	line "newborn MEWTWO."
+	para "De pasgeborene" ; "We named the"
+	line "noemden we MEWTWO." ; "newborn MEWTWO."
 	done

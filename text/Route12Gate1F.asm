@@ -1,4 +1,4 @@
 _Route12Gate1FGuardText::
-	text "There's a lookout"
-	line "spot upstairs."
+	text "Er is een uitkijk-" ; "There's a lookout"
+	line "punt boven." ; "spot upstairs."
 	done

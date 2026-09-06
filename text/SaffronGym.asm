@@ -57,7 +57,7 @@ _SaffronGymSabrinaMarshBadgeInfoText::
 
 _SaffronGymSabrinaReceivedTM46Text::
 	text "<PLAYER> received"
-	line "TM46!@"
+	line "TM46!@" ; "TM46!@"
 	text_end
 
 _TM46ExplanationText::
@@ -78,7 +78,7 @@ _SaffronGymGuideChampInMakingText::
 	text "Yo! Champ in"
 	line "making!"
 
-	para "SABRINA's #MON"
+	para "SABRINA's #MON" ; "SABRINA's #MON"
 	line "use psychic power"
 	cont "instead of force!"
 
@@ -93,7 +93,7 @@ _SaffronGymGuideChampInMakingText::
 
 _SaffronGymGuideBeatSabrinaText::
 	text "Psychic power,"
-	line "huh?"
+	line "huh?" ; "huh?"
 
 	para "If I had that,"
 	line "I'd make a bundle"
@@ -208,7 +208,7 @@ _SaffronGymYoungster3EndBattleText::
 _SaffronGymYoungster3AfterBattleText::
 	text "There used to be"
 	line "2 #MON GYMs in"
-	cont "SAFFRON."
+	cont "SAFFRON." ; "SAFFRON."
 
 	para "The FIGHTING DOJO"
 	line "next door lost"
@@ -218,7 +218,7 @@ _SaffronGymYoungster3AfterBattleText::
 	done
 
 _SaffronGymYoungster4BattleText::
-	text "SAFFRON #MON"
+	text "SAFFRON #MON" ; "SAFFRON #MON"
 	line "GYM is famous for"
 	cont "its psychics!"
 
@@ -228,7 +228,7 @@ _SaffronGymYoungster4BattleText::
 	done
 
 _SaffronGymYoungster4EndBattleText::
-	text "Arrrgh!"
+	text "Arrrgh!" ; "Arrrgh!"
 	prompt
 
 _SaffronGymYoungster4AfterBattleText::

@@ -45,13 +45,13 @@ FuchsiaGoodRodHouseFishingGuruText:
 	text_end
 
 .UnusedText:
-	para "つり　こそ"
-	line "おとこの　ロマン　だ！"
+	para "つり　こそ" ; "つり　こそ"
+	line "おとこの　ロマン　だ！" ; "おとこの　ロマン　だ！"
 
-	para "へぼいつりざおは"
-	line "コイキングしか　つれ　なんだが"
-	line "この　いいつりざおなら"
-	line "もっと　いいもんが　つれるんじゃ！"
+	para "へぼいつりざおは" ; "へぼいつりざおは"
+	line "コイキングしか　つれ　なんだが" ; "コイキングしか　つれ　なんだが"
+	line "この　いいつりざおなら" ; "この　いいつりざおなら"
+	line "もっと　いいもんが　つれるんじゃ！" ; "もっと　いいもんが　つれるんじゃ！"
 	done
 
 .ThatsSoDisappointingText:

@@ -1,15 +1,15 @@
 _Route18Gate2FLeftBinocularsText::
-	text "Looked into the"
-	line "binoculars."
+	text "Keek in de" ; "Looked into the"
+	line "verrekijker." ; "binoculars."
 
-	para "PALLET TOWN is in"
-	line "the west!"
+	para "PALLET TOWN is in" ; "PALLET TOWN is in"
+	line "het westen!" ; "the west!"
 	done
 
 _Route18Gate2FRightBinocularsText::
-	text "Looked into the"
-	line "binoculars."
+	text "Keek in de" ; "Looked into the"
+	line "verrekijker." ; "binoculars."
 
-	para "There are people"
-	line "swimming!"
+	para "Er zijn mensen" ; "There are people"
+	line "aan het zwemmen!" ; "swimming!"
 	done

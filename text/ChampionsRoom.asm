@@ -1,146 +1,156 @@
 _ChampionsRoomRivalIntroText::
-	text "<RIVAL>: Hey!"
+	text "<RIVAL>: Hé!" ; "<RIVAL>: Hey!"
 
-	para "I was looking"
-	line "forward to seeing"
-	cont "you, <PLAYER>!"
+	para "Ik keek er naar" ; "I was looking"
+	line "uit om je te" ; "forward to seeing"
+	cont "zien, <PLAYER>!" ; "you, <PLAYER>!"
 
-	para "My rival should"
-	line "be strong to keep"
-	cont "me sharp!"
+	para "Mijn rivaal moet" ; "My rival should"
+	line "sterk zijn om me" ; "be strong to keep"
+	cont "scherp te houden!" ; "me sharp!"
 
-	para "While working on"
-	line "#DEX, I looked"
-	cont "all over for"
-	cont "powerful #MON!"
+	para "Terwijl ik aan m'n" ; "While working on"
+	line "#DEX werkte," ; "#DEX, I looked"
+	cont "zocht ik overal" ; "all over for"
+	cont "naar sterke" ; "powerful #MON!"
+	cont "#MON!"
 
-	para "Not only that, I"
-	line "assembled teams"
-	cont "that would beat"
-	cont "any #MON type!"
+	para "Niet alleen dat," ; "Not only that, I"
+	line "ik stelde teams" ; "assembled teams"
+	cont "samen die elk" ; "that would beat"
+	cont "#MON-type" ; "any #MON type!"
+	cont "kunnen verslaan!"
 
-	para "And now!"
+	para "En kijk nu!" ; "And now!"
 
-	para "I'm the #MON"
-	line "LEAGUE champion!"
+	para "Ik ben de #MON-" ; "I'm the #MON"
+	line "LEAGUE-kampioen!" ; "LEAGUE champion!"
 
-	para "<PLAYER>! Do you"
-	line "know what that"
-	cont "means?"
+	para "<PLAYER>! Weet je" ; "<PLAYER>! Do you"
+	line "wat dat" ; "know what that"
+	cont "betekent?" ; "means?"
 
-	para "I'll tell you!"
+	para "Dat zal ik je" ; "I'll tell you!"
+	cont "vertellen!"
 
-	para "I am the most"
-	line "powerful trainer"
-	cont "in the world!"
+	para "Ik ben de" ; "I am the most"
+	line "sterkste trainer" ; "powerful trainer"
+	cont "in de hele wereld!" ; "in the world!"
 	done
 
 _RivalDefeatedText::
-	text "NO!"
-	line "That can't be!"
-	cont "You beat my best!"
+	text "NEE!" ; "NO!"
+	line "Dat kan niet!" ; "That can't be!"
+	cont "Je hebt mijn" ; "You beat my best!"
+	cont "beste verslagen!"
 
-	para "After all that"
-	line "work to become"
-	cont "LEAGUE champ?"
+	para "Na al dat werk om" ; "After all that"
+	line "de LEAGUE-kam-" ; "work to become"
+	cont "pioen te worden?" ; "LEAGUE champ?"
 
-	para "My reign is over"
-	line "already?"
-	cont "It's not fair!"
+	para "Mijn heerschappij" ; "My reign is over"
+	line "is nu al over?" ; "already?"
+	cont "Niet eerlijk!" ; "It's not fair!"
 	prompt
 
 _RivalVictoryText::
-	text "Hahaha!"
-	line "I won, I won!"
+	text "Hahaha!" ; "Hahaha!"
+	line "Winst, winst!" ; "I won, I won!"
 
-	para "I'm too good for"
-	line "you, <PLAYER>!"
+	para "Ik ben te sterk" ; "I'm too good for"
+	line "voor je, <PLAYER>!" ; "you, <PLAYER>!"
 
-	para "You did well to"
-	line "even reach me,"
-	cont "<RIVAL>, the"
-	cont "#MON genius!"
+	para "Knap dat je zelfs" ; "You did well to"
+	line "mij, <RIVAL>, de" ; "even reach me,"
+	cont "#MON-genie" ; "<RIVAL>, the"
+	cont "wist te bereiken!" ; "#MON genius!"
 
-	para "Nice try, loser!"
-	line "Hahaha!"
+	para "Leuk geprobeerd," ; "Nice try, loser!"
+	line "loser! Hahaha!" ; "Hahaha!"
 	prompt
 
 _ChampionsRoomRivalAfterBattleText::
-	text "Why?"
-	line "Why did I lose?"
+	text "Waarom? Waarom" ; "Why?"
+	line "heb ik verloren?" ; "Why did I lose?"
 
-	para "I never made any"
-	line "mistakes raising"
-	cont "my #MON..."
+	para "Ik heb nooit" ; "I never made any"
+	line "fouten gemaakt" ; "mistakes raising"
+	cont "bij de opvoeding"
+	cont "van m'n #MON..." ; "my #MON..."
 
-	para "Darn it! You're"
-	line "the new #MON"
-	cont "LEAGUE champion!"
+	para "Verdorie! Je bent" ; "Darn it! You're"
+	line "de nieuwe #MON" ; "the new #MON"
+	cont "LEAGUE kampioen!" ; "LEAGUE champion!"
 
-	para "Although I don't"
-	line "like to admit it."
+	para "Hoewel ik het niet" ; "Although I don't"
+	line "graag toegeef." ; "like to admit it."
 	done
 
 _ChampionsRoomOakText::
-	text "OAK: <PLAYER>!"
+	text "OAK: <PLAYER>!" ; "OAK: <PLAYER>!"
 	done
 
 _ChampionsRoomOakCongratulatesPlayerText::
-	text "OAK: So, you won!"
-	line "Congratulations!"
-	cont "You're the new"
-	cont "#MON LEAGUE"
-	cont "champion!"
+	text "OAK: Dus, je hebt" ; "OAK: So, you won!"
+	line "gewonnen!" ; "Congratulations!"
+	cont "Gefeliciteerd!" ; "You're the new"
+	cont "Je bent de nieuwe"
+	cont "#MON-LEAGUE-" ; "#MON LEAGUE"
+	cont "kampioen!" ; "champion!"
 
-	para "You've grown up so"
-	line "much since you"
-	cont "first left with"
+	para "Je bent zo ge-" ; "You've grown up so"
+	line "groeid sinds je" ; "much since you"
+	cont "op reis ging met" ; "first left with"
 	cont "@"
 	text_ram wNameBuffer ; MaxLength MaxPokemonNameLength
-	text "!"
+	text "!" ; "!"
 
-	para "<PLAYER>, you have"
-	line "come of age!"
+	para "<PLAYER>, je bent" ; "<PLAYER>, you have"
+	line "volwassen!" ; "come of age!"
 	done
 
 _ChampionsRoomOakDisappointedWithRivalText::
-	text "OAK: <RIVAL>! I'm"
-	line "disappointed!"
+	text "OAK: <RIVAL>! Ik" ; "OAK: <RIVAL>! I'm"
+	line "ben teleur-" ; "disappointed!"
+	cont "gesteld!"
 
-	para "I came when I"
-	line "heard you beat"
-	cont "the ELITE FOUR!"
+	para "Ik kwam toen ik" ; "I came when I"
+	line "hoorde dat je de" ; "heard you beat"
+	cont "ELITE FOUR had" ; "the ELITE FOUR!"
+	cont "verslagen!"
 
-	para "But, when I got"
-	line "here, you had"
-	cont "already lost!"
+	para "Maar toen ik" ; "But, when I got"
+	line "arriveerde had je" ; "here, you had"
+	cont "al verloren!" ; "already lost!"
 
-	para "<RIVAL>! Do you"
-	line "understand why"
-	cont "you lost?"
+	para "<RIVAL>! Begrijp" ; "<RIVAL>! Do you"
+	line "je waarom je" ; "understand why"
+	cont "verloor?" ; "you lost?"
 
-	para "You have forgotten"
-	line "to treat your"
-	cont "#MON with"
-	cont "trust and love!"
+	para "Je bent vergeten" ; "You have forgotten"
+	line "om je #MON met" ; "to treat your"
+	cont "vertrouwen en" ; "#MON with"
+	cont "liefde te" ; "trust and love!"
+	cont "behandelen!"
 
-	para "Without them, you"
-	line "will never become"
-	cont "a champ again!"
+	para "Zonder dat zul je" ; "Without them, you"
+	line "nooit meer een" ; "will never become"
+	cont "kampioen worden!" ; "a champ again!"
 	done
 
 _ChampionsRoomOakComeWithMeText::
-	text "OAK: <PLAYER>!"
+	text "OAK: <PLAYER>!" ; "OAK: <PLAYER>!"
 
-	para "You understand"
-	line "that your victory"
-	cont "was not just your"
-	cont "own doing!"
+	para "Begrijp dat je" ; "You understand"
+	line "overwinning niet" ; "that your victory"
+	cont "alleen jouw" ; "was not just your"
+	cont "verdienste was!" ; "own doing!"
 
-	para "The bond you share"
-	line "with your #MON"
-	cont "is marvelous!"
+	para "De band die je" ; "The bond you share"
+	line "met je #MON" ; "with your #MON"
+	cont "deelt is" ; "is marvelous!"
+	cont "prachtig!"
 
-	para "<PLAYER>!"
-	line "Come with me!"
+	para "<PLAYER>!" ; "<PLAYER>!"
+	line "Kom mee!" ; "Come with me!"
 	done

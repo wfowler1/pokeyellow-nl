@@ -1,7 +1,7 @@
 _HallOfFameOakText::
 	text "OAK: Er-hem!"
 	line "Congratulations,"
-	cont "<PLAYER>!"
+	cont "<PLAYER>!" ; "<PLAYER>!"
 
 	para "This floor is the"
 	line "#MON HALL OF"

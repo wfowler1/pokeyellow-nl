@@ -1,18 +1,19 @@
 _SafariZoneEastRestHouseScientistText::
-	text "How many did you"
-	line "catch? I'm bushed"
-	cont "from the work!"
+	text "Hoeveel heb je" ; "How many did you"
+	line "gevangen? Ik ben" ; "catch? I'm bushed"
+	cont "kapot van 't werk!" ; "from the work!"
 	done
 
 _SafariZoneEastRestHouseRockerText::
-	text "I caught a"
-	line "CHANSEY!"
+	text "Ik heb een" ; "I caught a"
+	line "CHANSEY gevangen!" ; "CHANSEY!"
 
-	para "That makes this"
-	line "all worthwhile!"
+	para "Dat maakt dit" ; "That makes this"
+	line "het helemaal" ; "all worthwhile!"
+	cont "waard!"
 	done
 
 _SafariZoneEastRestHouseSilphWorkerMText::
-	text "Whew! I'm tired"
-	line "from all the fun!"
+	text "Poeh! Ik ben moe" ; "Whew! I'm tired"
+	line "van alle lol!" ; "from all the fun!"
 	done

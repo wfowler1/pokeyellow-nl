@@ -30,7 +30,7 @@ ENDR
 .Flying:   db "FLYING@"
 .Poison:   db "POISON@"
 .Fire:     db "FIRE@"
-.Water:    db "WATER@"
+.Water:    db "WATER@" ; "WATER@"
 .Grass:    db "GRASS@"
 .Electric: db "ELECTRIC@"
 .Psychic:  db "PSYCHIC@"

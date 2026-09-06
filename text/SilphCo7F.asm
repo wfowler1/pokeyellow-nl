@@ -28,7 +28,7 @@ _SilphCo7FSilphWorkerM1LaprasDescriptionText::
 	done
 
 _SilphCo7FSilphWorkerM1IsOurPresidentOkText::
-	text "TEAM ROCKET's"
+	text "TEAM ROCKET's" ; "TEAM ROCKET's"
 	line "BOSS went to the"
 	cont "boardroom! Is our"
 	cont "PRESIDENT OK?"
@@ -40,7 +40,7 @@ _SilphCo7FSilphWorkerM1SavedText::
 	done
 
 _SilphCo7FSilphWorkerM2AfterTheMasterBallText::
-	text "TEAM ROCKET was"
+	text "TEAM ROCKET was" ; "TEAM ROCKET was"
 	line "after the MASTER"
 	cont "BALL which will"
 	cont "catch any #MON!"
@@ -95,7 +95,7 @@ _SilphCo7FRocket1AfterBattleText::
 	done
 
 _SilphCo7FScientistBattleText::
-	text "Heheh!"
+	text "Heheh!" ; "Heheh!"
 
 	para "You mistook me for"
 	line "a SILPH worker?"
@@ -150,7 +150,7 @@ _SilphCo7FRivalText::
 	done
 
 _SilphCo7FRivalWaitedHereText::
-	text "<RIVAL>: Hahaha!"
+	text "<RIVAL>: Hahaha!" ; "<RIVAL>: Hahaha!"
 	line "I thought you'd"
 	cont "turn up if I"
 	cont "waited here!"
@@ -167,7 +167,7 @@ _SilphCo7FRivalWaitedHereText::
 	done
 
 _SilphCo7FRivalDefeatedText::
-	text "Oh-oh!"
+	text "Oh-oh!" ; "Oh-oh!"
 	line "So, you are ready"
 	cont "for BOSS ROCKET!"
 	prompt

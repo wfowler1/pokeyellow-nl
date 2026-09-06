@@ -1,5 +1,5 @@
 _SafariZoneNorthRestHouseSignText::
-	text "REST HOUSE"
+	text "RUSTHUIS" ; "REST HOUSE"
 	done
 
 _SafariZoneNorthTrainerTips1Text::
@@ -10,18 +10,19 @@ _SafariZoneNorthTrainerTips1Text::
 	done
 
 _SafariZoneNorthSignText::
-	text "AREA 2"
+	text "GEBIED 2" ; "AREA 2"
 	done
 
 _SafariZoneNorthTrainerTips2Text::
-	text "TRAINER TIPS"
+	text "TRAINER TIPS" ; "TRAINER TIPS"
 
-	para "#MON hide in"
-	line "tall grass!"
+	para "#MON verstoppen" ; "#MON hide in"
+	line "zich in hoog" ; "tall grass!"
+	cont "gras!"
 
-	para "Zigzag through"
-	line "grassy areas to"
-	cont "flush them out."
+	para "Zigzag door gras-" ; "Zigzag through"
+	line "gebieden om ze" ; "grassy areas to"
+	cont "te vinden." ; "flush them out."
 	done
 
 _SafariZoneNorthTrainerTips3Text::

@@ -46,9 +46,9 @@ _Route18CooltrainerM3AfterBattleText::
 	done
 
 _Route18SignText::
-	text "ROUTE 18"
-	line "CELADON CITY -"
-	cont "FUCHSIA CITY"
+	text "ROUTE 18" ; "ROUTE 18"
+	line "CELADON CITY -" ; "CELADON CITY -"
+	cont "FUCHSIA CITY" ; "FUCHSIA CITY"
 	done
 
 _Route18CyclingRoadSignText::

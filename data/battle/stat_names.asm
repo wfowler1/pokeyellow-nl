@@ -2,9 +2,9 @@
 
 VitaminStats:
 	list_start STAT_NAME_LENGTH - 1
-	li "HEALTH"
-	li "ATTACK"
-	li "DEFENSE"
-	li "SPEED"
-	li "SPECIAL"
+	li "LEVEN" ; "HEALTH"
+	li "AANVAL" ; "ATTACK"
+	li "AFWEER" ; "DEFENSE"
+	li "SNELHEID" ; "SPEED"
+	li "SPECIAAL" ; "SPECIAL"
 	assert_list_length NUM_STATS

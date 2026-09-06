@@ -1,6 +1,6 @@
 _CeruleanCityRivalPreBattleText::
-	text "<RIVAL>: Yo!"
-	line "<PLAYER>!"
+	text "<RIVAL>: Yo!" ; "<RIVAL>: Yo!"
+	line "<PLAYER>!" ; "<PLAYER>!"
 
 	para "You're still"
 	line "struggling along"
@@ -43,7 +43,7 @@ _CeruleanCityRivalIWentToBillsText::
 
 	para "After all, BILL's"
 	line "world famous as a"
-	cont "#MANIAC!"
+	cont "#MANIAC!" ; "#MANIAC!"
 
 	para "He invented the"
 	line "#MON Storage"
@@ -144,7 +144,7 @@ _CeruleanCityCooltrainerF1ElectrodeUseSonicboomText::
 	done
 
 _CeruleanCityCooltrainerF1ElectrodePunchText::
-	text "ELECTRODE, TACKLE!"
+	text "ELECTRODE, TACKLE!" ; "ELECTRODE, TACKLE!"
 	line "No! You blew it"
 	cont "again!"
 	done
@@ -204,14 +204,14 @@ _CeruleanCitySuperNerd3Text::
 	done
 
 _CeruleanCitySignText::
-	text "CERULEAN CITY"
+	text "CERULEAN CITY" ; "CERULEAN CITY"
 	line "A Mysterious,"
 	cont "Blue Aura"
 	cont "Surrounds It"
 	done
 
 _CeruleanCityTrainerTipsText::
-	text "TRAINER TIPS"
+	text "TRAINER TIPS" ; "TRAINER TIPS"
 
 	para "Pressing B Button"
 	line "during evolution"
@@ -226,8 +226,8 @@ _CeruleanCityBikeShopSign::
 	done
 
 _CeruleanCityGymSign::
-	text "CERULEAN CITY"
-	line "#MON GYM"
+	text "CERULEAN CITY" ; "CERULEAN CITY"
+	line "#MON GYM" ; "#MON GYM"
 	cont "LEADER: MISTY"
 
 	para "The Tomboyish"

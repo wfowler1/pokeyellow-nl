@@ -28,15 +28,15 @@ _MrFujisHouseLittleGirlPokemonAreNiceToHugText::
 	done
 
 _MrFujisHousePsyduckText::
-	text "PSYDUCK: Gwappa!@"
+	text "PSYDUCK: Gwappa!@" ; "PSYDUCK: Gwappa!@"
 	text_end
 
 _MrFujisHouseNidorinoText::
-	text "NIDORINO: Gaoo!@"
+	text "NIDORINO: Gaoo!@" ; "NIDORINO: Gaoo!@"
 	text_end
 
 _MrFujisHouseMrFujiIThinkThisMayHelpYourQuestText::
-	text "MR.FUJI: <PLAYER>."
+	text "MR.FUJI: <PLAYER>." ; "MR.FUJI: <PLAYER>."
 
 	para "Your #DEX quest"
 	line "may fail without"
@@ -51,7 +51,7 @@ _MrFujisHouseMrFujiReceivedPokeFluteText::
 	text "<PLAYER> received"
 	line "a @"
 	text_ram wStringBuffer ; MaxLength MaxItemNameLength
-	text "!@"
+	text "!@" ; "!@"
 	text_end
 
 _MrFujisHouseMrFujiPokeFluteExplanationText::

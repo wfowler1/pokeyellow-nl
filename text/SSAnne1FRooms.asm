@@ -1,105 +1,113 @@
 _SSAnne1FRoomsWigglytuffText::
-	text "WIGGLYTUFF: Puup"
-	line "pupuu!@"
+	text "WIGGLYTUFF: Puup" ; "WIGGLYTUFF: Puup"
+	line "pupuu!@" ; "pupuu!@"
 	text_end
 
 _SSAnne1FRoomsGentleman1BattleText::
-	text "I travel alone"
-	line "on my journeys!"
+	text "Ik reis alleen" ; "I travel alone"
+	line "op mijn tripjes!" ; "on my journeys!"
 
-	para "My #MON are my"
-	line "only friends!"
+	para "Mijn #MON zijn" ; "My #MON are my"
+	line "m'n enige" ; "only friends!"
+	cont "vrienden!"
 	done
 
 _SSAnne1FRoomsGentleman1EndBattleText::
-	text "My, my"
-	line "friends..."
+	text "Mijn, mijn" ; "My, my"
+	line "vrienden..." ; "friends..."
 	prompt
 
 _SSAnne1FRoomsGentleman1AfterBattleText::
-	text "You should be"
-	line "nice to friends!"
+	text "Je moet lief zijn" ; "You should be"
+	line "tegen vrienden!" ; "nice to friends!"
 	done
 
 _SSAnne1FRoomsGentleman2BattleText::
-	text "You pup! How dare"
-	line "you barge in!"
+	text "Zeg jong! Hoe durf" ; "You pup! How dare"
+	line "je binnen te" ; "you barge in!"
+	cont "vallen!"
 	done
 
 _SSAnne1FRoomsGentleman2EndBattleText::
-	text "Humph!"
-	line "You rude child!"
+	text "Pff!" ; "Humph!"
+	line "Onbeschoft kind!" ; "You rude child!"
 	prompt
 
 _SSAnne1FRoomsGentleman2AfterBattleText::
-	text "I wish to be left"
-	line "alone! Get out!"
+	text "Laat me alleen!" ; "I wish to be left"
+	line "Ga weg!" ; "alone! Get out!"
 	done
 
 _SSAnne1FRoomsYoungsterBattleText::
-	text "I love #MON!"
-	line "Do you?"
+	text "Ik hou van" ; "I love #MON!"
+	line "#MON! En jij?" ; "Do you?"
 	done
 
 _SSAnne1FRoomsYoungsterEndBattleText::
-	text "Wow! "
-	line "You're great!"
+	text "Wow! " ; "Wow! "
+	line "Je bent goed!" ; "You're great!"
 	prompt
 
 _SSAnne1FRoomsYoungsterAfterBattleText::
-	text "Let me be your"
-	line "friend, OK?"
+	text "Laten we vrienden" ; "Let me be your"
+	line "worden, oké?" ; "friend, OK?"
 
-	para "Then we can trade"
-	line "#MON!"
+	para "Dan kunnen we" ; "Then we can trade"
+	line "#MON ruilen!" ; "#MON!"
 	done
 
 _SSAnne1FRoomsCooltrainerFBattleText::
-	text "I collected these"
-	line "#MON from all"
-	cont "around the world!"
+	text "Ik heb deze" ; "I collected these"
+	line "#MON van over" ; "#MON from all"
+	cont "de hele wereld" ; "around the world!"
+	cont "verzameld!"
 	done
 
 _SSAnne1FRoomsCooltrainerFEndBattleText::
-	text "Oh no!"
-	line "I went around the"
-	cont "world for these!"
+	text "Oh nee!" ; "Oh no!"
+	line "Ik heb zo veel" ; "I went around the"
+	cont "voor ze gereisd!" ; "world for these!"
 	prompt
 
 _SSAnne1FRoomsCooltrainerFAfterBattleText::
-	text "You hurt my poor"
-	line "worldly #MON!"
+	text "Je hebt mijn" ; "You hurt my poor"
+	line "mooie wereldse" ; "worldly #MON!"
+	cont "#MON pijn"
+	cont "gedaan!"
 
-	para "I demand that you"
-	line "heal them at a"
-	cont "#MON CENTER!"
+	para "Ik eis dat je ze" ; "I demand that you"
+	line "beter maakt in 'n" ; "heal them at a"
+	cont "#MONCENTRUM!" ; "#MON CENTER!"
 	done
 
 _SSAnne1FRoomsGirl1Text::
-	text "Waiter, I would"
-	line "like a cherry pie"
-	cont "please!"
+	text "Ober, ik wil" ; "Waiter, I would"
+	line "graag een" ; "like a cherry pie"
+	cont "kersenvlaai!" ; "please!"
 	done
 
 _SSAnne1FRoomsMiddleAgedManText::
-	text "A cruise is so"
-	line "elegant yet cozy!"
+	text "Een cruise is zo" ; "A cruise is so"
+	line "elegant en toch" ; "elegant yet cozy!"
+	cont "gezellig!"
 	done
 
 _SSAnne1FRoomsLittleGirlText::
-	text "I always travel"
-	line "with WIGGLYTUFF!"
+	text "Ik reis altijd" ; "I always travel"
+	line "met WIGGLYTUFF!" ; "with WIGGLYTUFF!"
 	done
 
 _SSAnne1FRoomsGirl2Text::
-	text "We are cruising"
-	line "around the world."
+	text "We cruisen de" ; "We are cruising"
+	line "hele wereld rond." ; "around the world."
 	done
 
 _SSAnne1FRoomsGentleman3Text::
-	text "Ssh! I'm a GLOBAL"
-	line "POLICE agent!"
+	text "Sst! Ik ben een" ; "Ssh! I'm a GLOBAL"
+	line "agent van de" ; "POLICE agent!"
+	cont "INTERNATIONALE"
+	cont "POLITIE!"
 
-	para "I'm on the trail"
-	line "of TEAM ROCKET!"
+	para "Ik ben TEAM ROCKET" ; "I'm on the trail"
+	line "op het spoor!" ; "of TEAM ROCKET!"
 	done

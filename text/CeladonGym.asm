@@ -26,7 +26,7 @@ _CeladonGymErikaPreBattleText::
 	done
 
 _CeladonGymErikaReceivedRainbowBadgeText::
-	text "Oh!"
+	text "Oh!" ; "Oh!"
 	line "I concede defeat."
 
 	para "You are remarkably"
@@ -65,14 +65,14 @@ _CeladonGymReceivedTM21Text::
 	text "<PLAYER> received"
 	line "@"
 	text_ram wStringBuffer ; MaxLength MaxItemNameLength
-	text "!@"
+	text "!@" ; "!@"
 	text_end
 
 _TM21ExplanationText::
 	text_start
 
 	para "TM21 contains"
-	line "MEGA DRAIN."
+	line "MEGA DRAIN." ; "MEGA DRAIN."
 
 	para "Half the damage"
 	line "it inflicts is"
@@ -168,7 +168,7 @@ _CeladonGymBattleText6::
 	done
 
 _CeladonGymEndBattleText6::
-	text "Oh!"
+	text "Oh!" ; "Oh!"
 	line "You!"
 	prompt
 
@@ -186,7 +186,7 @@ _CeladonGymBattleText7::
 	done
 
 _CeladonGymEndBattleText7::
-	text "Oh!"
+	text "Oh!" ; "Oh!"
 	line "Splendid!"
 	prompt
 
@@ -199,7 +199,7 @@ _CeladonGymAfterBattleText7::
 
 _CeladonGymBattleText8::
 	text "Welcome to"
-	line "CELADON GYM!"
+	line "CELADON GYM!" ; "CELADON GYM!"
 
 	para "You better not"
 	line "underestimate"
@@ -207,7 +207,7 @@ _CeladonGymBattleText8::
 	done
 
 _CeladonGymEndBattleText8::
-	text "Oh!"
+	text "Oh!" ; "Oh!"
 	line "Beaten!"
 	prompt
 
