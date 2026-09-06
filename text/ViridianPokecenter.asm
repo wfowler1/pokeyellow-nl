@@ -1,16 +1,18 @@
 _ViridianPokecenterGentlemanText::
-	text "You can use that"
-	line "PC in the corner."
+	text "Je kan die PC" ; "You can use that"
+	line "in de hoek" ; "PC in the corner."
+	cont "gebruiken."
 
-	para "The receptionist"
-	line "told me. So kind!"
+	para "De receptionist" ; "The receptionist"
+	line "vertelde me dat." ; "told me. So kind!"
+	cont "Zo aardig!"
 	done
 
 _ViridianPokecenterCooltrainerMText::
-	text "There's a #MON"
-	line "CENTER in every"
-	cont "town ahead."
+	text "Er is een #MON" ; "There's a #MON"
+	line "CENTRUM in elke" ; "CENTER in every"
+	cont "plaats verderop." ; "town ahead."
 
-	para "They don't charge"
-	line "any money either!"
+	para "Ze vragen ook" ; "They don't charge"
+	line "geen geld ervoor!" ; "any money either!"
 	done

@@ -45,7 +45,7 @@ _PewterGymBrockWaitTakeThisText::
 
 _PewterGymReceivedTM34Text::
 	text "<PLAYER> received"
-	line "TM34!@"
+	line "TM34!@" ; "TM34!@"
 	text_end
 
 _TM34ExplanationText::
@@ -93,8 +93,8 @@ _PewterGymBrockBoulderBadgeInfoText::
 	text_start
 
 	para "That's an official"
-	line "#MON LEAGUE"
-	cont "BADGE!"
+	line "#MON LEAGUE" ; "#MON LEAGUE"
+	cont "BADGE!" ; "BADGE!"
 
 	para "Its bearer's"
 	line "#MON become"

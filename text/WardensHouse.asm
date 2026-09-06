@@ -44,7 +44,7 @@ _WardensHouseWardenThanksText::
 	prompt
 
 _WardensHouseWardenReceivedHM04Text::
-	text "<PLAYER> received"
+	text "<PLAYER> ontving" ; "<PLAYER> received"
 	line "@"
 	text_ram wStringBuffer ; MaxLength MaxItemNameLength
 	text "!@"

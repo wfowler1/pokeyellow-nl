@@ -35,7 +35,7 @@ _FightingDojoKarateMasterIWillGiveYouAPokemonText::
 	done
 
 _FightingDojoKarateMasterStayAndTrainWithUsText::
-	text "Ho!"
+	text "Ho!" ; "Ho!"
 
 	para "Stay and train at"
 	line "Karate with us!"
@@ -115,13 +115,13 @@ _FightingDojoBlackbelt4AfterBattleText::
 _FightingDojoHitmonleePokeBallText::
 	text "You want the"
 	line "hard-kicking"
-	cont "HITMONLEE?"
+	cont "HITMONLEE?" ; "HITMONLEE?"
 	done
 
 _FightingDojoHitmonchanPokeBallText::
 	text "You want the"
 	line "piston-punching"
-	cont "HITMONCHAN?"
+	cont "HITMONCHAN?" ; "HITMONCHAN?"
 	done
 
 _FightingDojoBetterNotGetGreedyText::

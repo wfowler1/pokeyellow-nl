@@ -1,19 +1,19 @@
 _MrPsychicsHouseMrPsychicYouWantedThisText::
-	text "...Wait! Don't"
-	line "say a word!"
+	text "...Wacht!" ; "...Wait! Don't"
+	line "Niets zeggen!" ; "say a word!"
 
-	para "You wanted this!"
+	para "Jij wilde dit!" ; "You wanted this!"
 	prompt
 
 _MrPsychicsHouseMrPsychicReceivedTM29Text::
 	text "<PLAYER> received"
 	line "@"
 	text_ram wStringBuffer ; MaxLength MaxItemNameLength
-	text "!@"
+	text "!@" ; "!@"
 	text_end
 
 _MrPsychicsHouseMrPsychicTM29ExplanationText::
-	text "TM29 is PSYCHIC!"
+	text "TM29 is PSYCHIC!" ; "TM29 is PSYCHIC!"
 
 	para "It can lower the"
 	line "target's SPECIAL"

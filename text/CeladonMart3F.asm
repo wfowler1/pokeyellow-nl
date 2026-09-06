@@ -1,99 +1,99 @@
 _CeladonMart3FGameBoyKid1Text::
-	text "Captured #MON"
-	line "are registered"
-	cont "with an ID No."
-	cont "and OT, the name"
-	cont "of the Original"
-	cont "Trainer that"
-	cont "caught it!"
+	text "Gevangen #MON" ; "Captured #MON"
+	line "krijgen een ID" ; "are registered"
+	cont "Nr. en OT, de" ; "with an ID No."
+	cont "naam van de Ori-" ; "and OT, the name"
+	cont "ginele Trainer" ; "of the Original"
+	cont "die het heeft" ; "Trainer that"
+	cont "gevangen!" ; "caught it!"
 	done
 
 _CeladonMart3FGameBoyKid2Text::
-	text "All right!"
+	text "Oké!" ; "All right!"
 
-	para "My buddy's going"
-	line "to trade me his"
-	cont "KANGASKHAN for my"
-	cont "GRAVELER!"
+	para "Mijn maat gaat" ; "My buddy's going"
+	line "zijn KANGASHKAN" ; "to trade me his"
+	cont "ruilen voor mijn" ; "KANGASKHAN for my"
+	cont "GRAVELER!" ; "GRAVELER!"
 	done
 
 _CeladonMart3FGameBoyKid3Text::
-	text "Come on GRAVELER!"
+	text "Kom op GRAVELER!" ; "Come on GRAVELER!"
 
-	para "I love GRAVELER!"
-	line "I collect them!"
+	para "Ik hou van GRAVE-" ; "I love GRAVELER!"
+	line "LER verzamelen!" ; "I collect them!"
 
-	para "Huh?"
+	para "Huh?" ; "Huh?"
 
-	para "GRAVELER turned"
-	line "into a different"
-	cont "#MON!"
+	para "GRAVELER verander-" ; "GRAVELER turned"
+	line "de in een andere" ; "into a different"
+	cont "#MON!" ; "#MON!"
 	done
 
 _CeladonMart3FLittleBoyText::
-	text "You can identify"
-	line "#MON you got"
-	cont "in trades by"
-	cont "their ID Numbers!"
+	text "Je kunt geruilde" ; "You can identify"
+	line "#MON identifi-" ; "#MON you got"
+	cont "ceren met hun" ; "in trades by"
+	cont "ID-nummers!" ; "their ID Numbers!"
 	done
 
 _CeladonMart3FSNESText::
-	text "It's an SNES!"
+	text "Het is een SNES!" ; "It's an SNES!"
 	done
 
 _CeladonMart3FRPGText::
-	text "An RPG! There's"
-	line "no time for that!"
+	text "Een RPG! Daar heb" ; "An RPG! There's"
+	line "je geen tijd voor!" ; "no time for that!"
 	done
 
 _CeladonMart3FSportsGameText::
-	text "A sports game!"
-	line "Dad'll like that!"
+	text "Een sportspel!" ; "A sports game!"
+	line "Leuk voor pap!" ; "Dad'll like that!"
 	done
 
 _CeladonMart3FPuzzleGameText::
-	text "A puzzle game!"
-	line "Looks addictive!"
+	text "Een puzzelspel!" ; "A puzzle game!"
+	line "Lijkt verslavend!" ; "Looks addictive!"
 	done
 
 _CeladonMart3FFightingGameText::
-	text "A fighting game!"
-	line "Looks tough!"
+	text "Een vechtspel!" ; "A fighting game!"
+	line "Lijkt lastig!" ; "Looks tough!"
 	done
 
 _CeladonMart3FCurrentFloorSignText::
-	text "3F: TV GAME SHOP"
+	text "2V: TV-GAMESHOP" ; "3F: TV GAME SHOP"
 	done
 
 _CeladonMart3FPokemonPosterText::
-	text "Red and Blue!"
-	line "Both are #MON!"
+	text "Rood en Blauw!" ; "Red and Blue!"
+	line "Allebei #MON!" ; "Both are #MON!"
 	done
 
 _CeladonMart3FClerkTM18PreReceiveText::
-	text "Oh, hi! I finally"
-	line "finished #MON!"
+	text "Oh, hoi! #MON" ; "Oh, hi! I finally"
+	line "is eindelijk af!" ; "finished #MON!"
 
-	para "Not done yet?"
-	line "This might be"
-	cont "useful!"
+	para "Nog niet klaar?" ; "Not done yet?"
+	line "Dit kan van pas" ; "This might be"
+	cont "komen!" ; "useful!"
 	prompt
 
 _CeladonMart3FClerkReceivedTM18Text::
-	text "<PLAYER> received"
+	text "<PLAYER> ontving" ; "<PLAYER> received"
 	line "@"
 	text_ram wStringBuffer ; MaxLength MaxItemNameLength
-	text "!@"
+	text "!@" ; "!@"
 	text_end
 
 _CeladonMart3FClerkTM18ExplanationText::
-	text "TM18 is COUNTER!"
-	line "Not like the one"
-	cont "I'm leaning on,"
-	cont "mind you!"
+	text "TM18 is TEGENAAN-" ; "TM18 is COUNTER!"
+	line "VAL! Niet te ver-" ; "Not like the one"
+	cont "warren met tegen-" ; "I'm leaning on,"
+	cont "aan leunen!" ; "mind you!"
 	done
 
 _CeladonMart3FClerkTM18NoRoomText::
-	text "Your pack is full"
-	line "of items!"
+	text "Je tas zit vol" ; "Your pack is full"
+	line "met spullen!" ; "of items!"
 	done

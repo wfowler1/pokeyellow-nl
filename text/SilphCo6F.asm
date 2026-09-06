@@ -16,7 +16,7 @@ _SilphCo6FSilphWorkerMHelpMePleaseText::
 
 _SilphCo6FSilphWorkerMWeGotEngagedText::
 	text "We got engaged!"
-	line "Heheh!"
+	line "Heheh!" ; "Heheh!"
 	done
 
 _SilphCo6FSilphWorkerF1SuchACowardText::
@@ -73,7 +73,7 @@ _SilphCo6FRocket1AfterBattleText::
 
 _SilphCo6FScientistBattleText::
 	text "That rotten"
-	line "PRESIDENT!"
+	line "PRESIDENT!" ; "PRESIDENT!"
 
 	para "He shouldn't have"
 	line "sent me to the"

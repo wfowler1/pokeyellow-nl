@@ -45,7 +45,7 @@ _CeladonDinerGymGuideReceivedCoinCaseText::
 	text "<PLAYER> received"
 	line "a @"
 	text_ram wStringBuffer ; MaxLength MaxItemNameLength
-	text "!@"
+	text "!@" ; "!@"
 	text_end
 
 _CeladonDinerGymGuideCoinCaseNoRoomText::

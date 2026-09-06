@@ -1,6 +1,6 @@
 _PokemonTower4FChanneler1BattleText::
 	text "GHOST! No!"
-	line "Kwaaah!"
+	line "Kwaaah!" ; "Kwaaah!"
 	done
 
 _PokemonTower4FChanneler1EndBattleText::
@@ -29,12 +29,12 @@ _PokemonTower4FChanneler2AfterBattleText::
 	done
 
 _PokemonTower4FChanneler3BattleText::
-	text "Huhuhu..."
+	text "Huhuhu..." ; "Huhuhu..."
 	line "Beat me not!"
 	done
 
 _PokemonTower4FChanneler3EndBattleText::
-	text "Huh?"
+	text "Huh?" ; "Huh?"
 	line "Who? What?"
 	prompt
 

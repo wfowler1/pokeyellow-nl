@@ -149,6 +149,6 @@ _OaksAideNoRoomText::
 	done
 
 _NurseChanseyText::
-	text "CHANSEY: Chaaan"
-	line "sey!"
+	text "CHANSEY: Chaaan" ; "CHANSEY: Chaaan"
+	line "sey!" ; "sey!"
 	done

@@ -1,31 +1,31 @@
 _CeladonMart1FReceptionistText::
-	text "Hello! Welcome to"
-	line "CELADON DEPT."
-	cont "STORE."
+	text "Hallo! Welkom bij" ; "Hello! Welcome to"
+	line "het CELADON-" ; "CELADON DEPT."
+	cont "WARENHUIS." ; "STORE."
 
-	para "The board on the"
-	line "right describes"
-	cont "the store layout."
+	para "Op het bord rechts" ; "The board on the"
+	line "vind je een" ; "right describes"
+	cont "plattegrond." ; "the store layout."
 	done
 
 _CeladonMart1FDirectorySignText::
-	text "1F: SERVICE"
-	line "    COUNTER"
+	text "BG: SERVICE-" ; "1F: SERVICE"
+	line "    BALIE" ; "    COUNTER"
 
-	para "2F: TRAINER'S"
-	line "    MARKET"
+	para "1V: TRAINER-" ; "2F: TRAINER'S"
+	line "    MARKT" ; "    MARKET"
 
-	para "3F: TV GAME SHOP"
+	para "2V: TV-GAMESHOP" ; "3F: TV GAME SHOP"
 
-	para "4F: WISEMAN GIFTS"
+	para "3V: CADEAUWINKEL" ; "4F: WISEMAN GIFTS"
 
-	para "5F: DRUG STORE"
+	para "4V: APOTHEEK" ; "5F: DRUG STORE"
 
-	para "ROOFTOP SQUARE:"
-	line "VENDING MACHINES"
+	para "DAKTERRAS:" ; "ROOFTOP SQUARE:"
+	line "DRANKAUTOMATEN" ; "VENDING MACHINES"
 	done
 
 _CeladonMart1FCurrentFloorSignText::
-	text "1F: SERVICE"
-	line "    COUNTER"
+	text "1F: SERVICE-" ; "1F: SERVICE"
+	line "    BALIE" ; "    COUNTER"
 	done

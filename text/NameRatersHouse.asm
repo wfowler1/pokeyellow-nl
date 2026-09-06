@@ -36,7 +36,7 @@ _NameRatersHouseNameRaterPokemonHasBeenRenamedText::
 	line "has been renamed"
 	cont "@"
 	text_ram wBuffer ; MaxLength MaxPokemonNameLength
-	text "!"
+	text "!" ; "!"
 
 	para "That's a better"
 	line "name than before!"
@@ -56,5 +56,5 @@ _NameRatersHouseNameRaterATrulyImpeccableNameText::
 	para "Take good care of"
 	line "@"
 	text_ram wNameBuffer ; MaxLength MaxPokemonNameLength
-	text "!"
+	text "!" ; "!"
 	done

@@ -1,5 +1,5 @@
 _SilphCo5FSilphWorkerMThatsYouRightText::
-	text "TEAM ROCKET is"
+	text "TEAM ROCKET is" ; "TEAM ROCKET is"
 	line "in an uproar over"
 	cont "some intruder."
 	cont "That's you right?"
@@ -51,7 +51,7 @@ _SilphCo5FRockerBattleText::
 	done
 
 _SilphCo5FRockerEndBattleText::
-	text "Oh"
+	text "Oh" ; "Oh"
 	line "goodness!"
 	prompt
 
@@ -82,10 +82,10 @@ _SilphCo5FPokemonReport1Text::
 	text "It's a #MON"
 	line "REPORT!"
 
-	para "#MON LAB"
+	para "#MON LAB" ; "#MON LAB"
 	line "created PORYGON,"
 	cont "the first virtual"
-	cont "reality #MON."
+	cont "reality #MON." ; "reality #MON."
 	done
 
 _SilphCo5FPokemonReport2Text::

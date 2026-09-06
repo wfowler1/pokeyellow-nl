@@ -350,10 +350,10 @@ CopyDebugName:
 	jp CopyData
 
 DebugNewGamePlayerName:
-	db "NINTEN@"
+	db "NINTEN@" ; "NINTEN@"
 
 DebugNewGameRivalName:
-	db "SONY@"
+	db "SONY@" ; "SONY@"
 
 IncrementResetCounter:
 	ld hl, wTitleScreenScene + 2

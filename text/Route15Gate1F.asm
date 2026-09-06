@@ -1,7 +1,7 @@
 _Route15Gate1FGuardText::
-	text "Are you working"
-	line "on a #DEX?"
+	text "Werk je aan" ; "Are you working"
+	line "een #DEX?" ; "on a #DEX?"
 
-	para "PROF.OAK's AIDE"
-	line "came by here."
+	para "PROF.OAK's HULP" ; "PROF.OAK's AIDE"
+	line "kwam hier langs." ; "came by here."
 	done

@@ -1,78 +1,79 @@
 _CinnabarLabFossilRoomScientist1Text::
-	text "Hiya!"
+	text "Hoihoi!" ; "Hiya!"
 
-	para "I am important"
-	line "doctor!"
+	para "Ik ben belang-" ; "I am important"
+	line "rijke dokter!" ; "doctor!"
 
-	para "I study here rare"
-	line "#MON fossils!"
+	para "Ik onderzoek hier" ; "I study here rare"
+	line "zeldzame #MON-" ; "#MON fossils!"
+	cont "fossielen!"
 
-	para "You! Have you a"
-	line "fossil for me?"
+	para "Jij! Heb je een" ; "You! Have you a"
+	line "fossiel voor mij?" ; "fossil for me?"
 	prompt
 
 _CinnabarLabFossilRoomScientist1NoFossilsText::
-	text "No! Is too bad!"
+	text "Nee! Is jammer!" ; "No! Is too bad!"
 	done
 
 _CinnabarLabFossilRoomScientist1GoForAWalkText::
-	text "I take a little"
-	line "time!"
+	text "Ik neem een" ; "I take a little"
+	line "beetje tijd!" ; "time!"
 
-	para "You go for walk a"
-	line "little while!"
+	para "Jij gaat wandelen" ; "You go for walk a"
+	line "voor tijdje!" ; "little while!"
 	done
 
 _CinnabarLabFossilRoomScientist1FossilIsBackToLifeText::
-	text "Where were you?"
+	text "Waar was je?" ; "Where were you?"
 
-	para "Your fossil is"
-	line "back to life!"
+	para "Je fossiel is" ; "Your fossil is"
+	line "weer tot leven!" ; "back to life!"
 
-	para "It was @"
+	para "Het was @" ; "It was @"
 	text_ram wStringBuffer ; MaxLength MaxPokemonNameLength
 	text_start
-	line "like I think!"
+	line "zoals ik dacht!" ; "like I think!"
 	prompt
 
 _CinnabarLabFossilRoomScientist1SeesFossilText::
-	text "Oh! That is"
+	text "Oh! Dat is" ; "Oh! That is"
 	line "@"
 	text_ram wNameBuffer ; MaxLength MaxItemNameLength
-	text "!"
+	text "!" ; "!"
 
-	para "It is fossil of"
+	para "Het is fossiel van" ; "It is fossil of"
 	line "@"
 	text_ram wStringBuffer ; MaxLength MaxPokemonNameLength
-	text ", a"
-	cont "#MON that is"
-	cont "already extinct!"
+	text ", een" ; ", a"
+	cont "#MON die al" ; "#MON that is"
+	cont "uitgestorven is!" ; "already extinct!"
 
-	para "My Resurrection"
-	line "Machine will make"
-	cont "that #MON live"
-	cont "again!"
+	para "Mijn Herrijzings-" ; "My Resurrection"
+	line "machine zal die" ; "Machine will make"
+	cont "#MON weer tot" ; "that #MON live"
+	cont "leven brengen!" ; "again!"
 	done
 
 _CinnabarLabFossilRoomScientist1TakesFossilText::
-	text "So! You hurry and"
-	line "give me that!"
+	text "Dus! Schiet op" ; "So! You hurry and"
+	line "en geef me dat!" ; "give me that!"
 
-	para "<PLAYER> handed"
-	line "over @"
+	para "<PLAYER> gaf" ; "<PLAYER> handed"
+	line "@" ; "over @"
 	text_ram wNameBuffer ; MaxLength MaxItemNameLength
-	text "!"
+	text "!" ; "!"
 	prompt
 
 _CinnabarLabFossilRoomScientist1GoForAWalkText2::
-	text "I take a little"
-	line "time!"
+	text "Ik heb een" ; "I take a little"
+	line "tijdje nodig!" ; "time!"
 
-	para "You go for walk a"
-	line "little while!"
+	para "Ga jij een tijdje" ; "You go for walk a"
+	line "wandelen!" ; "little while!"
 	done
 
 _CinnabarLabFossilRoomScientist1ComeAgainText::
-	text "Aiyah! You come"
-	line "again!"
+	text "Ai! Kom" ; "Aiyah! You come"
+	line "weer langs!" ; "again!"
 	done

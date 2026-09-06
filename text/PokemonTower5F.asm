@@ -35,7 +35,7 @@ _PokemonTower5FChanneler3AfterBattleText::
 	done
 
 _PokemonTower5FChanneler4BattleText::
-	text "Zombies!"
+	text "Zombies!" ; "Zombies!"
 	done
 
 _PokemonTower5FChanneler4EndBattleText::
@@ -48,8 +48,8 @@ _PokemonTower5FChanneler4AfterBattleText::
 	done
 
 _PokemonTower5FChanneler5BattleText::
-	text "Urgah..."
-	line "Urff...."
+	text "Urgah..." ; "Urgah..."
+	line "Urff...." ; "Urff...."
 	done
 
 _PokemonTower5FChanneler5EndBattleText::

@@ -1,25 +1,28 @@
 _PewterNidoranHouseNidoranText::
-	text "NIDORAN: Bowbow!@"
+	text "NIDORAN: Bowbow!@" ; "NIDORAN: Bowbow!@"
 	text_end
 
 _PewterNidoranHouseLittleBoyText::
-	text "NIDORAN sit!"
+	text "NIDORAN zit!" ; "NIDORAN sit!"
 	done
 
 _PewterNidoranHouseMiddleAgedManText::
-	text "Our #MON's an"
-	line "outsider, so it's"
-	cont "hard to handle."
+	text "Onze #MON is 'n" ; "Our #MON's an"
+	line "buitenbeentje," ; "outsider, so it's"
+	cont "dus het is lastig" ; "hard to handle."
+	cont "op te voeden."
 
-	para "An outsider is a"
-	line "#MON that you"
-	cont "get in a trade."
+	para "Een buitenbeentje" ; "An outsider is a"
+	line "is een #MON" ; "#MON that you"
+	cont "die je geruild" ; "get in a trade."
+	cont "hebt."
 
-	para "It grows fast, but"
-	line "it may ignore an"
-	cont "unskilled trainer"
-	cont "in battle!"
+	para "Het groeit snel," ; "It grows fast, but"
+	line "maar kan een on-" ; "it may ignore an"
+	cont "ervaren trainer" ; "unskilled trainer"
+	cont "in een gevecht" ; "in battle!"
+	cont "negeren!"
 
-	para "If only we had"
-	line "some BADGEs..."
+	para "Hadden we maar" ; "If only we had"
+	line "wat BADGEs..." ; "some BADGEs..."
 	done

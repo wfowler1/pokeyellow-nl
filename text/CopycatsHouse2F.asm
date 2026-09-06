@@ -5,7 +5,7 @@ _CopycatsHouse2FCopycatDoYouLikePokemonText::
 	para "<PLAYER>: Uh no, I"
 	line "just asked you."
 
-	para "<PLAYER>: Huh?"
+	para "<PLAYER>: Huh?" ; "<PLAYER>: Huh?"
 	line "You're strange!"
 
 	para "COPYCAT: Hmm?"
@@ -30,7 +30,7 @@ _CopycatsHouse2FCopycatReceivedTM31Text::
 	text "<PLAYER> received"
 	line "@"
 	text_ram wStringBuffer ; MaxLength MaxItemNameLength
-	text "!@"
+	text "!@" ; "!@"
 	text_end
 
 _CopycatsHouse2FCopycatTM31Explanation1Text::
@@ -47,7 +47,7 @@ _CopycatsHouse2FCopycatTM31Explanation2Text::
 	text "<PLAYER>: Hi!"
 	line "Thanks for TM31!"
 
-	para "<PLAYER>: Pardon?"
+	para "<PLAYER>: Pardon?" ; "<PLAYER>: Pardon?"
 
 	para "<PLAYER>: Is it"
 	line "that fun to mimic"
@@ -63,7 +63,7 @@ _CopycatsHouse2FCopycatTM31NoRoomText::
 	text_end
 
 _CopycatsHouse2FDoduoText::
-	text "DODUO: Giiih!"
+	text "DODUO: Giiih!" ; "DODUO: Giiih!"
 
 	para "MIRROR MIRROR ON"
 	line "THE WALL, WHO IS"
@@ -84,7 +84,7 @@ _CopycatsHouse2FSNESText::
 	done
 
 _CopycatsHouse2FPCMySecretsText::
-	text "..."
+	text "..." ; "..."
 
 	para "My Secrets!"
 
@@ -92,7 +92,7 @@ _CopycatsHouse2FPCMySecretsText::
 	line "Hobby: Collecting"
 	cont "dolls!"
 	cont "Favorite #MON:"
-	cont "CLEFAIRY!"
+	cont "CLEFAIRY!" ; "CLEFAIRY!"
 	done
 
 _CopycatsHouse2FPCCantSeeText::

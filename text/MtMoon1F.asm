@@ -5,7 +5,7 @@ _MtMoon1FHikerBattleText::
 	done
 
 _MtMoon1FHikerEndBattleText::
-	text "Wow!"
+	text "Wow!" ; "Wow!"
 	line "Shocked again!"
 	prompt
 
@@ -98,7 +98,7 @@ _MtMoon1FYoungster2AfterBattleText::
 _MtMoon1FYoungster3BattleText::
 	text "Go through this"
 	line "cave to get to"
-	cont "CERULEAN CITY!"
+	cont "CERULEAN CITY!" ; "CERULEAN CITY!"
 	done
 
 _MtMoon1FYoungster3EndBattleText::

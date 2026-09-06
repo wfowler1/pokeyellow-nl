@@ -31,7 +31,7 @@ _RockTunnelB1FHiker1AfterBattleText::
 
 _RockTunnelB1FSuperNerd1BattleText::
 	text "You have a"
-	line "#DEX?"
+	line "#DEX?" ; "#DEX?"
 	cont "I want one too!"
 	done
 
@@ -87,7 +87,7 @@ _RockTunnelB1FCooltrainerF2BattleText::
 	done
 
 _RockTunnelB1FCooltrainerF2EndBattleText::
-	text "Oh!"
+	text "Oh!" ; "Oh!"
 	line "I lost!"
 	prompt
 
