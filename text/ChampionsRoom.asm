@@ -31,7 +31,7 @@ _ChampionsRoomRivalIntroText::
 	cont "betekent?" ; "means?"
 
 	para "Dat zal ik je" ; "I'll tell you!"
-	cont "vertellen!"
+	line "vertellen!"
 
 	para "Ik ben de" ; "I am the most"
 	line "sterkste trainer" ; "powerful trainer"

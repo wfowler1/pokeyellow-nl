@@ -64,5 +64,5 @@ _CinnabarLabMetronomeRoomPCText::
 
 _CinnabarLabMetronomeRoomAmberPipeText::
 	text "Een barnstenen" ; "An amber pipe!"
-	cont "pijp!"
+	line "pijp!"
 	done

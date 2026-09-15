@@ -39,8 +39,8 @@ _ChooseABoxText::
 
 _EvolvedText::
 	text_ram wStringBuffer ; MaxLength MaxPokemonNameLength
-	text " " ; " evolved"
-	cont "evolueerde"
+	text_start
+	line "evolueerde" ; " evolved"
 	done
 
 _IntoText::

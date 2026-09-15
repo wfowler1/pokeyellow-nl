@@ -11,7 +11,7 @@ _SSAnneBowSailor1Text::
 
 _SSAnneBowCooltrainerMText::
 	text "Urf. Ik voel me" ; "Urf. I feel ill."
-	cont "misselijk."
+	line "misselijk."
 
 	para "Ik ging naar" ; "I stepped out to"
 	line "buiten voor wat" ; "get some air."

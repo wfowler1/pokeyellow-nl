@@ -14,8 +14,8 @@ _PewterSpeechHouseYoungsterText::
 	line "makkelijker om" ; "easier to catch"
 	cont "te vangen als ze" ; "when they are"
 	cont "gewond of in" ; "hurt or asleep!"
-
-	cont "slaap zijn!" ; "But, it's not a"
-	para "Maar het is geen"
-	cont "garantie!"
+	cont "slaap zijn!"
+	
+	para "Maar het is geen" ; "But, it's not a"
+	line "garantie!" ; "sure thing!"
 	done

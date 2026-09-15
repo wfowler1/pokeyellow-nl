@@ -30,7 +30,7 @@ _CeladonMartRoofLittleGirlTM13ExplanationText::
 	line "IJSSTRAAL!" ; "ICE BEAM!"
 
 	para "Dit kan soms het" ; "It can freeze the"
-	line "doelwit bevriezen!" ; "target sometimes!@"
+	line "doelwit bevriezen!@" ; "target sometimes!@"
 	text_end
 
 _CeladonMartRoofLittleGirlYaySodaPopText::
