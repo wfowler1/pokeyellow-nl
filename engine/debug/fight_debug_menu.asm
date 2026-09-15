@@ -844,13 +844,13 @@ endr
 	jp .MonsNumber
 
 .PlayerNameText:
-	db   "けんしろう@" ; "KENSHIROU@"
+	db   "KENSHIROU@" ; "けんしろう@" ; "KENSHIROU@"
 
 .FightTestText:
-	db   "テスト ファイト@" ; "FIGHT TEST@"
+	db   "FIGHT TEST@" ; "テスト ファイト@" ; "FIGHT TEST@"
 
 .NumNameLevelText:
-	db   "№．  なまえ    レべル@" ; "№．  NAME  LEVEL@"
+	db   "№．  NAME  LEVEL@" ; "№．  なまえ    レべル@" ; "№．  NAME  LEVEL@"
 
 .LayoutText:
 	db   "１．▶０００ ーーーーー  ０００"
@@ -866,13 +866,13 @@ endr
 	db   "ーーーーー@"
 
 .WildPokemonText :
-	db   "ワイルドモンスター@" ; "WILD #MON@"
+	db   "WILD #MON@" ; "ワイルドモンスター@" ; "WILD #MON@"
 
 .TrainerText:
-	db   "ディーラー    @" ; "TRAINER      @"
+	db   "TRAINER      @" ; "ディーラー    @" ; "TRAINER      @"
 
 .EnemyNumNameLevelText:
-	db   "№．  なまえ        レべル" ; "№．  NAME     LABEL"
+	db   "№．  NAME     LABEL" ; "№．  なまえ        レべル" ; "№．  NAME     LABEL"
 	next ""
 .EnemyLayoutText:
 	db   "０００ ーーーーーーーーーー ０００@"
