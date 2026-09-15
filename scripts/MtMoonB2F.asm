@@ -107,7 +107,7 @@ MtMoonB2FScript_49d28:
 
 MtMoonB2FDefeatedSuperNerdScript:
 	ld a, [wIsInBattle]
-	cp $ff
+	cp LOST_BATTLE
 	jp z, MtMoonB2FResetScripts
 	call UpdateSprites
 	call Delay3
@@ -348,7 +348,7 @@ MtMoonB2FScript13:
 	ld a, PAD_BUTTONS | PAD_CTRL_PAD
 	ld [wJoyIgnore], a
 	ld a, [wIsInBattle]
-	cp $ff
+	cp LOST_BATTLE
 	jp z, MtMoonB2FResetScripts
 	ld a, $2
 	ld [wSprite02StateData1MovementStatus], a

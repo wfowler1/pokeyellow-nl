@@ -464,7 +464,7 @@ OaksLabPlayerWatchRivalExitScript:
 .turnPlayerDown
 	cp $4
 	ret nz
-	xor a ; ld a, SPRITE_FACING_DOWN
+	xor a ; SPRITE_FACING_DOWN
 .done
 	ld [wSpritePlayerStateData1FacingDirection], a
 	ret
@@ -825,6 +825,8 @@ OaksLabOak1Text:
 	ld b, POKE_BALL
 	call IsItemInBag
 	jr nz, .come_see_me_sometimes
+; This wPokedexOwned check is redundant, since the same check was performed
+; earlier to reach this .check_for_poke_balls block in the first place.
 	ld hl, wPokedexOwned
 	ld b, wPokedexOwnedEnd - wPokedexOwned
 	call CountSetBits
