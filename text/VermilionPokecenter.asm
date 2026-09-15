@@ -1,19 +1,21 @@
 _VermilionPokecenterFishingGuruText::
-	text "Even if they are"
-	line "the same level,"
-	cont "#MON can have"
-	cont "very different"
-	cont "abilities."
+	text "Zelfs als ze" ; "Even if they are"
+	line "hetzelfde level" ; "the same level,"
+	cont "hebben, kunnen" ; "#MON can have"
+	cont "#MON andere" ; "very different"
+	cont "vaardigheden" ; "abilities."
+	cont "hebben."
 
-	para "A #MON raised"
-	line "by a trainer is"
-	cont "stronger than one"
-	cont "in the wild."
+	para "Een #MON die" ; "A #MON raised"
+	line "door een trainer" ; "by a trainer is"
+	cont "is opgevoed is" ; "stronger than one"
+	cont "sterker dan" ; "in the wild."
+	cont "een in het wild."
 	done
 
 _VermilionPokecenterSailorText::
-	text "My #MON was"
-	line "poisoned! It"
-	cont "fainted while we"
-	cont "were walking!"
+	text "Mijn #MON was" ; "My #MON was"
+	line "vergiftigd! Het" ; "poisoned! It"
+	cont "viel flauw toen" ; "fainted while we"
+	cont "we rondliepen!" ; "were walking!"
 	done

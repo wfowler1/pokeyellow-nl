@@ -1,41 +1,45 @@
 _VictoryRoad3FCooltrainerM1BattleText::
-	text "I heard rumors of"
-	line "a child prodigy!"
+	text "Ik heb geruchten" ; "I heard rumors of"
+	line "over een wonder-" ; "a child prodigy!"
+	cont "kind gehoord!"
 	done
 
 _VictoryRoad3FCooltrainerM1EndBattleText::
-	text "The"
-	line "rumors were true!"
+	text "De geruchten" ; "The"
+	line "waren waar!" ; "rumors were true!"
 	prompt
 
 _VictoryRoad3FCooltrainerM1AfterBattleText::
-	text "You beat GIOVANNI"
-	line "of TEAM ROCKET?"
+	text "Je hebt GIOVANNI" ; "You beat GIOVANNI"
+	line "van TEAM ROCKET" ; "of TEAM ROCKET?"
+	cont "verslagen?"
 	done
 
 _VictoryRoad3FCooltrainerF1BattleText::
-	text "I'll show you just"
-	line "how good you are!"
+	text "Ik zal je eens la-" ; "I'll show you just"
+	line "ten zien hoe goed" ; "how good you are!"
+	cont "je bent!"
 	done
 
 _VictoryRoad3FCooltrainerF1EndBattleText::
-	text "I'm"
-	line "furious!"
+	text "Ik ben" ; "I'm"
+	line "woedend!" ; "furious!"
 	prompt
 
 _VictoryRoad3FCooltrainerF1AfterBattleText::
-	text "You showed me just"
-	line "how good I was!"
+	text "Je hebt mij eens" ; "You showed me just"
+	line "laten zien hoe" ; "how good I was!"
+	cont "goed ik was!"
 	done
 
 _VictoryRoad3FCooltrainerM2BattleText::
-	text "Only the chosen"
-	line "can pass here!"
+	text "Alleen de uitver-" ; "Only the chosen"
+	line "korenen passeren!" ; "can pass here!"
 	done
 
 _VictoryRoad3FCooltrainerM2EndBattleText::
-	text "I"
-	line "don't believe it!"
+	text "Ik kan het" ; "I"
+	line "niet geloven!" ; "don't believe it!"
 	prompt
 
 _VictoryRoad3FCooltrainerM2AfterBattleText::
@@ -46,18 +50,18 @@ _VictoryRoad3FCooltrainerM2AfterBattleText::
 	done
 
 _VictoryRoad3FCooltrainerF2BattleText::
-	text "Trainers live to"
-	line "seek stronger"
-	cont "opponents!"
+	text "Trainers leven om" ; "Trainers live to"
+	line "sterkere opponen-" ; "seek stronger"
+	cont "ten te zoeken." ; "opponents!"
 	done
 
 _VictoryRoad3FCooltrainerF2EndBattleText::
-	text "Oh!"
-	line "So strong!"
+	text "Oh!" ; "Oh!"
+	line "Zo sterk!" ; "So strong!"
 	prompt
 
 _VictoryRoad3FCooltrainerF2AfterBattleText::
-	text "By fighting tough"
-	line "battles, you get"
-	cont "stronger!"
+	text "Door moeilijke ge-" ; "By fighting tough"
+	line "vechten te hebben" ; "battles, you get"
+	cont "word je sterker!" ; "stronger!"
 	done

@@ -37,52 +37,52 @@ TextBoxTextAndCoordTable:
 	text_box_text JP_POKEDEX_MENU_TEMPLATE,          11,  8, 19, 17, JapanesePokedexMenu,     12, 10
 
 BuySellQuitText:
-	db   "BUY"
-	next "SELL"
-	next "QUIT@"
+	db   "KOPEN" ; "BUY"
+	next "VERKOPEN" ; "SELL"
+	next "WEG@" ; "QUIT@"
 
 	db "@" ; unused
 
 UseTossText:
-	db   "USE"
-	next "TOSS@"
+	db   "GEB." ; "USE"
+	next "WEG@" ; "TOSS@"
 
 JapaneseSaveMessageText:
-	db   "きろく"
-	next "メッセージ@"
+	db   "きろく" ; "きろく"
+	next "メッセージ@" ; "メッセージ@"
 
 JapaneseSpeedOptionsText:
-	db   "はやい"
-	next "おそい@"
+	db   "はやい" ; "はやい"
+	next "おそい@" ; "おそい@"
 
 MoneyText:
-	db "MONEY@"
+	db "GELD@" ; "MONEY@"
 
 JapaneseMochimonoText:
-	db "もちもの@"
+	db "もちもの@" ; "もちもの@"
 
 JapaneseMainMenuText:
-	db   "つづきから"
-	next "さいしょから@"
+	db   "つづきから" ; "つづきから"
+	next "さいしょから@" ; "さいしょから@"
 
 BattleMenuText:
-	db   "FIGHT <PK><MN>"
-	next "ITEM  RUN@"
+	db   "VECHT <PK><MN>" ; "FIGHT <PK><MN>"
+	next "TAS   REN@" ; "ITEM  RUN@"
 
 SafariZoneBattleMenuText:
-	db   "BALL×       BAIT"
-	next "THROW ROCK  RUN@"
+	db   "BAL×        AAS" ; "BALL×       BAIT"
+	next "GOOI STEEN  REN@" ; "THROW ROCK  RUN@"
 
 SwitchStatsCancelText:
-	db   "SWITCH"
-	next "STATS"
-	next "CANCEL@"
+	db   "WISSEL" ; "SWITCH"
+	next "STATS" ; "STATS"
+	next "SLUITEN@" ; "CANCEL@"
 
 JapaneseAhText:
-	db "アッ！@"
+	db "アッ！@" ; "アッ！@"
 
 JapanesePokedexMenu:
-	db   "データをみる"
-	next "なきごえ"
-	next "ぶんぷをみる"
-	next "キャンセル@"
+	db   "データをみる" ; "データをみる"
+	next "なきごえ" ; "なきごえ"
+	next "ぶんぷをみる" ; "ぶんぷをみる"
+	next "キャンセル@" ; "キャンセル@"

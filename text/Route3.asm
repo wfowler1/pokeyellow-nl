@@ -140,6 +140,6 @@ _Route3CooltrainerF3AfterBattleText::
 	done
 
 _Route3SignText::
-	text "ROUTE 3"
+	text "ROUTE 3" ; "ROUTE 3"
 	line "MT.MOON AHEAD"
 	done

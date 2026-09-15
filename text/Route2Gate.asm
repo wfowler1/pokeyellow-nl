@@ -1,12 +1,13 @@
 _Route2GateOaksAideFlashExplanationText::
-	text "The HM FLASH"
-	line "lights even the"
-	cont "darkest dungeons."
+	text "De HM FLITS" ; "The HM FLASH"
+	line "verlicht zelfs" ; "lights even the"
+	cont "de donkerste" ; "darkest dungeons."
+	cont "grotten."
 	done
 
 _Route2GateYoungsterText::
-	text "Once a #MON"
-	line "learns FLASH, you"
-	cont "can get through"
-	cont "ROCK TUNNEL."
+	text "Zodra een #MON" ; "Once a #MON"
+	line "FLITS leert, kun" ; "learns FLASH, you"
+	cont "je door de" ; "can get through"
+	cont "ROTSTUNNEL komen." ; "ROCK TUNNEL."
 	done

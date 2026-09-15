@@ -11,7 +11,7 @@ _MtMoonPokecenterGentlemanText::
 	line "attacks CERULEAN"
 	cont "citizens..."
 
-	para "TEAM ROCKET is"
+	para "TEAM ROCKET is" ; "TEAM ROCKET is"
 	line "always in the"
 	cont "news!"
 	done

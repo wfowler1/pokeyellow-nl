@@ -50,8 +50,8 @@ _PokemartNotEnoughMoneyText::
 	prompt
 
 _PokemartItemBagFullText::
-	text "You can't carry"
-	line "any more items."
+	text "Je kunt niet meer" ; "You can't carry"
+	line "bij je dragen." ; "any more items."
 	prompt
 
 _PokemonSellingGreetingText::

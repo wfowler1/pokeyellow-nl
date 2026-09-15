@@ -81,11 +81,11 @@ BikeShopClerkText:
 	jp TextScriptEnd
 
 BikeShopMenuText:
-	db   "BICYCLE"
-	next "CANCEL@"
+	db   "FIETS" ; "BICYCLE"
+	next "ANNULEER@" ; "CANCEL@"
 
 BikeShopMenuPrice:
-	db "¥1000000@"
+	db "¥1000000@" ; "¥1000000@"
 
 BikeShopClerkWelcomeText:
 	text_far _BikeShopClerkWelcomeText

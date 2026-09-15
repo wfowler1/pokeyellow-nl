@@ -30,7 +30,7 @@ _ViridianForestYoungster3BattleText::
 	done
 
 _ViridianForestYoungster3EndBattleText::
-	text "Huh?"
+	text "Huh?" ; "Huh?"
 	line "I ran out of"
 	cont "#MON!"
 	prompt
@@ -64,7 +64,7 @@ _ViridianForestYoungster4AfterBattleText::
 
 _ViridianForestCooltrainerFBattleText::
 	text "Hi, do you have a"
-	line "PIKACHU?"
+	line "PIKACHU?" ; "PIKACHU?"
 	done
 
 _ViridianForestCooltrainerFEndBattleText::
@@ -106,7 +106,7 @@ _ViridianForestYoungster6Text::
 	done
 
 _ViridianForestTrainerTips1Text::
-	text "TRAINER TIPS"
+	text "TRAINER TIPS" ; "TRAINER TIPS"
 
 	para "If you want to"
 	line "avoid battles,"
@@ -121,7 +121,7 @@ _ViridianForestUseAntidoteSignText::
 	done
 
 _ViridianForestTrainerTips2Text::
-	text "TRAINER TIPS"
+	text "TRAINER TIPS" ; "TRAINER TIPS"
 
 	para "Contact PROF.OAK"
 	line "via PC to get"
@@ -130,7 +130,7 @@ _ViridianForestTrainerTips2Text::
 	done
 
 _ViridianForestTrainerTips3Text::
-	text "TRAINER TIPS"
+	text "TRAINER TIPS" ; "TRAINER TIPS"
 
 	para "No stealing of"
 	line "#MON from"
@@ -140,7 +140,7 @@ _ViridianForestTrainerTips3Text::
 	done
 
 _ViridianForestTrainerTips4Text::
-	text "TRAINER TIPS"
+	text "TRAINER TIPS" ; "TRAINER TIPS"
 
 	para "Weaken #MON"
 	line "before attempting"

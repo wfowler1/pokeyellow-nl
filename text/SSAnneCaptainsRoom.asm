@@ -32,10 +32,10 @@ _SSAnneCaptainsRoomCaptainIFeelMuchBetterText::
 	prompt
 
 _SSAnneCaptainsRoomCaptainReceivedHM01Text::
-	text "<PLAYER> got"
+	text "<PLAYER> ontving" ; "<PLAYER> got"
 	line "@"
 	text_ram wStringBuffer ; MaxLength MaxItemNameLength
-	text "!@"
+	text "!@" ; "!@"
 	text_end
 
 _SSAnneCaptainsRoomCaptainNotSickAnymoreText::

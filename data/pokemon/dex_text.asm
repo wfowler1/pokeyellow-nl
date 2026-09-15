@@ -1,151 +1,151 @@
 _BulbasaurDexEntry::
-	text "It can go for days"
-	next "without eating a"
-	next "single morsel."
+	text "Deze #MON kan" ; "It can go for days"
+	next "dagen zonder ook" ; "without eating a"
+	next "maar iets te eten." ; "single morsel."
 
-	page "In the bulb on"
-	next "its back, it"
-	next "stores energy"
+	page "In de knop op de" ; "In the bulb on"
+	next "rug wordt energie" ; "its back, it"
+	next "opgeslagen." ; "stores energy"
 	dex
 
 _IvysaurDexEntry::
-	text "The bulb on its"
-	next "back grows by"
-	next "drawing energy."
+	text "De knop op de rug" ; "The bulb on its"
+	next "groeit door ener-" ; "back grows by"
+	next "gie aan te trekken" ; "drawing energy."
 
-	page "It gives off an"
-	next "aroma when it is"
-	next "ready to bloom"
+	page "en verspreidt een" ; "It gives off an"
+	next "aroma zodra deze" ; "aroma when it is"
+	next "kan gaan bloeien." ; "ready to bloom"
 	dex
 
 _VenusaurDexEntry::
-	text "The flower on its"
-	next "back catches the"
-	next "sun's rays."
+	text "De bloem op de rug" ; "The flower on its"
+	next "vangt zonnestra-" ; "back catches the"
+	next "len. Dit zonlicht" ; "sun's rays."
 
-	page "The sunlight is"
-	next "then absorbed and"
-	next "used for energy"
+	page "wordt geabsorbeerd" ; "The sunlight is"
+	next "en gebruikt als" ; "then absorbed and"
+	next "bron van energie." ; "used for energy"
 	dex
 
 _CharmanderDexEntry::
-	text "The flame at the"
-	next "tip of its tail"
-	next "makes a sound as"
+	text "De vlam op de" ; "The flame at the"
+	next "staart maakt ge-" ; "tip of its tail"
+	next "luid terwijl deze" ; "makes a sound as"
 
-	page "it burns. You can"
-	next "only hear it in"
-	next "quiet places"
+	page "brandt. Je kan het" ; "it burns. You can"
+	next "alleen op stille" ; "only hear it in"
+	next "plekken horen." ; "quiet places"
 	dex
 
 _CharmeleonDexEntry::
-	text "Tough fights could"
-	next "excite this"
-	next "#MON. When"
+	text "Moeilijke gevech-" ; "Tough fights could"
+	next "ten zijn opwindend" ; "excite this"
+	next "voor deze #MON." ; "#MON. When"
 
-	page "excited, it may"
-	next "blow out bluish-"
-	next "white flames"
+	page "Soms worden dan" ; "excited, it may"
+	next "blauwwitte vlammen" ; "blow out bluish-"
+	next "uitgeblazen." ; "white flames"
 	dex
 
 _CharizardDexEntry::
-	text "When expelling a"
-	next "blast of super"
-	next "hot fire, the red"
+	text "Als deze #MON" ; "When expelling a"
+	next "superheet vuur" ; "blast of super"
+	next "uitstoot, gaat de" ; "hot fire, the red"
 
-	page "flame at the tip"
-	next "of its tail burns"
-	next "more intensely"
+	page "vlam op het puntje" ; "flame at the tip"
+	next "van de staart" ; "of its tail burns"
+	next "intenser branden." ; "more intensely"
 	dex
 
 _SquirtleDexEntry::
-	text "Shoots water at"
-	next "prey while in the"
-	next "water."
+	text "Schiet water op" ; "Shoots water at"
+	next "prooien als deze" ; "prey while in the"
+	next "#MON in het wa-" ; "water."
 
-	page "Withdraws into"
-	next "its shell when in"
-	next "danger"
+	page "ter is. Trekt zich" ; "Withdraws into"
+	next "in het schild te-" ; "its shell when in"
+	next "rug bij gevaar." ; "danger"
 	dex
 
 _WartortleDexEntry::
-	text "When tapped, this"
-	next "#MON will pull"
-	next "in its head, but"
+	text "Raak je deze #-" ; "When tapped, this"
+	next "MON aan, dan trekt" ; "#MON will pull"
+	next "deze het hoofd in." ; "in its head, but"
 
-	page "its tail will"
-	next "still stick out a"
-	next "little bit"
+	page "De staart blijft" ; "its tail will"
+	next "echter een klein" ; "still stick out a"
+	next "stukje uitsteken." ; "little bit"
 	dex
 
 _BlastoiseDexEntry::
-	text "Once it takes aim"
-	next "at its enemy, it"
-	next "blasts out water"
+	text "Zodra een tegen-" ; "Once it takes aim"
+	next "stander in het vi-" ; "at its enemy, it"
+	next "zier is, wordt wa-" ; "blasts out water"
 
-	page "with even more"
-	next "force than a fire"
-	next "hose"
+	page "ter geschoten met" ; "with even more"
+	next "meer kracht dan" ; "force than a fire"
+	next "een brandslang." ; "hose"
 	dex
 
 _CaterpieDexEntry::
-	text "If you touch the"
-	next "feeler on top of"
-	next "its head, it will"
+	text "Om zichzelf te be-" ; "If you touch the"
+	next "schermen wordt een" ; "feeler on top of"
+	next "erge stank uitge-" ; "its head, it will"
 
-	page "release a horrible"
-	next "stink to protect"
-	next "itself"
+	page "scheiden als je de" ; "release a horrible"
+	next "voelspriet op het" ; "stink to protect"
+	next "hoofd aanraakt." ; "itself"
 	dex
 
 _MetapodDexEntry::
-	text "Hardens its shell"
-	next "to protect itself."
-	next "However, a large"
+	text "Het schild wordt" ; "Hardens its shell"
+	next "verhard ter be-" ; "to protect itself."
+	next "scherming. Toch" ; "However, a large"
 
-	page "impact may cause"
-	next "it to pop out of"
-	next "its shell"
+	page "springt deze #-" ; "impact may cause"
+	next "MON er bij harde" ; "it to pop out of"
+	next "klappen soms uit." ; "its shell"
 	dex
 
 _ButterfreeDexEntry::
-	text "Its wings, covered"
-	next "with poisonous"
-	next "powders, repel"
+	text "De met gifpoeders" ; "Its wings, covered"
+	next "bedekte vleugels" ; "with poisonous"
+	next "stoten water af." ; "powders, repel"
 
-	page "water. This"
-	next "allows it to fly"
-	next "in the rain"
+	page "Hierdoor kan het" ; "water. This"
+	next "door de regen" ; "allows it to fly"
+	next "vliegen." ; "in the rain"
 	dex
 
 _WeedleDexEntry::
-	text "Beware of the"
-	next "sharp stinger on"
-	next "its head. It"
+	text "Kijk uit voor de" ; "Beware of the"
+	next "scherpe angel op" ; "sharp stinger on"
+	next "het hoofd. Deze" ; "its head. It"
 
-	page "hides in grass"
-	next "and bushes where"
-	next "it eats leaves"
+	page "#MON verstopt" ; "hides in grass"
+	next "in gras om blad-" ; "and bushes where"
+	next "eren te eten." ; "it eats leaves"
 	dex
 
 _KakunaDexEntry::
-	text "Able to move only"
-	next "slightly. When"
-	next "endangered, it"
+	text "Kan maar een klein" ; "Able to move only"
+	next "beetje bewegen." ; "slightly. When"
+	next "Bij gevaar kan een" ; "endangered, it"
 
-	page "may stick out its"
-	next "stinger and poison"
-	next "its enemy"
+	page "uitgestoken angel" ; "may stick out its"
+	next "de tegenstander" ; "stinger and poison"
+	next "vergiftigen." ; "its enemy"
 	dex
 
 _BeedrillDexEntry::
-	text "It has 3 poisonous"
-	next "stingers on its"
-	next "forelegs and its"
+	text "Deze #MON heeft" ; "It has 3 poisonous"
+	next "3 giftige angels" ; "stingers on its"
+	next "op de voorpoten en" ; "forelegs and its"
 
-	page "tail. They are"
-	next "used to jab its"
-	next "enemy repeatedly"
+	page "staart om tegen-" ; "tail. They are"
+	next "standers herhaal-" ; "used to jab its"
+	next "delijk te steken." ; "enemy repeatedly"
 	dex
 
 _PidgeyDexEntry::
@@ -209,33 +209,33 @@ _SpearowDexEntry::
 	dex
 
 _FearowDexEntry::
-	text "A #MON that"
-	next "dates back many"
-	next "years. If it"
+	text "Een #MON die" ; "A #MON that"
+	next "vele jaren terug-" ; "dates back many"
+	next "gaat. Bij gevaar" ; "years. If it"
 
-	page "senses danger, it"
-	next "flies high and"
-	next "away, instantly"
+	page "vliegt deze #-" ; "senses danger, it"
+	next "MON meteen omhoog" ; "flies high and"
+	next "om te vluchten." ; "away, instantly"
 	dex
 
 _EkansDexEntry::
-	text "The older it gets,"
-	next "the longer it"
-	next "grows. At night,"
+	text "Deze #MON wordt" ; "The older it gets,"
+	next "met de leeftijd" ; "the longer it"
+	next "langer. 's Nachts" ; "grows. At night,"
 
-	page "it wraps its long"
-	next "body around tree"
-	next "branches to rest"
+	page "wikkelt het lijf" ; "it wraps its long"
+	next "zich om boomtak-" ; "body around tree"
+	next "ken om te rusten." ; "branches to rest"
 	dex
 
 _ArbokDexEntry::
-	text "The frightening"
-	next "patterns on its"
-	next "belly have been"
+	text "Bij het bestuderen" ; "The frightening"
+	next "van de angstaanja-" ; "patterns on its"
+	next "gende patronen op" ; "belly have been"
 
-	page "studied. Six"
-	next "variations have"
-	next "been confirmed"
+	page "de buik van deze" ; "studied. Six"
+	next "#MON zijn zes" ; "variations have"
+	next "variaties ontdekt." ; "been confirmed"
 	dex
 
 _PikachuDexEntry::
@@ -339,23 +339,23 @@ _NidokingDexEntry::
 	dex
 
 _ClefairyDexEntry::
-	text "Adored for their"
-	next "cute looks and"
-	next "playfulness. They"
+	text "Geliefd om hun" ; "Adored for their"
+	next "schattigheid en" ; "cute looks and"
+	next "speelsheid. Omdat" ; "playfulness. They"
 
-	page "are thought to be"
-	next "rare, as they do"
-	next "not appear often"
+	page "ze niet vaak ver-" ; "are thought to be"
+	next "schijnen, lijken" ; "rare, as they do"
+	next "ze zeldzaam." ; "not appear often"
 	dex
 
 _ClefableDexEntry::
-	text "They appear to be"
-	next "very protective of"
-	next "their own world."
+	text "Ze lijken hun ei-" ; "They appear to be"
+	next "gen wereld zeer te" ; "very protective of"
+	next "willen beschermen." ; "their own world."
 
-	page "It is a kind of"
-	next "fairy, rarely seen"
-	next "by people"
+	page "Het is een soort" ; "It is a kind of"
+	next "fee die maar zel-" ; "fairy, rarely seen"
+	next "den wordt gezien." ; "by people"
 	dex
 
 _VulpixDexEntry::
@@ -489,23 +489,23 @@ _VenomothDexEntry::
 	dex
 
 _DiglettDexEntry::
-	text "It prefers dark"
-	next "places. It spends"
-	next "most of its time"
+	text "Zit graag in het" ; "It prefers dark"
+	next "donker. Spendeert" ; "places. It spends"
+	next "de meeste tijd on-" ; "most of its time"
 
-	page "underground,"
-	next "though it may pop"
-	next "up in caves"
+	page "dergronds, maar" ; "underground,"
+	next "verschijnt soms in" ; "though it may pop"
+	next "een grot." ; "up in caves"
 	dex
 
 _DugtrioDexEntry::
-	text "A team of triplets"
-	next "that can burrow"
-	next "over 60 MPH."
+	text "Een drielingteam" ; "A team of triplets"
+	next "dat kan graven met" ; "that can burrow"
+	next "meer dan 100 km/u." ; "over 60 MPH."
 
-	page "Due to this, some"
-	next "people think it's"
-	next "an earthquake"
+	page "Sommige mensen" ; "Due to this, some"
+	next "denken dat het" ; "people think it's"
+	next "een aardbeving is." ; "an earthquake"
 	dex
 
 _MeowthDexEntry::
@@ -569,23 +569,23 @@ _PrimeapeDexEntry::
 	dex
 
 _GrowlitheDexEntry::
-	text "A #MON with a"
-	next "friendly nature."
-	next "However, it will"
+	text "Een #MON van" ; "A #MON with a"
+	next "vriendelijke aard," ; "friendly nature."
+	next "die echter fel" ; "However, it will"
 
-	page "bark fiercely at"
-	next "anything invading"
-	next "its territory"
+	page "blaft tegen alles" ; "bark fiercely at"
+	next "dat het territo-" ; "anything invading"
+	next "rium binnendringt." ; "its territory"
 	dex
 
 _ArcanineDexEntry::
-	text "A legendary #-"
-	next "MON in China."
-	next "Many people are"
+	text "Een legendarische" ; "A legendary #-"
+	next "#MON uit China." ; "MON in China."
+	next "De sierlijkheid en" ; "Many people are"
 
-	page "charmed by its"
-	next "grace and beauty"
-	next "while running"
+	page "schoonheid tijdens" ; "charmed by its"
+	next "het rennen heeft" ; "grace and beauty"
+	next "al velen betoverd." ; "while running"
 	dex
 
 _PoliwagDexEntry::
@@ -619,33 +619,33 @@ _PoliwrathDexEntry::
 	dex
 
 _AbraDexEntry::
-	text "Sleeps 18 hours a"
-	next "day. If it senses"
-	next "danger, it will"
+	text "Slaapt 18 uur per" ; "Sleeps 18 hours a"
+	next "dag. Bij gevaar" ; "day. If it senses"
+	next "teleporteert deze" ; "danger, it will"
 
-	page "teleport itself to"
-	next "safety even as it"
-	next "sleeps"
+	page "#MON zichzelf" ; "teleport itself to"
+	next "zelfs slapend in" ; "safety even as it"
+	next "veiligheid." ; "sleeps"
 	dex
 
 _KadabraDexEntry::
-	text "Many odd things"
-	next "happen if this"
-	next "#MON is close"
+	text "Er gebeurt veel" ; "Many odd things"
+	next "vreemds vlakbij" ; "happen if this"
+	next "deze #MON." ; "#MON is close"
 
-	page "by. For example,"
-	next "it makes clocks"
-	next "run backwards"
+	page "Klokken gaan" ; "by. For example,"
+	next "bijvoorbeeld" ; "it makes clocks"
+	next "achteruitlopen." ; "run backwards"
 	dex
 
 _AlakazamDexEntry::
-	text "A #MON that can"
-	next "memorize anything."
-	next "It never forgets"
+	text "Een #MON die" ; "A #MON that can"
+	next "alles onthoudt" ; "memorize anything."
+	next "en nooit" ; "It never forgets"
 
-	page "what it learns--"
-	next "that's why this"
-	next "#MON is smart"
+	page "iets vergeet--" ; "what it learns--"
+	next "daarom is deze" ; "that's why this"
+	next "#MON zo slim." ; "#MON is smart"
 	dex
 
 _MachopDexEntry::
@@ -679,33 +679,33 @@ _MachampDexEntry::
 	dex
 
 _BellsproutDexEntry::
-	text "Prefers hot and"
-	next "humid places."
-	next "It ensnares tiny"
+	text "Zit het liefst op" ; "Prefers hot and"
+	next "warme, vochtige" ; "humid places."
+	next "plekken. Vangt met" ; "It ensnares tiny"
 
-	page "insects with its"
-	next "vines and devours"
-	next "them"
+	page "de stengels kleine" ; "insects with its"
+	next "insecten om te" ; "vines and devours"
+	next "verslinden." ; "them"
 	dex
 
 _WeepinbellDexEntry::
-	text "When hungry, it"
-	next "swallows anything"
-	next "that moves. Its"
+	text "Als deze #MON" ; "When hungry, it"
+	next "hongerig is, wordt" ; "swallows anything"
+	next "alles dat beweegt" ; "that moves. Its"
 
-	page "hapless prey is"
-	next "melted inside by"
-	next "strong acids"
+	page "opgeslokt en daar-" ; "hapless prey is"
+	next "na met een sterk" ; "melted inside by"
+	next "zuur opgelost." ; "strong acids"
 	dex
 
 _VictreebelDexEntry::
-	text "Lures prey with"
-	next "the sweet aroma of"
-	next "honey. Swallowed"
+	text "Lokt prooien met" ; "Lures prey with"
+	next "een zoet honing-" ; "the sweet aroma of"
+	next "aroma. Opgeslokte" ; "honey. Swallowed"
 
-	page "whole, the prey is"
-	next "melted in a day,"
-	next "bones and all"
+	page "prooien worden in" ; "whole, the prey is"
+	next "een dag opgelost," ; "melted in a day,"
+	next "botten en al." ; "bones and all"
 	dex
 
 _TentacoolDexEntry::
@@ -819,33 +819,33 @@ _MagnetonDexEntry::
 	dex
 
 _FarfetchdDexEntry::
-	text "Lives where reedy"
-	next "plants grow. They"
-	next "are rarely seen,"
+	text "Leeft daar waar" ; "Lives where reedy"
+	next "rieten planten" ; "plants grow. They"
+	next "groeien. Ze worden" ; "are rarely seen,"
 
-	page "so it's thought"
-	next "their numbers are"
-	next "decreasing"
+	page "zelden gezien, dus" ; "so it's thought"
+	next "men denkt dat hun" ; "their numbers are"
+	next "nummers afnemen." ; "decreasing"
 	dex
 
 _DoduoDexEntry::
-	text "Its short wings"
-	next "make flying dif-"
-	next "ficult. Instead,"
+	text "De korte vleugels" ; "Its short wings"
+	next "bemoeilijken vlie-" ; "make flying dif-"
+	next "gen, dus rent deze" ; "ficult. Instead,"
 
-	page "this #MON runs"
-	next "at high speed on"
-	next "developed legs"
+	page "#MON met hoge" ; "this #MON runs"
+	next "snelheid op goed" ; "at high speed on"
+	next "ontwikkelde poten." ; "developed legs"
 	dex
 
 _DodrioDexEntry::
-	text "One of DODUO's 2"
-	next "heads splits to"
-	next "form a unique"
+	text "Een van DODUO's 2" ; "One of DODUO's 2"
+	next "hoofden splitst om" ; "heads splits to"
+	next "een unieke soort" ; "form a unique"
 
-	page "species. It runs"
-	next "close to 40 MPH"
-	next "in prairies"
+	page "te vormen die met" ; "species. It runs"
+	next "bijna 60 km/h over" ; "close to 40 MPH"
+	next "prairies rent." ; "in prairies"
 	dex
 
 _SeelDexEntry::
@@ -859,13 +859,13 @@ _SeelDexEntry::
 	dex
 
 _DewgongDexEntry::
-	text "Its entire body is"
-	next "a snowy-white."
-	next "Unharmed by even"
+	text "Het hele lichaam" ; "Its entire body is"
+	next "is sneeuwwit. Deze" ; "a snowy-white."
+	next "#MON zwemt hard" ; "Unharmed by even"
 
-	page "intense cold, it"
-	next "swims powerfully"
-	next "in icy waters"
+	page "door ijswater en" ; "intense cold, it"
+	next "is ook bij intense" ; "swims powerfully"
+	next "kou ongedeerd." ; "in icy waters"
 	dex
 
 _GrimerDexEntry::
@@ -899,23 +899,23 @@ _ShellderDexEntry::
 	dex
 
 _CloysterDexEntry::
-	text "For protection, it"
-	next "uses its harder-"
-	next "than-diamonds"
+	text "De beschermende" ; "For protection, it"
+	next "schelp is harder" ; "uses its harder-"
+	next "dan diamant." ; "than-diamonds"
 
-	page "shell. It also"
-	next "shoots spikes from"
-	next "the shell"
+	page "Ook worden er ste-" ; "shell. It also"
+	next "kels uit de schelp" ; "shoots spikes from"
+	next "geschoten." ; "the shell"
 	dex
 
 _GastlyDexEntry::
-	text "Said to appear in"
-	next "decrepit, deserted"
-	next "buildings. It has"
+	text "Zou in vervallen," ; "Said to appear in"
+	next "verlaten gebouwen" ; "decrepit, deserted"
+	next "verschijnen. Deze" ; "buildings. It has"
 
-	page "no real shape as"
-	next "it appears to be"
-	next "made of a gas"
+	page "#MON lijkt van" ; "no real shape as"
+	next "gas te zijn en" ; "it appears to be"
+	next "heeft geen vorm." ; "made of a gas"
 	dex
 
 _HaunterDexEntry::
@@ -949,23 +949,23 @@ _OnixDexEntry::
 	dex
 
 _DrowzeeDexEntry::
-	text "If you sleep by"
-	next "it all the time,"
-	next "it will sometimes"
+	text "Als je er altijd" ; "If you sleep by"
+	next "bij in de buurt" ; "it all the time,"
+	next "slaapt zul je soms" ; "it will sometimes"
 
-	page "show you dreams"
-	next "it has eaten in"
-	next "the past"
+	page "dromen hebben die" ; "show you dreams"
+	next "deze #MON ooit" ; "it has eaten in"
+	next "heeft opgegeten." ; "the past"
 	dex
 
 _HypnoDexEntry::
-	text "Avoid eye contact"
-	next "if you come across"
-	next "one. It will try"
+	text "Vermijd oogcontact" ; "Avoid eye contact"
+	next "als je er een te-" ; "if you come across"
+	next "genkomt. De #-" ; "one. It will try"
 
-	page "to put you to"
-	next "sleep by using"
-	next "its pendulum"
+	page "MON zal je met het" ; "to put you to"
+	next "pendulum in slaap" ; "sleep by using"
+	next "pogen te brengen." ; "its pendulum"
 	dex
 
 _KrabbyDexEntry::
@@ -999,53 +999,53 @@ _VoltorbDexEntry::
 	dex
 
 _ElectrodeDexEntry::
-	text "Stores electrical"
-	next "energy inside its"
-	next "body. Even the"
+	text "Slaat elektrische" ; "Stores electrical"
+	next "energie op in het" ; "energy inside its"
+	next "lichaam. Zelfs de" ; "body. Even the"
 
-	page "slightest shock"
-	next "could trigger a"
-	next "huge explosion"
+	page "lichtste schok kan" ; "slightest shock"
+	next "een enorme explo-" ; "could trigger a"
+	next "sie ontketenen." ; "huge explosion"
 	dex
 
 _ExeggcuteDexEntry::
-	text "The heads attract"
-	next "each other and"
-	next "spin around."
+	text "De hoofden trekken" ; "The heads attract"
+	next "elkaar aan en" ; "each other and"
+	next "draaien rond. Er" ; "spin around."
 
-	page "There must be 6"
-	next "heads for it to"
-	next "maintain balance"
+	page "zijn er 6 nodig" ; "There must be 6"
+	next "voor het houden" ; "heads for it to"
+	next "van balans." ; "maintain balance"
 	dex
 
 _ExeggutorDexEntry::
-	text "Its cries are very"
-	next "noisy. This is"
-	next "because each of"
+	text "De kreten zijn erg" ; "Its cries are very"
+	next "luid. Dat is omdat" ; "noisy. This is"
+	next "ieder van de" ; "because each of"
 
-	page "the 3 heads thinks"
-	next "about whatever it"
-	next "likes"
+	page "3 hoofden denkt" ; "the 3 heads thinks"
+	next "aan wat het ook" ; "about whatever it"
+	next "maar leuk vindt." ; "likes"
 	dex
 
 _CuboneDexEntry::
-	text "Wears the skull"
-	next "of its deceased"
-	next "mother. Its cries"
+	text "Draagt de schedel" ; "Wears the skull"
+	next "van de overleden" ; "of its deceased"
+	next "moeder, waar de" ; "mother. Its cries"
 
-	page "echo inside the"
-	next "skull and come out"
-	next "as a sad melody"
+	page "huil als droevige" ; "echo inside the"
+	next "melodie doorheen" ; "skull and come out"
+	next "echoot." ; "as a sad melody"
 	dex
 
 _MarowakDexEntry::
-	text "Small and weak,"
-	next "this #MON is"
-	next "adept with its"
+	text "Deze #MON, zwak" ; "Small and weak,"
+	next "en klein, is be-" ; "this #MON is"
+	next "dreven met de bot-" ; "adept with its"
 
-	page "bone club. It has"
-	next "grown more vicious"
-	next "over the ages"
+	page "tenknots. Over de" ; "bone club. It has"
+	next "jaren is de ge-" ; "grown more vicious"
+	next "meenheid gegroeid." ; "over the ages"
 	dex
 
 _HitmonleeDexEntry::
@@ -1118,13 +1118,13 @@ _RhydonDexEntry::
 	dex
 
 _ChanseyDexEntry::
-	text "A gentle and kind-"
-	next "hearted #MON"
-	next "that shares its"
+	text "Een goedhartige en" ; "A gentle and kind-"
+	next "liefelijke #MON" ; "hearted #MON"
+	next "met voedzame eie-" ; "that shares its"
 
-	page "nutritious eggs"
-	next "if it sees an"
-	next "injured #MON"
+	page "ren die gedeeld" ; "nutritious eggs"
+	next "worden zodra een" ; "if it sees an"
+	next "#MON gewond is." ; "injured #MON"
 	dex
 
 _TangelaDexEntry::
@@ -1238,13 +1238,13 @@ _JynxDexEntry::
 	dex
 
 _ElectabuzzDexEntry::
-	text "If a major power"
-	next "outage occurs, it"
-	next "is certain that"
+	text "Een grote stroom-" ; "If a major power"
+	next "storing is een" ; "outage occurs, it"
+	next "teken dat deze" ; "is certain that"
 
-	page "this #MON has"
-	next "eaten electricity"
-	next "at a power plant"
+	page "#MON stroom" ; "this #MON has"
+	next "van een centrale" ; "eaten electricity"
+	next "heeft opgepeuzeld." ; "at a power plant"
 	dex
 
 _MagmarDexEntry::
@@ -1298,63 +1298,63 @@ _GyaradosDexEntry::
 	dex
 
 _LaprasDexEntry::
-	text "A gentle soul that"
-	next "can read the minds"
-	next "of people. It can"
+	text "Het is vriendelijk" ; "A gentle soul that"
+	next "en kan gedachten" ; "can read the minds"
+	next "van mensen lezen." ; "of people. It can"
 
-	page "ferry people"
-	next "across the sea on"
-	next "its back"
+	page "Het kan mensen op" ; "ferry people"
+	next "de rug over zee" ; "across the sea on"
+	next "vervoeren." ; "its back"
 	dex
 
 _DittoDexEntry::
-	text "When it spots an"
-	next "enemy, its body"
-	next "transfigures into"
+	text "Deze #MON zal" ; "When it spots an"
+	next "transfigureren in" ; "enemy, its body"
+	next "een bijna perfecte" ; "transfigures into"
 
-	page "an almost perfect"
-	next "copy of its oppo-"
-	next "nent"
+	page "kopie van de te-" ; "an almost perfect"
+	next "stander zodra deze" ; "copy of its oppo-"
+	next "wordt gespot." ; "nent"
 	dex
 
 _EeveeDexEntry::
-	text "Its genetic code"
-	next "is unstable, so it"
-	next "could evolve in"
+	text "De genetische code" ; "Its genetic code"
+	next "is instabiel, dus" ; "is unstable, so it"
+	next "voor evolutie zijn" ; "could evolve in"
 
-	page "a variety of ways."
-	next "There are only a"
-	next "few alive"
+	page "meerdere opties." ; "a variety of ways."
+	next "Er zijn er slechts" ; "There are only a"
+	next "enkelen in leven." ; "few alive"
 	dex
 
 _VaporeonDexEntry::
-	text "Its cell structure"
-	next "is similar to"
-	next "water molecules."
+	text "De cellenstructuur" ; "Its cell structure"
+	next "is net een water-" ; "is similar to"
+	next "molecuul. In water" ; "water molecules."
 
-	page "It will melt away"
-	next "and become invis-"
-	next "ible in water"
+	page "smelt deze #MON" ; "It will melt away"
+	next "weg om onzichtbaar" ; "and become invis-"
+	next "te worden." ; "ible in water"
 	dex
 
 _JolteonDexEntry::
-	text "A sensitive #-"
-	next "MON that easily"
-	next "becomes sad or"
+	text "Een gevoelige" ; "A sensitive #-"
+	next "#MON die snel" ; "MON that easily"
+	next "verdrietig of boos" ; "becomes sad or"
 
-	page "angry. Every time"
-	next "its mood changes,"
-	next "it charges power"
+	page "wordt. Iedere" ; "angry. Every time"
+	next "stemmingswisseling" ; "its mood changes,"
+	next "laadt energie op." ; "it charges power"
 	dex
 
 _FlareonDexEntry::
-	text "It has a flame"
-	next "chamber inside its"
-	next "body. It inhales,"
+	text "Deze #MON heeft" ; "It has a flame"
+	next "een vlamkamer," ; "chamber inside its"
+	next "waarmee het na in-" ; "body. It inhales,"
 
-	page "then blows out"
-	next "fire that is over"
-	next "3,000F degrees"
+	page "ademen vlammen van" ; "then blows out"
+	next "meer 1500 graden C" ; "fire that is over"
+	next "kan uitblazen." ; "3,000F degrees"
 	dex
 
 _PorygonDexEntry::
@@ -1408,101 +1408,101 @@ _KabutopsDexEntry::
 	dex
 
 _AerodactylDexEntry::
-	text "A savage #MON"
-	next "that died out in"
-	next "ancient times. It"
+	text "Een woeste #MON" ; "A savage #MON"
+	next "die lang geleden" ; "that died out in"
+	next "is uitgestorven," ; "ancient times. It"
 
-	page "was resurrected"
-	next "using DNA taken"
-	next "from amber"
+	page "maar met DNA uit" ; "was resurrected"
+	next "barnsteen weer tot" ; "using DNA taken"
+	next "leven is gewekt." ; "from amber"
 	dex
 
 _SnorlaxDexEntry::
-	text "Will eat anything,"
-	next "even if the food"
-	next "happens to be a"
+	text "Eet alles, zelfs" ; "Will eat anything,"
+	next "als het eten een" ; "even if the food"
+	next "beetje beschimmeld" ; "happens to be a"
 
-	page "little moldy. It"
-	next "never gets an"
-	next "upset stomach"
+	page "is. Deze #MON" ; "little moldy. It"
+	next "heeft echter nooit" ; "never gets an"
+	next "maagklachten." ; "upset stomach"
 	dex
 
 _ArticunoDexEntry::
-	text "A legendary bird"
-	next "#MON. It"
-	next "freezes water"
+	text "Een legendarische" ; "A legendary bird"
+	next "vogel-#MON, die" ; "#MON. It"
+	next "het water in de" ; "freezes water"
 
-	page "that is contained"
-	next "in winter air and"
-	next "makes it snow"
+	page "winterlucht be-" ; "that is contained"
+	next "vriest om sneeuw" ; "in winter air and"
+	next "te maken." ; "makes it snow"
 	dex
 
 _ZapdosDexEntry::
-	text "This legendary"
-	next "bird #MON is"
-	next "said to appear"
+	text "Een legendarische" ; "This legendary"
+	next "vogel-#MON, ge" ; "bird #MON is"
+	next "zegd te verschij-" ; "said to appear"
 
-	page "when the sky turns"
-	next "dark and lightning"
-	next "showers down"
+	page "nen als de lucht" ; "when the sky turns"
+	next "donker wordt en de" ; "dark and lightning"
+	next "bliksem neerslaat." ; "showers down"
 	dex
 
 _MoltresDexEntry::
-	text "A legendary bird"
-	next "#MON. As it"
-	next "flaps its flaming"
+	text "Een legendarische" ; "A legendary bird"
+	next "vogel-#MON, die" ; "#MON. As it"
+	next "door met vlammende" ; "flaps its flaming"
 
-	page "wings, even the"
-	next "night sky will"
-	next "turn red"
+	page "vleugels te klap-" ; "wings, even the"
+	next "peren de nachthe-" ; "night sky will"
+	next "mel rood kleurt." ; "turn red"
 	dex
 
 _DratiniDexEntry::
-	text "The existence of"
-	next "this mythical"
-	next "#MON was only"
+	text "Het bestaan van" ; "The existence of"
+	next "deze mythische" ; "this mythical"
+	next "#MON is pas re-" ; "#MON was only"
 
-	page "recently confirmed"
-	next "by a fisherman"
-	next "who caught one"
+	page "cent bevestigd" ; "recently confirmed"
+	next "door een visser" ; "by a fisherman"
+	next "die er één ving." ; "who caught one"
 	dex
 
 _DragonairDexEntry::
-	text "According to a"
-	next "witness, its body"
-	next "was surrounded by"
+	text "Volgens getuigen" ; "According to a"
+	next "was het lichaam" ; "witness, its body"
+	next "omgeven door een" ; "was surrounded by"
 
-	page "a strange aura"
-	next "that gave it a"
-	next "mystical look"
+	page "vreemd aura dat" ; "a strange aura"
+	next "de #MON er mys-" ; "that gave it a"
+	next "tiek deed uitzien." ; "mystical look"
 	dex
 
 _DragoniteDexEntry::
-	text "It is said that"
-	next "this #MON lives"
-	next "somewhere in the"
+	text "Er wordt gezegd" ; "It is said that"
+	next "dat deze #MON" ; "this #MON lives"
+	next "ergens in de zee" ; "somewhere in the"
 
-	page "sea and that it"
-	next "flies. However, it"
-	next "is only a rumor"
+	page "leeft en kan vlie-" ; "sea and that it"
+	next "gen. Dat is echter" ; "flies. However, it"
+	next "maar een gerucht." ; "is only a rumor"
 	dex
 
 _MewtwoDexEntry::
-	text "Its DNA is almost"
-	next "the same as MEW's."
-	next "However, its size"
+	text "Waar het DNA bijna" ; "Its DNA is almost"
+	next "hetzelfde is als" ; "the same as MEW's."
+	next "dat van MEW, zijn" ; "However, its size"
 
-	page "and disposition"
-	next "are vastly dif-"
-	next "ferent"
+	page "de grootte en aard" ; "and disposition"
+	next "van deze #MON" ; "are vastly dif-"
+	next "zeer verschillend." ; "ferent"
 	dex
 
 _MewDexEntry::
-	text "When viewed"
-	next "through a micro-"
-	next "scope, this"
+	text "Met een miscro-" ; "When viewed"
+	next "scoop kunnen de" ; "through a micro-"
+	next "korte, fijne, de-" ; "scope, this"
 
-	page "#MON's short,"
-	next "fine, delicate"
-	next "hair can be seen"
+	page "licate haren van" ; "#MON's short,"
+	next "deze #MON wor-" ; "fine, delicate"
+	next "den gezien." ; "hair can be seen"
 	dex

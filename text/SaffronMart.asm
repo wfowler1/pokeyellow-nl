@@ -1,13 +1,13 @@
 _SaffronMartSuperNerdText::
-	text "MAX REPEL lasts"
-	line "longer than SUPER"
-	cont "REPEL for keeping"
-	cont "weaker #MON"
-	cont "away!"
+	text "De MAXVERDRIJVER" ; "MAX REPEL lasts"
+	line "houdt zwakke" ; "longer than SUPER"
+	cont "#MON langer" ; "REPEL for keeping"
+	cont "weg dan de" ; "weaker #MON"
+	cont "SUPERVERDRIJVER!" ; "away!"
 	done
 
 _SaffronMartCooltrainerFText::
-	text "REVIVE is costly,"
-	line "but it revives"
-	cont "fainted #MON!"
+	text "De dure OPWEKKER" ; "REVIVE is costly,"
+	line "wekt flauwgeval-" ; "but it revives"
+	cont "len #MON weer." ; "fainted #MON!"
 	done

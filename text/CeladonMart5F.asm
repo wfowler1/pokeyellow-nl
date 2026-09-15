@@ -1,28 +1,28 @@
 _CeladonMart5FGentlemanText::
-	text "#MON ability"
-	line "enhancers can be"
-	cont "bought only here."
+	text "#MON-supplemen-" ; "#MON ability"
+	line "ten kan je alleen" ; "enhancers can be"
+	cont "hier kopen." ; "bought only here."
 
-	para "Use CALCIUM to"
-	line "increase SPECIAL"
-	cont "abilities."
+	para "CALCIUM versterkt" ; "Use CALCIUM to"
+	line "SPECIALE" ; "increase SPECIAL"
+	cont "aanvallen." ; "abilities."
 
-	para "Use CARBOS to"
-	line "increase SPEED."
+	para "CARBON zorgt voor" ; "Use CARBOS to"
+	line "meer SNELHEID." ; "increase SPEED."
 	done
 
 _CeladonMart5FSailorText::
-	text "I'm here for"
-	line "#MON ability"
-	cont "enhancers."
+	text "Ik ben hier voor" ; "I'm here for"
+	line "#MON-" ; "#MON ability"
+	cont "supplementen." ; "enhancers."
 
-	para "PROTEIN increases"
-	line "ATTACK power."
+	para "PROTEÏNE versterkt" ; "PROTEIN increases"
+	line "AANVAL-kracht." ; "ATTACK power."
 
-	para "IRON increases"
-	line "DEFENSE!"
+	para "IJZER versterkt" ; "IRON increases"
+	line "AFWEER!" ; "DEFENSE!"
 	done
 
 _CeladonMart5FCurrentFloorSignText::
-	text "5F: DRUG STORE"
+	text "4V: APOTHEEK" ; "5F: DRUG STORE"
 	done

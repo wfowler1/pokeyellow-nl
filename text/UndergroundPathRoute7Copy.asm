@@ -1,35 +1,36 @@
 _UndergroundPathRoute7CopyUnusedGirlText::
-	text "I want to shop at"
-	line "the dept. store"
-	cont "in CELADON but..."
+	text "Ik wil gaan" ; "I want to shop at"
+	line "shoppen in het" ; "the dept. store"
+	cont "warenhuis in" ; "in CELADON but..."
+	cont "CELADON, maar..."
 
-	para "There are so many"
-	line "rough looking"
-	cont "people there."
+	para "Er zijn zo veel" ; "There are so many"
+	line "ruige types" ; "rough looking"
+	cont "daar." ; "people there."
 	done
 
 _UndergroundPathRoute7CopyUnusedTeamRocketHadAHideoutText::
-	text "TEAM ROCKET had a"
-	line "secret hideout in"
-	cont "CELADON CITY?"
+	text "TEAM ROCKET had" ; "TEAM ROCKET had a"
+	line "een geheime basis" ; "secret hideout in"
+	cont "in CELADON CITY?" ; "CELADON CITY?"
 	done
 
 _UndergroundPathRoute7CopyUnusedMiddleAgedManText::
-	text "You're here to"
-	line "shop in CELADON?"
+	text "Wil je gaan shop-" ; "You're here to"
+	line "pen in CELADON?" ; "shop in CELADON?"
 
-	para "Just step outside"
-	line "and head west!"
+	para "Ga naar buiten en" ; "Just step outside"
+	line "ga naar 't westen!" ; "and head west!"
 	done
 
 _UndergroundPathRoute7CopyUnusedGoesUnderSaffronText::
-	text "The UNDERGROUND"
-	line "PATH goes beneath"
-	cont "SAFFRON and leads"
-	cont "to LAVENDER."
+	text "Het ONDERGRONDS" ; "The UNDERGROUND"
+	line "PAD gaat onder" ; "PATH goes beneath"
+	cont "SAFFRON door naar" ; "SAFFRON and leads"
+	cont "LAVENDER." ; "to LAVENDER."
 
-	para "If you're heading"
-	line "to CERULEAN, go"
-	cont "to the building"
-	cont "across the road."
+	para "Als je naar" ; "If you're heading"
+	line "CERULEAN wil, ga" ; "to CERULEAN, go"
+	cont "dan naar 't gebouw" ; "to the building"
+	cont "aan de overkant." ; "across the road."
 	done

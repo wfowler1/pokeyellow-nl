@@ -1,10 +1,10 @@
 _PokemonTower3FChanneler1BattleText::
-	text "Urrg...Awaa..."
-	line "Huhu...graa.."
+	text "Urrg...Awaa..." ; "Urrg...Awaa..."
+	line "Huhu...graa.." ; "Huhu...graa.."
 	done
 
 _PokemonTower3FChanneler1EndBattleText::
-	text "Hwa!"
+	text "Hwa!" ; "Hwa!"
 	line "I'm saved!"
 	prompt
 
@@ -15,12 +15,12 @@ _PokemonTower3FChanneler1AfterBattleText::
 	done
 
 _PokemonTower3FChanneler2BattleText::
-	text "Kekeke...."
-	line "Kwaaah!"
+	text "Kekeke...." ; "Kekeke...."
+	line "Kwaaah!" ; "Kwaaah!"
 	done
 
 _PokemonTower3FChanneler2EndBattleText::
-	text "Hmm?"
+	text "Hmm?" ; "Hmm?"
 	line "What am I doing?"
 	prompt
 

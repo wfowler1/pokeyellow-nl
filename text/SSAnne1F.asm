@@ -1,21 +1,21 @@
 _SSAnne1FWaiterText::
-	text "Bonjour!"
-	line "I am le waiter on"
-	cont "this ship!"
+	text "Bonjour!" ; "Bonjour!"
+	line "Iek ben le butler" ; "I am le waiter on"
+	cont "op diet schip!" ; "this ship!"
 
-	para "I will be happy"
-	line "to serve you any-"
-	cont "thing you please!"
+	para "Iek breng je" ; "I will be happy"
+	line "wat je maar wenst" ; "to serve you any-"
+	cont "te 'ebben!" ; "thing you please!"
 
-	para "Ah! Le strong"
-	line "silent type!"
+	para "Ah! Le sterke" ; "Ah! Le strong"
+	line "stille type!" ; "silent type!"
 	done
 
 _SSAnne1FSailorText::
-	text "The passengers"
-	line "are restless!"
+	text "De passagiers" ; "The passengers"
+	line "zijn rusteloos!" ; "are restless!"
 
-	para "You might be"
-	line "challenged by the"
-	cont "more bored ones!"
+	para "De verveelde types" ; "You might be"
+	line "dagen je" ; "challenged by the"
+	cont "misschien uit!" ; "more bored ones!"
 	done

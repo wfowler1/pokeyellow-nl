@@ -255,8 +255,8 @@ _NothingStoredText::
 	prompt
 
 _CantCarryMoreText::
-	text "You can't carry"
-	line "any more items."
+	text "Je kunt niet meer" ; "You can't carry"
+	line "bij je dragen." ; "any more items."
 	prompt
 
 _WhatToTossText::
@@ -291,7 +291,7 @@ _WhatText::
 
 _DepositWhichMonText::
 	text "Deposit which"
-	line "#MON?"
+	line "#MON?" ; "#MON?"
 	done
 
 _MonWasStoredText::

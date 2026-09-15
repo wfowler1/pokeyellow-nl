@@ -68,7 +68,7 @@ _CeladonMansion3FGameDesignerText::
 	text "Is that right?"
 
 	para "I'm the game"
-	line "designer!"
+	line "designer!" ; "designer!"
 
 	para "Filling up your"
 	line "#DEX is tough,"
@@ -83,7 +83,7 @@ _CeladonMansion3FGameDesignerCompletedDexText::
 	line "You completed"
 	cont "your #DEX!"
 	cont "Congratulations!"
-	cont "...@"
+	cont "...@" ; "...@"
 	text_end
 
 _CeladonMansion3FGameDesignerCompletedDexText2::
@@ -113,6 +113,6 @@ _CeladonMansion3FGameScriptPCText::
 	done
 
 _CeladonMansion3FDevRoomSignText::
-	text "GAME FREAK"
+	text "GAME FREAK" ; "GAME FREAK"
 	line "Development Room"
 	done

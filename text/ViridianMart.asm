@@ -1,33 +1,35 @@
 _ViridianMartClerkSayHiToOakText::
-	text "Okay! Say hi to"
-	line "PROF.OAK for me!"
+	text "Oké! Groetjes aan" ; "Okay! Say hi to"
+	line "PROF.OAK!" ; "PROF.OAK for me!"
 	done
 
 _ViridianMartClerkYouCameFromPalletTownText::
-	text "Hey! You came from"
-	line "PALLET TOWN?"
+	text "Hé! Jij komt uit" ; "Hey! You came from"
+	line "PALLET TOWN?" ; "PALLET TOWN?"
 	done
 
 _ViridianMartClerkParcelQuestText::
-	text "You know PROF."
-	line "OAK, right?"
+	text "Je kent PROF.OAK," ; "You know PROF."
+	line "toch?" ; "OAK, right?"
 
-	para "His order came in."
-	line "Will you take it"
-	cont "to him?"
+	para "Zijn bestelling" ; "His order came in."
+	line "is binnen. Kun" ; "Will you take it"
+	cont "je het aan hem" ; "to him?"
+	cont "geven?"
 
-	para "<PLAYER> got"
-	line "OAK's PARCEL!@"
+	para "<PLAYER> ontving" ; "<PLAYER> got"
+	line "OAK's PAKKETJE!@" ; "OAK's PARCEL!@"
 	text_end
 
 _ViridianMartYoungsterText::
-	text "This shop sells a"
-	line "lot of PARLYZ"
-	cont "HEALs."
+	text "Deze winkel" ; "This shop sells a"
+	line "verkoopt een" ; "lot of PARLYZ"
+	cont "hoop VERLAMZALF." ; "HEALs."
 	done
 
 _ViridianMartCooltrainerMText::
-	text "The shop finally"
-	line "has some POTIONs"
-	cont "in stock."
+	text "De winkel heeft" ; "The shop finally"
+	line "eindelijk wat" ; "has some POTIONs"
+	cont "DRANKjes op" ; "in stock."
+	cont "voorraad."
 	done

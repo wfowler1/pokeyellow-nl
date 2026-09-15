@@ -23,19 +23,19 @@ _MtMoonJessieJamesText4::
 
 _MtMoonB2FDomeFossilYouWantText::
 	text "You want the"
-	line "DOME FOSSIL?"
+	line "DOME FOSSIL?" ; "DOME FOSSIL?"
 	done
 
 _MtMoonB2FHelixFossilYouWantText::
 	text "You want the"
-	line "HELIX FOSSIL?"
+	line "HELIX FOSSIL?" ; "HELIX FOSSIL?"
 	done
 
 _MtMoonB2FReceivedFossilText::
 	text "<PLAYER> got the"
 	line "@"
 	text_ram wStringBuffer ; MaxLength MaxItemNameLength
-	text "!@"
+	text "!@" ; "!@"
 	text_end
 
 _MtMoonB2FYouHaveNoRoomText::
@@ -81,7 +81,7 @@ _MtMoonB2FSuperNerdThenThisIsMineText::
 _MtMoonB2FRocket2BattleText::
 	text "We, TEAM ROCKET,"
 	line "are #MON"
-	cont "gangsters!"
+	cont "gangsters!" ; "gangsters!"
 	done
 
 _MtMoonB2FRocket2EndBattleText::

@@ -1,24 +1,24 @@
 _CeruleanPokecenterSuperNerdText::
-	text "That BILL!"
+	text "Die BILL!" ; "That BILL!"
 
-	para "I heard that"
-	line "he'll do whatever"
-	cont "it takes to get"
-	cont "rare #MON!"
+	para "Ik hoorde dat ie" ; "I heard that"
+	line "alles doet om" ; "he'll do whatever"
+	cont "zeldzame #MON" ; "it takes to get"
+	cont "te krijgen!" ; "rare #MON!"
 	done
 
 _CeruleanPokecenterGentlemanText::
-	text "Have you heard"
-	line "about BILL?"
+	text "Heb je van BILL" ; "Have you heard"
+	line "gehoord?" ; "about BILL?"
 
-	para "Everyone calls"
-	line "him a #MANIAC!"
+	para "Iedereen noemt" ; "Everyone calls"
+	line "hem 'n #MANIAK!" ; "him a #MANIAC!"
 
-	para "I think people"
-	line "are just jealous"
-	cont "of BILL, though."
+	para "Ik denk dat mensen" ; "I think people"
+	line "gewoon jaloers" ; "are just jealous"
+	cont "zijn op BILL." ; "of BILL, though."
 
-	para "Who wouldn't want"
-	line "to boast about"
-	cont "their #MON?"
+	para "Wie wil nou niet" ; "Who wouldn't want"
+	line "opscheppen over" ; "to boast about"
+	cont "hun #MON?" ; "their #MON?"
 	done

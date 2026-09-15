@@ -1,37 +1,39 @@
 _CinnabarIslandDoorIsLockedText::
-	text "The door is"
-	line "locked..."
+	text "De deur is op" ; "The door is"
+	line "slot..." ; "locked..."
 	done
 
 _CinnabarIslandGirlText::
-	text "CINNABAR GYM's"
-	line "BLAINE is an odd"
-	cont "man who has lived"
-	cont "here for decades."
+	text "CINNABAR GYM's" ; "CINNABAR GYM's"
+	line "BLAINE is een" ; "BLAINE is an odd"
+	cont "rare man die hier" ; "man who has lived"
+	cont "al decennia" ; "here for decades."
+	cont "woont."
 	done
 
 _CinnabarIslandGamblerText::
-	text "Scientists conduct"
-	line "experiments in"
-	cont "the burned-out"
-	cont "building."
+	text "Wetenschappers" ; "Scientists conduct"
+	line "doen experimenten" ; "experiments in"
+	cont "in het afgebrande" ; "the burned-out"
+	cont "gebouw." ; "building."
 	done
 
 _CinnabarIslandSignText::
-	text "CINNABAR ISLAND"
-	line "The Fiery Town of"
-	cont "Burning Desire"
+	text "CINNABAR ISLAND" ; "CINNABAR ISLAND"
+	line "De Vurige Plaats" ; "The Fiery Town of"
+	cont "van Brandend" ; "Burning Desire"
+	cont "Verlangen"
 	done
 
 _CinnabarIslandPokemonLabSignText::
-	text "#MON LAB"
+	text "#MON LAB" ; "#MON LAB"
 	done
 
 _CinnabarIslandGymSignText::
-	text "CINNABAR ISLAND"
-	line "#MON GYM"
-	cont "LEADER: BLAINE"
+	text "CINNABAR ISLAND" ; "CINNABAR ISLAND"
+	line "#MON GYM" ; "#MON GYM"
+	cont "LEIDER: BLAINE" ; "LEADER: BLAINE"
 
-	para "The Hot-Headed"
-	line "Quiz Master!"
+	para "De Ontvlambare" ; "The Hot-Headed"
+	line "Quizmeester!" ; "Quiz Master!"
 	done

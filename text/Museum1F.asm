@@ -26,7 +26,7 @@ _Museum1FScientist1DoYouKnowWhatAmberIsText::
 
 	para "Oh, whatever!"
 	line "Do you know what"
-	cont "AMBER is?"
+	cont "AMBER is?" ; "AMBER is?"
 	done
 
 _Museum1FScientist1TheresALabSomewhereText::

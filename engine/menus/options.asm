@@ -111,9 +111,9 @@ OptionsMenu_TextSpeed:
 	dw .Mid
 	dw .Slow
 
-.Fast: db "FAST@"
-.Mid:  db "MID @"
-.Slow: db "SLOW@"
+.Fast: db "SNEL    @" ; "FAST@"
+.Mid:  db "MEDIUM  @" ; "MID @"
+.Slow: db "LANGZAAM@" ; "SLOW@"
 
 ; Loads the value of the current selection in c
 ; Loads the text delay value of the options
@@ -171,8 +171,8 @@ OptionsMenu_BattleAnimations:
 	dw .On
 	dw .Off
 
-.On:  db "ON @"
-.Off: db "OFF@"
+.On:  db "AAN@" ; "ON @"
+.Off: db "UIT@" ; "OFF@"
 
 OptionsMenu_BattleStyle:
 	ldh a, [hJoy5]
@@ -207,8 +207,8 @@ OptionsMenu_BattleStyle:
 	dw .Shift
 	dw .Set
 
-.Shift: db "SHIFT@"
-.Set:   db "SET  @"
+.Shift: db "KEUZE @" ; "SHIFT@"
+.Set:   db "HOUDEN@" ; "SET  @"
 
 OptionsMenu_SpeakerSettings:
 	ld a, [wOptions]
@@ -263,10 +263,10 @@ OptionsMenu_SpeakerSettings:
 	dw .Earphone2
 	dw .Earphone3
 
-.Mono:      db "MONO     @"
-.Earphone1: db "EARPHONE1@"
-.Earphone2: db "EARPHONE2@"
-.Earphone3: db "EARPHONE3@"
+.Mono:      db "MONO     @" ; "MONO     @"
+.Earphone1: db "EARPHONE1@" ; "EARPHONE1@"
+.Earphone2: db "EARPHONE2@" ; "EARPHONE2@"
+.Earphone3: db "EARPHONE3@" ; "EARPHONE3@"
 
 	const_def
 	const OPT_PRINTER_LIGHTEST ; 0
@@ -328,11 +328,11 @@ OptionsMenu_GBPrinterBrightness:
 	dw .Darker
 	dw .Darkest
 
-.Lightest: db "LIGHTEST@"
-.Lighter:  db "LIGHTER @"
-.Normal:   db "NORMAL  @"
-.Darker:   db "DARKER  @"
-.Darkest:  db "DARKEST @"
+.Lightest: db "HEEL LICHT @" ; "LIGHTEST@"
+.Lighter:  db "LICHT      @" ; "LIGHTER @"
+.Normal:   db "NORMAAL    @" ; "NORMAL  @"
+.Darker:   db "DONKER     @" ; "DARKER  @"
+.Darkest:  db "HEEL DONKER@" ; "DARKEST @"
 
 ; Loads the value of the current selection in c
 ; Loads the brightness value of the options
@@ -473,11 +473,11 @@ InitOptionsMenu:
 	ret
 
 AllOptionsText:
-	db   "TEXT SPEED :"
-	next "ANIMATION  :"
-	next "BATTLESTYLE:"
-	next "SOUND:"
-	next "PRINT:@"
+	db   "TEKSTSNELHEID :" ; "TEXT SPEED :"
+	next "ANIMATIE  :" ; "ANIMATION  :"
+	next "VECHTSTIJL:" ; "BATTLESTYLE:"
+	next "GELUID:" ; "SOUND:"
+	next "PRINT:@" ; "PRINT:@"
 
 OptionMenuCancelText:
-	db "CANCEL@"
+	db "ANNULEER@" ; "CANCEL@"

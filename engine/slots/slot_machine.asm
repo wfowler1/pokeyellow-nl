@@ -149,9 +149,9 @@ MainSlotMachineLoop:
 	jp MainSlotMachineLoop
 
 CoinMultiplierSlotMachineText:
-	db   "×3"
-	next "×2"
-	next "×1@"
+	db   "×3" ; "×3"
+	next "×2" ; "×2"
+	next "×1@" ; "×1@"
 
 OutOfCoinsSlotMachineText:
 	text_far _OutOfCoinsSlotMachineText
@@ -510,16 +510,16 @@ SlotRewardPointers:
 	dw SlotReward15Text
 
 SlotReward300Text:
-	db "300@"
+	db "300@" ; "300@"
 
 SlotReward100Text:
-	db "100@"
+	db "100@" ; "100@"
 
 SlotReward8Text:
-	db "8@"
+	db "8@" ; "8@"
 
 SlotReward15Text:
-	db "15@"
+	db "15@" ; "15@"
 
 NotThisTimeText:
 	text_far _NotThisTimeText

@@ -1,19 +1,21 @@
 _ViridianForestNorthGateSuperNerdText::
-	text "Many #MON live"
-	line "only in forests "
-	cont "and caves."
+	text "Veel #MON" ; "Many #MON live"
+	line "leven alleen" ; "only in forests "
+	cont "in bossen" ; "and caves."
+	cont "en grotten."
 
-	para "You need to look"
-	line "everywhere to get"
-	cont "different kinds!"
+	para "Je moet overal" ; "You need to look"
+	line "zoeken om ver-" ; "everywhere to get"
+	cont "schillende types" ; "different kinds!"
+	cont "te krijgen!"
 	done
 
 _ViridianForestNorthGateGrampsText::
-	text "Have you noticed"
-	line "the bushes on the"
-	cont "roadside?"
+	text "Heb je die" ; "Have you noticed"
+	line "bosjes langs de" ; "the bushes on the"
+	cont "weg gezien?" ; "roadside?"
 
-	para "They can be cut"
-	line "down by a special"
-	cont "#MON move."
+	para "Je hakt ze weg met" ; "They can be cut"
+	line "een speciale" ; "down by a special"
+	cont "#MON-aanval." ; "#MON move."
 	done

@@ -20,7 +20,7 @@ _FuchsiaGoodRodHouseFishingGuruReceivedGoodRodText::
 	para "<PLAYER> received"
 	line "a @"
 	text_ram wStringBuffer ; MaxLength MaxItemNameLength
-	text "!@"
+	text "!@" ; "!@"
 	text_end
 
 _FuchsiaGoodRodHouseFishingGuruThatsSoDisappointingText::
@@ -30,7 +30,7 @@ _FuchsiaGoodRodHouseFishingGuruThatsSoDisappointingText::
 
 _FuchsiaGoodRodHouseFishingGuruHowAreTheFishText::
 	text "Hello there,"
-	line "<PLAYER>!"
+	line "<PLAYER>!" ; "<PLAYER>!"
 
 	para "How are the fish"
 	line "biting?"

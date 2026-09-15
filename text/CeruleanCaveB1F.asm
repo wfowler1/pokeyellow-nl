@@ -1,3 +1,3 @@
 _MewtwoBattleText::
-	text "Mew!@"
+	text "Mew!@" ; "Mew!@"
 	text_end

@@ -1,23 +1,24 @@
 _VermilionMartCooltrainerMText::
-	text "There are evil"
-	line "people who will"
-	cont "use #MON for"
-	cont "criminal acts."
+	text "Slechte mensen" ; "There are evil"
+	line "gebruiken #MON" ; "people who will"
+	cont "soms om misdaden" ; "use #MON for"
+	cont "te plegen." ; "criminal acts."
 
-	para "TEAM ROCKET"
-	line "traffics in rare"
-	cont "#MON."
+	para "TEAM ROCKET" ; "TEAM ROCKET"
+	line "handelt in zeld-" ; "traffics in rare"
+	cont "zame #MON." ; "#MON."
 
-	para "They also abandon"
-	line "#MON that they"
-	cont "consider not to"
-	cont "be popular or"
-	cont "useful."
+	para "Ze laten ook" ; "They also abandon"
+	line "#MON achter" ; "#MON that they"
+	cont "die niet populair" ; "consider not to"
+	cont "of nuttig genoeg" ; "be popular or"
+	cont "zijn." ; "useful."
 	done
 
 _VermilionMartCooltrainerFText::
-	text "I think #MON"
-	line "can be good or"
-	cont "evil. It depends"
-	cont "on the trainer."
+	text "Ik denk dat" ; "I think #MON"
+	line "#MON goed" ; "can be good or"
+	cont "of slecht kunnen" ; "evil. It depends"
+	cont "zijn. Het ligt" ; "on the trainer."
+	cont "aan de trainer."
 	done

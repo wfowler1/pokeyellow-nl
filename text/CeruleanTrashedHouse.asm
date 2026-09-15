@@ -1,6 +1,6 @@
 _CeruleanTrashedHouseFishingGuruTheyStoleATMText::
 	text "Those miserable"
-	line "ROCKETs!"
+	line "ROCKETs!" ; "ROCKETs!"
 
 	para "Look what they"
 	line "did here!"

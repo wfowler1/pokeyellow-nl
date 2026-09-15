@@ -1,7 +1,7 @@
 _PowerPlantVoltorbBattleText::
-	text "Bzzzt!"
+	text "Bzzzt!" ; "Bzzzt!"
 	done
 
 _PowerPlantZapdosBattleText::
-	text "Gyaoo!@"
+	text "Gyaoo!@" ; "Gyaoo!@"
 	text_end

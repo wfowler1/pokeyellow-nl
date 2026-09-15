@@ -30,7 +30,7 @@ _SilphCo8FScientistBattleText::
 	done
 
 _SilphCo8FScientistEndBattleText::
-	text "Huh?"
+	text "Huh?" ; "Huh?"
 	line "I lost?"
 	prompt
 

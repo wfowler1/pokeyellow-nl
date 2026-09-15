@@ -19,10 +19,10 @@ FuchsiaGym_Script:
 	ret
 
 .CityName:
-	db "FUCHSIA CITY@"
+	db "FUCHSIA CITY@" ; "FUCHSIA CITY@"
 
 .LeaderName:
-	db "KOGA@"
+	db "KOGA@" ; "KOGA@"
 
 FuchsiaGymResetScripts:
 	xor a ; SCRIPT_FUCHSIAGYM_DEFAULT

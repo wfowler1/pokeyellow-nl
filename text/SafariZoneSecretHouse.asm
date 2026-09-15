@@ -15,10 +15,10 @@ _SafariZoneSecretHouseFishingGuruYouHaveWonText::
 	prompt
 
 _SafariZoneSecretHouseFishingGuruReceivedHM03Text::
-	text "<PLAYER> received"
+	text "<PLAYER> ontving" ; "<PLAYER> received"
 	line "@"
 	text_ram wStringBuffer ; MaxLength MaxItemNameLength
-	text "!@"
+	text "!@" ; "!@"
 	text_end
 
 _SafariZoneSecretHouseFishingGuruHM03ExplanationText::

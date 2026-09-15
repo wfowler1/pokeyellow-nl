@@ -1,5 +1,5 @@
 _SafariZoneWestRestHouseSignText::
-	text "REST HOUSE"
+	text "RUSTHUIS" ; "REST HOUSE"
 	done
 
 _SafariZoneWestFindWardensTeethSignText::
@@ -16,7 +16,7 @@ _SafariZoneWestFindWardensTeethSignText::
 	done
 
 _SafariZoneWestTrainerTipsText::
-	text "TRAINER TIPS"
+	text "TRAINER TIPS" ; "TRAINER TIPS"
 
 	para "Zone Exploration"
 	line "Campaign!"

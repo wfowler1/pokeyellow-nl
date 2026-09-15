@@ -1,16 +1,16 @@
 _SafariZoneEastRestHouseSignText::
-	text "REST HOUSE"
+	text "RUSTHUIS" ; "REST HOUSE"
 	done
 
 _SafariZoneEastTrainerTipsText::
-	text "TRAINER TIPS"
+	text "TRAINERTIPS" ; "TRAINER TIPS"
 
-	para "The remaining time"
-	line "declines only"
-	cont "while you walk!"
+	para "De resterende tijd" ; "The remaining time"
+	line "loopt alleen af" ; "declines only"
+	cont "terwijl je loopt!" ; "while you walk!"
 	done
 
 _SafariZoneEastSignText::
-	text "CENTER AREA"
-	line "NORTH: AREA 2"
+	text "CENTRAAL GEBIED" ; "CENTER AREA"
+	line "NOORD: GEBIED 2" ; "NORTH: AREA 2"
 	done

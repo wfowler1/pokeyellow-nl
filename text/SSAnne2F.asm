@@ -1,63 +1,69 @@
 _SSAnne2FWaiterText::
-	text "This ship, she is"
-	line "a luxury liner"
-	cont "for trainers!"
+	text "Dit schip is" ; "This ship, she is"
+	line "een luxecruise" ; "a luxury liner"
+	cont "voor trainers!" ; "for trainers!"
 
-	para "At every port, we"
-	line "hold parties with"
-	cont "invited trainers!"
+	para "Bij elke haven" ; "At every port, we"
+	line "organiseren we" ; "hold parties with"
+	cont "feestjes met" ; "invited trainers!"
+	cont "uitgenodigde"
+	cont "trainers!"
 	done
 
 _SSAnne2FRivalText::
-	text "<RIVAL>: Bonjour!"
-	line "<PLAYER>!"
+	text "<RIVAL>: Bonjour!" ; "<RIVAL>: Bonjour!"
+	line "<PLAYER>!" ; "<PLAYER>!"
 
-	para "Imagine seeing"
-	line "you here!"
+	para "Dat ik jou hier" ; "Imagine seeing"
+	line "tegenkom!" ; "you here!"
 
-	para "<PLAYER>, were you"
-	line "really invited?"
+	para "<PLAYER>, was je" ; "<PLAYER>, were you"
+	line "echt uitgenodigd?" ; "really invited?"
 
-	para "So how's your"
-	line "#DEX coming?"
+	para "Hoe gaat het met" ; "So how's your"
+	line "je #DEX?" ; "#DEX coming?"
 
-	para "I already caught"
-	line "40 kinds, pal!"
+	para "Ik heb al 40" ; "I already caught"
+	line "soorten gevangen," ; "40 kinds, pal!"
+	cont "maat!"
 
-	para "Different kinds"
-	line "are everywhere!"
+	para "Overal zijn" ; "Different kinds"
+	line "andere soorten!" ; "are everywhere!"
 
-	para "Crawl around in"
-	line "grassy areas!"
+	para "Kruip rond in" ; "Crawl around in"
+	line "grasgebieden!" ; "grassy areas!"
 	done
 
 _SSAnne2FRivalDefeatedText::
-	text "Humph!"
+	text "Pfff!" ; "Humph!"
 
-	para "At least you're"
-	line "raising your"
-	cont "#MON!"
+	para "Nou, je voedt je" ; "At least you're"
+	line "#MON ten" ; "raising your"
+	cont "minste wel op!" ; "#MON!"
 	prompt
 
 _SSAnne2FRivalVictoryText::
-	text "<PLAYER>! What are"
-	line "you, seasick?"
+	text "<PLAYER>! Wat" ; "<PLAYER>! What are"
+	line "is er, zeeziek?" ; "you, seasick?"
 
-	para "You should shape"
-	line "up, pal!"
+	para "Je moet beter in" ; "You should shape"
+	line "vorm zijn, maat!" ; "up, pal!"
 	prompt
 
 _SSAnne2FRivalCutMasterText::
-	text "<RIVAL>: I heard"
-	line "there was a CUT"
-	cont "master on board."
+	text "<RIVAL>: Ik hoorde" ; "<RIVAL>: I heard"
+	line "dat een SNIJDEN-" ; "there was a CUT"
+	cont "meester aan boord" ; "master on board."
+	cont "was."
 
-	para "But, he was just a"
-	line "seasick, old man!"
+	para "Maar hij was" ; "But, he was just a"
+	line "gewoon een oude" ; "seasick, old man!"
+	cont "man die zeeziek"
+	cont "was!"
 
-	para "But, CUT itself is"
-	line "really useful!"
+	para "Maar SNIJDEN is" ; "But, CUT itself is"
+	line "heel handig!" ; "really useful!"
 
-	para "You should go see"
-	line "him! Smell ya!"
+	para "Je moet hem ont-" ; "You should go see"
+	line "moeten! Aju!" ; "him! Smell ya!"
 	done

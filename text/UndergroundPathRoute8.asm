@@ -1,5 +1,5 @@
 _UndergroundPathRoute8GirlText::
-	text "The dept. store"
-	line "in CELADON has a"
-	cont "great selection!"
+	text "Het warenhuis in" ; "The dept. store"
+	line "CELADON heeft" ; "in CELADON has a"
+	cont "een topselectie!" ; "great selection!"
 	done

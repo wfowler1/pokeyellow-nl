@@ -4,5 +4,5 @@ _DiglettsCaveRoute11GamblerText::
 	cont "long tunnel!"
 
 	para "It goes right to"
-	line "VIRIDIAN CITY!"
+	line "VIRIDIAN CITY!" ; "VIRIDIAN CITY!"
 	done

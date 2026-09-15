@@ -1,12 +1,13 @@
 _GameCornerPrizeRoomBaldingGuyText::
-	text "I sure do fancy"
-	line "that PORYGON!"
+	text "Ik wil die" ; "I sure do fancy"
+	line "PORYGON zo graag!" ; "that PORYGON!"
 
-	para "But, it's hard to"
-	line "win at slots!"
+	para "Maar 't is moeilijk" ; "But, it's hard to"
+	line "om te winnen bij" ; "win at slots!"
+	cont "de gokkasten!"
 	done
 
 _GameCornerPrizeRoomGamblerText::
-	text "I had a major"
-	line "haul today!"
+	text "Ik had een grote" ; "I had a major"
+	line "winst vandaag!" ; "haul today!"
 	done

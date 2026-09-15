@@ -5,8 +5,8 @@ _RocketHideoutB2FRocketBattleText::
 	done
 
 _RocketHideoutB2FRocketEndBattleText::
-	text "I"
-	line "surrender!"
+	text "Ik geef me" ; "I"
+	line "over!" ; "surrender!"
 	prompt
 
 _RocketHideoutB2FRocketAfterBattleText::

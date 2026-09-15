@@ -15,17 +15,17 @@ _SSAnneKitchenCook3Text::
 	done
 
 _SSAnneKitchenCook4Text::
-	text "Hum-de-hum-de-"
-	line "ho..."
+	text "Hum-de-hum-de-" ; "Hum-de-hum-de-"
+	line "ho..." ; "ho..."
 
 	para "I peel spuds"
 	line "every day!"
-	cont "Hum-hum..."
+	cont "Hum-hum..." ; "Hum-hum..."
 	done
 
 _SSAnneKitchenCook5Text::
 	text "Did you hear about"
-	line "SNORLAX?"
+	line "SNORLAX?" ; "SNORLAX?"
 
 	para "All it does is"
 	line "eat and sleep!"

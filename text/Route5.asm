@@ -1,5 +1,5 @@
 _Route5UndergroundPathSignText::
-	text "UNDERGROUND PATH"
-	line "CERULEAN CITY -"
-	cont "VERMILION CITY"
+	text "ONDERGRONDS PAD" ; "UNDERGROUND PATH"
+	line "CERULEAN CITY -" ; "CERULEAN CITY -"
+	cont "VERMILION CITY" ; "VERMILION CITY"
 	done

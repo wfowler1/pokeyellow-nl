@@ -18,10 +18,10 @@ PewterGym_Script:
 	ret
 
 .CityName:
-	db "PEWTER CITY@"
+	db "PEWTER CITY@" ; "PEWTER CITY@"
 
 .LeaderName:
-	db "BROCK@"
+	db "BROCK@" ; "BROCK@"
 
 PewterGymResetScripts:
 	xor a

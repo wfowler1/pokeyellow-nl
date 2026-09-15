@@ -1,21 +1,21 @@
 _CeladonHotelGrannyText::
-	text "#MON? No, this"
-	line "is a hotel for"
-	cont "people."
+	text "#MON? Nee, dit" ; "#MON? No, this"
+	line "is een hotel voor" ; "is a hotel for"
+	cont "mensen." ; "people."
 
-	para "We're full up."
+	para "We zitten vol." ; "We're full up."
 	done
 
 _CeladonHotelBeautyText::
-	text "I'm on vacation"
-	line "with my brother"
-	cont "and boy friend."
+	text "Ik ben op vakantie" ; "I'm on vacation"
+	line "met mijn broer en" ; "with my brother"
+	cont "vriendje." ; "and boy friend."
 
-	para "CELADON is such a"
-	line "pretty city!"
+	para "CELADON is zo'n" ; "CELADON is such a"
+	line "mooie stad!" ; "pretty city!"
 	done
 
 _CeladonHotelSuperNerdText::
-	text "Why did she bring"
-	line "her brother?"
+	text "Waarom heeft ze" ; "Why did she bring"
+	line "haar broer mee?" ; "her brother?"
 	done

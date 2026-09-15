@@ -1,6 +1,6 @@
 _SSAnneB1FRoomsMachokeText::
-	text "MACHOKE: Gwoh!"
-	line "Goggoh!@"
+	text "MACHOKE: Gwoh!" ; "MACHOKE: Gwoh!"
+	line "Goggoh!@" ; "Goggoh!@"
 	text_end
 
 _SSAnneB1FRoomsSailor1BattleText::
@@ -57,7 +57,7 @@ _SSAnneB1FRoomsSailor4BattleText::
 	text_end
 
 _SSAnneB1FRoomsSailor4EndBattleText::
-	text "Argh!"
+	text "Argh!" ; "Argh!"
 	line "Lost it!"
 	prompt
 

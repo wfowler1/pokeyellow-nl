@@ -1,5 +1,5 @@
 _LavenderCuboneHouseCuboneText::
-	text "CUBONE: Kyarugoo!@"
+	text "CUBONE: Kyarugoo!@" ; "CUBONE: Kyarugoo!@"
 	text_end
 
 _LavenderCuboneHouseBrunetteGirlPoorCubonesMotherText::

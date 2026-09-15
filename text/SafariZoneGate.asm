@@ -1,6 +1,6 @@
 _SafariZoneGateSafariZoneWorker1Text::
 	text "Welcome to the"
-	line "SAFARI ZONE!"
+	line "SAFARI ZONE!" ; "SAFARI ZONE!"
 	done
 
 _SafariZoneGateSafariZoneWorker1LeavingEarlyText::
@@ -36,7 +36,7 @@ _SafariZoneGateSafariZoneWorker1WouldYouLikeToJoinText::
 _SafariZoneGateSafariZoneWorker1ThatllBe500PleaseText::
 	text "That'll be ¥@"
 	text_bcd wPriceTemp, $c3
-	text ","
+	text "," ; ","
 	line "please!"
 
 	para "We only use a"

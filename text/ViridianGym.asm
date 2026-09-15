@@ -19,12 +19,13 @@ _ViridianGymGiovanniPreBattleText::
 	done
 
 _ViridianGymGiovanniReceivedEarthBadgeText::
-	text "Ha!"
-	line "That was a truly"
-	cont "intense fight!"
-	cont "You have won!"
-	cont "As proof, here is"
-	cont "the EARTHBADGE!@"
+	text "Ha!" ; "Ha!"
+	line "Dat was echt" ; "That was a truly"
+	cont "een intens ge-" ; "intense fight!"
+	cont "vecht! Je hebt" ; "You have won!"
+	cont "gewonnen! Als" ; "As proof, here is"
+	cont "bewijs is hier" ; "the EARTHBADGE!@"
+	cont "de AARDEBADGE!@"
 	text_end
 
 _ViridianGymGiovanniPostBattleAdviceText::
@@ -63,7 +64,7 @@ _ViridianGymGiovanniEarthBadgeInfoText::
 
 _ViridianGymGiovanniReceivedTM27Text::
 	text "<PLAYER> received"
-	line "TM27!@"
+	line "TM27!@" ; "TM27!@"
 	text_end
 
 _ViridianGymGiovanniTM27ExplanationText::
@@ -108,7 +109,7 @@ _ViridianGymHiker1BattleText::
 	done
 
 _ViridianGymHiker1EndBattleText::
-	text "Wargh!"
+	text "Wargh!" ; "Wargh!"
 	prompt
 
 _ViridianGymHiker1AfterBattleText::
@@ -171,11 +172,11 @@ _ViridianGymHiker3BattleText::
 	done
 
 _ViridianGymHiker3EndBattleText::
-	text "Ayah!"
+	text "Ayah!" ; "Ayah!"
 	prompt
 
 _ViridianGymHiker3AfterBattleText::
-	text "#MON LEAGUE?"
+	text "#MON LEAGUE?" ; "#MON LEAGUE?"
 	line "You? Don't get"
 	cont "cocky!"
 	done
@@ -197,7 +198,7 @@ _ViridianGymRocker2AfterBattleText::
 	done
 
 _ViridianGymCooltrainerM3BattleText::
-	text "VIRIDIAN GYM was"
+	text "VIRIDIAN GYM was" ; "VIRIDIAN GYM was"
 	line "closed for a long"
 	cont "time, but now our"
 	cont "LEADER is back!"
@@ -210,7 +211,7 @@ _ViridianGymCooltrainerM3EndBattleText::
 
 _ViridianGymCooltrainerM3AfterBattleText::
 	text "You can go on to"
-	line "#MON LEAGUE"
+	line "#MON LEAGUE" ; "#MON LEAGUE"
 	cont "only by defeating"
 	cont "our GYM LEADER!"
 	done

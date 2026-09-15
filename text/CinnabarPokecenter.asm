@@ -1,11 +1,12 @@
 _CinnabarPokecenterCooltrainerFText::
-	text "You can cancel"
-	line "evolution."
+	text "Je kan evolutie" ; "You can cancel"
+	line "annuleren." ; "evolution."
 
-	para "When a #MON is"
-	line "evolving, you can"
-	cont "stop it and leave"
-	cont "it the way it is."
+	para "Als een #MON" ; "When a #MON is"
+	line "evolueert, kun je" ; "evolving, you can"
+	cont "het stoppen zodat" ; "stop it and leave"
+	cont "het blijft zoals" ; "it the way it is."
+	cont "het is."
 	done
 
 _CinnabarPokecenterGentlemanText::
