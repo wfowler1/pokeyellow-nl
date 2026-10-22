@@ -1030,6 +1030,8 @@ wOptionsCursorLocation::
 NEXTU
 wTitleScreenScene:: db
 wTitleScreenTimer:: db
+wTitleScreenResetCounter:: dw
+wTitleScreenPikachuCry:: db
 ENDU
 
 ; 0 = neither
@@ -2012,6 +2014,7 @@ wWarpEntries:: ds MAX_WARP_EVENTS * 4 ; Y, X, warp ID, map ID
 ; if $ff, the player's coordinates are not updated when entering the map
 wDestinationWarpID:: db
 
+wYellowVersionMemory::
 wPikachuOverworldStateFlags:: db
 wPikachuSpawnState:: db
 wd431:: db
@@ -2073,9 +2076,9 @@ ENDU
 wPikachuHappiness:: db
 wPikachuMood:: db
 wPikachuSpawnStateFlags:: db
-wd472:: db
+wPlayerState:: db
 	ds 1
-wd474:: db
+wCinnabarGymQuizWrongAnswer:: db
 	ds 4
 wd479:: db
 	ds 24
@@ -2088,8 +2091,9 @@ wUnknownSerialFlag_d499:: db
 wPrinterConnectionOpen:: db
 wPrinterOpcode:: db
 wPikachuEmotionModifier:: db
+wYellowVersionMemoryEnd::
 
-	ds 19
+	ds 128 - (wYellowVersionMemoryEnd - wYellowVersionMemory)
 
 ; number of signs in the current map (up to MAX_BG_EVENTS)
 wNumSigns:: db
@@ -2518,7 +2522,7 @@ wCGBPal:: ds PAL_SIZE
 wLastBGP:: db
 wLastOBP0:: db
 wLastOBP1:: db
-wdef4:: db
+wBattleObjPalID:: db
 wBGPPalsBuffer:: ds NUM_ACTIVE_PALS * PAL_SIZE
 
 
